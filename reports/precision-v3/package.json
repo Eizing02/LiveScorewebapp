@@ -1,0 +1,10 @@
+{
+  "version": "precision-v3-9f46ca6392a2",
+  "archive": "reports\\precision-v3\\precision-v3-9f46ca6392a2.zip",
+  "bytes": 874960,
+  "sha256": "cd89830ac138db50baefc33fc415a14ce58ec1e6ca64f6bbf0a02420a280d574",
+  "permanent_storage_plan": "Local versioned JSON/source/checksummed ZIP. After explicit publication authorization, keep the reviewed bundle in an immutable GitHub Release. Actions artifacts remain temporary review copies only.",
+  "active_version": null,
+  "auto_promote": false,
+  "published": false
+}

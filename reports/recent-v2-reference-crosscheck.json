@@ -1,0 +1,19 @@
+{
+  "source": "Fjelstul English Football Database",
+  "source_commit": "ff3c37698065476e1852243685da6b756a580b9f",
+  "attribution": "Joshua C. Fjelstul, Ph.D.; © 2024 Joshua C. Fjelstul, Ph.D.",
+  "url": "https://github.com/jfjelstul/englishfootball",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "Filtered 2021 onward, matched regular-season ordered team pairs, compared scores; no reference rows redistributed here",
+  "counts": {
+    "no_in_window_training_match": 258,
+    "score_agreement": 2538
+  },
+  "conflicts": [],
+  "limitations": [
+    "Reference match CSV contains seasons, not match dates: cannot verify chronology or kickoff",
+    "Different data provenance is not proof of statistical independence",
+    "No reference labels merged into training; disagreements remain visible for review"
+  ]
+}

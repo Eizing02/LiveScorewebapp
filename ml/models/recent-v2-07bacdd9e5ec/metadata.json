@@ -1,0 +1,38 @@
+{
+  "version": "recent-v2-07bacdd9e5ec",
+  "selected": "logistic",
+  "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+  "training_last_date": "2026-10-24",
+  "training_cutoff_exclusive": "2026-10-25",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "source_manifest_sha256": "dfafa0d4d1546dda784bf1b23307350632f4e1af09ffe846fac3ddb0d57e0925",
+  "checksums": {
+    "baseline-state.json": "c46ee7e2812aaebd5f753aa20e68ad450114630f5c27faaef4df937e08979b7f",
+    "config.json": "73e1c374cc6d4faee316284dad9cbe5a59b2c764b722fff992318616fcc2e8fb",
+    "feature-schema.json": "73ddc66b3678a0e08a14e6ccb2d30a30770dfe0b229dbe18d38165e848aab036",
+    "logistic.json": "da50e0f99285621dfc47bff00cb4f2cd1ccee64faa74eaa015ad2b555b320104",
+    "metrics.json": "9002e9e82e2c6e867a0b07b2c29e496177c3bf4974e5904ef3de2c401c7d87e8",
+    "xgboost.json": "a9950c80a56564926e5ced36e274d03966541b62167a6fbecf3285693e80f367"
+  },
+  "feature_schema": "features-v1",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "xgboost": "3.4.1"
+  },
+  "training_code_sha256": {
+    "ml/models.py": "ec967d1240f671f0d2ba22fcb7dd9147ea773dc750fd4c66a6f8410e3448c224",
+    "ml/evaluate.py": "f2ce067a6ff410870ed2d2d38ba5deacc323a39ff4c5e4dea0ab23c80afb4879",
+    "ml/expanded.py": "9bca9f908c0feadb81ac525fdacf93fc7e639f355d061b4ef8c99ac5175c9f71",
+    "ml/recent_evaluate.py": "00e691ac8f687fe5d7f3239a85f95baa83b4e9a9445dce706162780f89a7df74",
+    "ml/goal_markets.py": "dc0bcf09dc6d043c2ab3b6278b1e0072b1148a1e0e796475549dfdcf032f60bd",
+    "requirements.lock": "4104fd65d1fc589c3d4132d271d7c2c00f82aae4a46e1c7450e05d00ce1564f3"
+  },
+  "status": "research_candidate_not_promoted",
+  "license_notice": {
+    "openfootball": "CC0-1.0",
+    "openligadb": "ODbL-1.0; attribution and share-alike for adapted database"
+  },
+  "validation_test_interpretation": "previously inspected dates; exploratory comparison, not a fresh confirmatory holdout"
+}

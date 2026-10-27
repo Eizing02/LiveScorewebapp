@@ -1,0 +1,170 @@
+{
+  "period": [
+    "2025-07-01",
+    "2026-07-01"
+  ],
+  "policy_sha256": "76b2c36a6e937a21d6298aacc671dc338421db1c95005ee7fa95dceb79727141",
+  "selection_sha256": "b9eb8e65b1db1f73c39d64daef2cbe72512e2f68a76df078e84dd1bd1c9bae80",
+  "selection_unchanged": true,
+  "model_training_last_date": "2025-05-25",
+  "calibration_period": [
+    "2024-07-01",
+    "2025-07-01"
+  ],
+  "temperature": 1.1287302436686009,
+  "chosen_rule": {
+    "id": "probability-p70",
+    "layer": "probability",
+    "threshold": 0.7
+  },
+  "selected_result": {
+    "n": 67,
+    "total": 1066,
+    "coverage": 0.06285178236397748,
+    "correct": 57,
+    "accuracy": 0.8507462686567164,
+    "mean_probability": 0.7550870269901033,
+    "absolute_calibration_gap": 0.0956592416666131,
+    "log_loss": 0.5603110350376206,
+    "brier": 0.28414686483012863,
+    "ece": 0.12906264208981094,
+    "wilson95": [
+      0.7465960395409149,
+      0.9168572656622017
+    ],
+    "date_cluster95": [
+      0.7627118644067796,
+      0.9259492976294995
+    ],
+    "per_league": {
+      "en.1": {
+        "n": 10,
+        "correct": 7
+      },
+      "es.1": {
+        "n": 34,
+        "correct": 30
+      },
+      "de.1": {
+        "n": 23,
+        "correct": 20
+      }
+    },
+    "confirmation_passed": false
+  },
+  "fixed_controls": {
+    "all_raw": {
+      "n": 1066,
+      "total": 1066,
+      "coverage": 1.0,
+      "correct": 545,
+      "accuracy": 0.5112570356472795,
+      "mean_probability": 0.5221756269599149,
+      "absolute_calibration_gap": 0.010918591312635395,
+      "log_loss": 0.9897997445401037,
+      "brier": 0.5894717237988644,
+      "ece": 0.02905443781098677,
+      "wilson95": [
+        0.4812630389063181,
+        0.5411701915523852
+      ],
+      "date_cluster95": [
+        0.4802879567080229,
+        0.542867597643124
+      ],
+      "per_league": {
+        "en.1": {
+          "n": 380,
+          "correct": 184
+        },
+        "es.1": {
+          "n": 380,
+          "correct": 197
+        },
+        "de.1": {
+          "n": 306,
+          "correct": 164
+        }
+      }
+    },
+    "p75_raw": {
+      "n": 55,
+      "total": 1066,
+      "coverage": 0.051594746716697934,
+      "correct": 48,
+      "accuracy": 0.8727272727272727,
+      "mean_probability": 0.8037650567861008,
+      "absolute_calibration_gap": 0.06896221594117191,
+      "log_loss": 0.493336863989714,
+      "brier": 0.24311769618600307,
+      "ece": 0.10170531067518754,
+      "wilson95": [
+        0.7598297234409093,
+        0.9369578957263536
+      ],
+      "date_cluster95": [
+        0.7685096153846155,
+        0.9482758620689655
+      ],
+      "per_league": {
+        "en.1": {
+          "n": 9,
+          "correct": 6
+        },
+        "es.1": {
+          "n": 26,
+          "correct": 25
+        },
+        "de.1": {
+          "n": 20,
+          "correct": 17
+        }
+      }
+    },
+    "p75_calibrated": {
+      "n": 33,
+      "total": 1066,
+      "coverage": 0.03095684803001876,
+      "correct": 30,
+      "accuracy": 0.9090909090909091,
+      "mean_probability": 0.7914629685456227,
+      "absolute_calibration_gap": 0.11762794054528636,
+      "log_loss": 0.44267944088955125,
+      "brier": 0.20647381402210027,
+      "ece": 0.18544696564693053,
+      "wilson95": [
+        0.7642739435353026,
+        0.9685960584754184
+      ],
+      "date_cluster95": [
+        0.8108108108108109,
+        1.0
+      ],
+      "per_league": {
+        "en.1": {
+          "n": 3,
+          "correct": 3
+        },
+        "es.1": {
+          "n": 16,
+          "correct": 16
+        },
+        "de.1": {
+          "n": 14,
+          "correct": 11
+        }
+      }
+    }
+  },
+  "n_all": 1066,
+  "research_only": true,
+  "live_publication": "blocked: source dates/timezones/provider mappings and fresh live data unverified; no active approved model",
+  "limitations": [
+    "Twelve candidates examined on validation: validation confidence bounds are not multiplicity-adjusted",
+    "Models share inputs; agreement is correlated",
+    "No injuries, lineups, xG, cup-calendar fatigue or verified current provider data",
+    "Stress bounds are sensitivity scenarios, not probability confidence intervals",
+    "Accepted-source dates may contain undetected errors; this is retrospective replay",
+    "No model registry or application changes; no live API requests"
+  ]
+}

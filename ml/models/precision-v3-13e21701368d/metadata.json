@@ -1,0 +1,55 @@
+{
+  "version": "precision-v3-13e21701368d",
+  "status": "research_only_not_promoted",
+  "training_last_date": "2026-10-24",
+  "training_cutoff_exclusive": "2026-10-25",
+  "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "feature_schema": "features-v3",
+  "source_manifest_sha256": "dfafa0d4d1546dda784bf1b23307350632f4e1af09ffe846fac3ddb0d57e0925",
+  "training_code_sha256": {
+    "ml/precision/__init__.py": "7e9ddb76a395e2ae02a75367df7489f4790f40614aa5f8c7053cd6a96daa3428",
+    "ml/precision/calibration.py": "a18770cf3b6a13d6920bf787b6493cc07cbeb059c9a46d68ba36dcadff7e621a",
+    "ml/precision/experiment.py": "401fd541f7ae56b3b176c62abc8d74c1c1bd7d5861483dc091b8c6deca761da4",
+    "ml/precision/features.py": "6df1d47c1f18f009ac1d6dd5fcad3c81d3f1146103a3f84bbc9495f774f8962c",
+    "ml/precision/goals.py": "5e14837a27f09ca442ec4cb5835e962cf27ffd6c9dafcdb57c5f07d95c161e36",
+    "ml/precision/selection.py": "44196d2c240e3363a56f872287f9bfc9dc8f37696531efe96d3d5f32e582fc43",
+    "ml/models.py": "ec967d1240f671f0d2ba22fcb7dd9147ea773dc750fd4c66a6f8410e3448c224",
+    "ml/evaluate.py": "f2ce067a6ff410870ed2d2d38ba5deacc323a39ff4c5e4dea0ab23c80afb4879",
+    "ml/selective.py": "90e50751f36a99e2189462cc28dbe25a1bf45cbee00485e36d2f1d9a2ac57eff",
+    "ml/goal_markets.py": "dc0bcf09dc6d043c2ab3b6278b1e0072b1148a1e0e796475549dfdcf032f60bd",
+    "ml/expanded.py": "752beb6ec25d80f28ccf82eaec4cf9ad6a6df907d352897baf20a9225d2f4d1f",
+    "ml/precision_predict.py": "7a71ef38d83ba3d2d1e80859968553894dabef5216706349d6235df2e10ced38",
+    "requirements.lock": "4104fd65d1fc589c3d4132d271d7c2c00f82aae4a46e1c7450e05d00ce1564f3"
+  },
+  "checksums": {
+    "config.json": "7eaf4f283722f1ea93611553a95dc43260b08fcee03d6b98f226c6cb842bed50",
+    "enhanced-logistic.json": "bddfe72e56e29ffc318df7bea8bfae35f5062f65d42580cea02c4dab86842c9a",
+    "enhanced-xgb-d2.json": "fff1f040925a9076096796b35421bdf6947393b879ee65f8091cbce3d9519687",
+    "enhanced-xgb-d3.json": "efaa8977fa84025c559d5f7ee913253bd2f26cb55edf05c56094457d9dad9f0e",
+    "feature-schema.json": "acda186f7dba8b5452a9a2ccb93d858eb8b042ec59d21252fbf0cc073d62cfed",
+    "forward-calibration.json": "035f1849488e04dfc67d920437dcc35fee4867cd232b7bf9bc7fe5e624d46660",
+    "goal-models.json": "b7baf4465dec3612daeacf77d3f59e3bbfc9242b6b3c6bd65b84a45724ad900b",
+    "league-logistics.json": "0f0644c748bf3b0f43cb5969383a9eb90027fe327573bef85b630132713d7679",
+    "legacy-logistic.json": "e649b2415e9545e25782e6ec5c3f055e2aeb752781230863c9814d1d879edc5a",
+    "selection.json": "b7c0b40b6d52545cb32ce7bed1689bb9df547ca45d237bedbc8e31430b82e5d1"
+  },
+  "live_approved": false,
+  "limitations": [
+    "All available historical periods are retrospective and some labels influenced earlier refits; never call them new prospective proof. No retuning on test/audit.",
+    "No new licensed injuries/lineups/xG/odds; enriched features remain score-derived",
+    "Classifier calibration and selection are fitted using earlier OOF predictions only",
+    "Multiple candidates searched; validation confidence intervals are not multiplicity-adjusted",
+    "All source dates/mappings remain unverified; no prospective certification",
+    "58-feature research artifact requires a matching feature engine before production inference"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "xgboost": "3.4.1",
+    "os": "Windows",
+    "machine": "AMD64"
+  },
+  "requirements_sha256": "4104fd65d1fc589c3d4132d271d7c2c00f82aae4a46e1c7450e05d00ce1564f3"
+}

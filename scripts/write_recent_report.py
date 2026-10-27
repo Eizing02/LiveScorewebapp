@@ -1,0 +1,44 @@
+"""Produce the Thai handoff from measured evidence, not hard-coded accuracy."""
+import json
+from collections import Counter
+
+from ml.pipeline import ROOT
+
+
+def load(name):
+    return json.loads((ROOT / name).read_text(encoding="utf-8"))
+
+
+def main():
+    report = load("reports/recent-v2/backtest.json")
+    quality = report["quality"]
+    reference = load("reports/recent-v2-reference-crosscheck.json")
+    baseline = load("reports/recent-v2/market-baseline-diagnostics.json")
+    package = load("reports/recent-v2/package.json")
+    verification = load("reports/recent-v2/verification.json")
+    counts = Counter()
+    for season in quality["per_league_season"]:
+        counts[season["name"]] += season["accepted"]
+    lines = ["# ผลพัฒนา Football Prediction AI: ข้อมูล 5 ปีและ Match Centre", "", "รายงานรอบ 25–26 ตุลาคม 2026 · โปรเจกต์ D:/Football Prediction AI", "", "## ผลงานที่ใช้งานได้ในเครื่อง", "", "- โปรแกรมตามรอบไทย 06:00–06:00 และคืนนี้ 18:00–06:00 แยกรายลีก โหลดหลายหน้าและเลือกวันที่", "- รายคู่มี deep links, 1X2, ประตูคาดหมาย, สกอร์, สูง–ต่ำ 1.5/2.5/3.5, BTTS, ฟอร์ม 5/10/20, เหย้า–เยือน และ H2H ก่อน cutoff", "- สรุปคู่เดี่ยว เกมประตูสูง และชุด 3/5 คู่แบบวิจัย ไม่เติมคู่ที่ไม่ผ่านเกณฑ์ และไม่ใช้ fixture/ทีมซ้ำในชุด", "- Immutable model/dataset/report snapshots, checksum, signed locking/evaluation และเปิดดู exact snapshot เก่าตามลิงก์ได้", "- ตารางคะแนนโมเดล/ตลาด/ค่าพื้นฐานลีก และคุณภาพข้อมูลพร้อมจำนวนแยกฤดูกาล", "", "ทุกโปรแกรมปัจจุบันยังเป็นข้อมูลสาธิต ผลย้อนหลัง/metrics คำนวณจริง ไม่มี API-Football จริง ไม่มี deploy ไม่มีโมเดล active", "", "## ข้อมูลที่รับ", "", f"ช่วง {quality['window_start']} ถึงก่อน {quality['asof_exclusive']} · {quality['accepted']:,} นัด · {len(counts)} ลีก", "", "| ลีก | นัดรับฝึก |", "|---|---:|"]
+    lines.extend(f"| {name} | {n:,} |" for name, n in counts.items())
+    lines.extend(["", "ตารางทุกลีก/ฤดูกาลอยู่ quality-by-season.csv และข้อมูลด้านล่าง จำนวนรับของ 2021/22 ถูกตัดตามขอบหน้าต่างห้าปี ส่วน 2026/27 เป็นผลที่บันทึกแล้วในฤดูกาลที่ยังไม่ครบ", "", "| ลีก | ฤดูกาล | รับ | กัก | นอกช่วง | ผลตรงกันข้ามแหล่ง |", "|---|---|---:|---:|---:|---:|"])
+    lines.extend(f"| {s['name']} | {s['season']} | {s['accepted']} | {s['quarantined']} | {s['excluded']} | {s['cross_source_agreement']} |" for s in quality["per_league_season"])
+    lines.extend(["", "## แหล่งข้อมูลและการกัก", "", "- OpenFootball SHA e6744429ee395bc86f247348c6184bb08d4eb361 (CC0)", "- OpenLigaDB snapshot แช่แข็ง URL/เวลา/เนื้อหา SHA256 ภายใต้ ODbL พร้อม attribution; เพิ่มผลที่มีเฉพาะแหล่งนี้ใน accepted 294 นัด", f"- ผลตรงกันสองแหล่ง {quality['cross_source_agreement']:,} นัด; รวมหลักฐานซ้ำ {quality['duplicate_evidence_merged']:,} รายการ ไม่นับซ้ำเป็นเกมฝึก", f"- Fjelstul อังกฤษแยก CC-BY-SA: สกอร์ตรง {reference['counts'].get('score_agreement', 0):,} นัด ไม่มีวันที่รายนัดจึงใช้ยืนยัน chronology ไม่ได้ และไม่รวม reference labels เข้าชุดฝึก", "- สำรวจ 11 กลุ่มแหล่งข้อมูล รายละเอียด reports/historical-source-catalog.json ไม่อ้างว่าค้นหมดทุกแหล่งบนอินเทอร์เน็ต", "- Football-Data.co.uk ระบุข้อห้าม data-training products ผ่าน bots/scrapers/AI จึงไม่ดึงข้อมูลหรือใช้ mirrors เลี่ยงเงื่อนไข; แหล่งอื่นที่สิทธิ์/coverage ยังไม่ยืนยันถูกพักไว้", f"- กัก {quality['quarantined']:,} รายการ รวม unplayed/missing/format ที่ไม่รองรับ ไม่ได้หมายความว่าทั้งหมดเป็นสกอร์ผิด", "", "| เหตุผล | รายการ |", "|---|---:|"])
+    lines.extend(f"| {reason} | {n:,} |" for reason, n in quality["quarantine_reasons"].items())
+    lines.extend(["", "ความขัดแย้งข้ามแหล่งกักทั้งสองฝั่ง ไม่เลือกแก้ผลเงียบ ๆ ไม่แปลง missing เป็น 0–0 และหลักฐานเดิม 66 นัด EPL 2019/20 ไม่ถูกนำกลับเข้าฝึก", "", "## ผลโมเดล 1X2 ที่รันจริง", "", f"ประเมิน {report['test']['n']:,} นัดใน 2025/26; แต่ช่วงเวลาเคยถูกตรวจแล้ว จึงเป็น exploratory retrospective ไม่ใช่ final holdout ที่ยังไม่เคยเห็น", "", "| โมเดล | Log Loss | Brier | Accuracy |", "|---|---:|---:|---:|"])
+    for name, groups in report["test"]["metrics"].items():
+        m = groups["all"]
+        lines.append(f"| {name} | {m['log_loss']:.4f} | {m['brier']:.4f} | {m['accuracy']*100:.2f}% |")
+    lines.extend(["", f"เลือก {report['selection']['selected']} จาก validation ตาม Log Loss โมเดลที่ Accuracy สูงสุดอาจเป็นคนละตัว ความต่างจาก XGBoost มีขนาดเล็กและไม่ใช่หลักฐานยืนยันความเหนือกว่าในอนาคต", "", "## ตลาดประตูและค่าพื้นฐาน", "", "Accuracy binary ด้านล่างตัดสินทั้งการเกิด/ไม่เกิดที่เกณฑ์ 0.5 ไม่ใช่อัตราถูกของการเลือกฝั่งสูงอย่างเดียว ไม่ใช่ผลชุด และไม่ใช่ผลเฉพาะคู่ที่ผ่าน threshold 70%", "", "| ตลาด | Poisson LL | พื้นฐานลีก LL | Poisson Accuracy | พื้นฐาน Accuracy |", "|---|---:|---:|---:|---:|"])
+    for name in ["over_1.5", "over_2.5", "under_3.5", "btts_yes"]:
+        p = report["goal_markets"][name]["all"]
+        b = baseline["metrics"][name]["all"]
+        lines.append(f"| {name} | {p['log_loss']:.4f} | {b['log_loss']:.4f} | {p['accuracy']*100:.2f}% | {b['accuracy']*100:.2f}% |")
+    lines.extend(["", "เหตุผลที่ยังไม่อนุมัติ: Poisson ตลาดประตูรอบนี้ไม่ชนะค่าพื้นฐานใน Log Loss/Brier จึงต้องปรับโมเดล/ตรวจ calibration และยืนยันช่วงอนาคต ไม่ยกตัวเลขเหตุการณ์ที่เกิดบ่อยมาอ้างว่า AI แม่น 80%", "", "ผลรายลีก calibration bins และ 95% CI แบบ date-cluster อยู่ backtest.json; ไม่พบ test sample ของ Segunda/Serie B/Ligue 2 ในช่วง 2025/26 ที่ผ่านข้อมูล จึงไม่อ้างผลสำหรับสามลีกนี้", "", "## Registry และการทำซ้ำ", "", f"Candidate: {package['version']}", "", f"ZIP: {package['archive']}", "", f"SHA256: {package['sha256']}", "", "โมเดลมี feature schema, config, training cutoff, dataset version, source manifest, metrics, runtime และ checksums; active_version=null และ MODEL_AUTO_PROMOTE=false การรัน importer และฝึกซ้ำทั้งชุดให้ dataset/version/ไฟล์โมเดลตรงกันบน runtime นี้ (reproducibility.json)", "", "ZIP อยู่ถาวรใน workspace พร้อม SHA256 เตรียมเก็บใน Git/immutable GitHub Release เมื่ออนุมัติ ยังไม่อัปโหลดและไม่พึ่ง Actions Artifact ที่หมดอายุเป็นแหล่งเก็บเพียงแห่งเดียว", "", "## ทดสอบ", "", f"Python {verification['python_tests']['passed']} ผ่าน · TypeScript/D1 {verification['typescript_d1_tests']['passed']} ผ่าน · Browser desktop/mobile {verification['browser_tests']['passed']} ผ่าน", "", "Lint/Ruff/TypeScript/Vite build/Worker dry-run ผ่าน · npm production audit 0 vulnerabilities · local migrations/seed สำเร็จ · provider requests จริง API-Football 0 · deployment 0", "", "ทดสอบข้อมูลซ้ำ/ขัดแย้ง/missing, chronological leakage, local/UTC consistency, round 05:59/06:00/ข้ามเที่ยงคืน, probabilities/complements, หลายหน้า/จำนวน query, H2H orientation, immutable snapshots, exact model references, grading pending/void และ reproducibility", "", "มีคำเตือน Wrangler dev เมื่อ browser ยกเลิก request ระหว่างนำทาง แต่ scenario ผ่านและ browser pageerror เป็นศูนย์ ไม่มีการปิด security controls", "", "## ไฟล์สำคัญที่สร้าง/แก้", "", "- ml/config/expanded_policy_v2.json, source_snapshot_v2.json — เวลาข้อมูล/ลีก/เกณฑ์และ snapshot pin", "- ml/expanded.py, recent_evaluate.py, goal_markets.py, market_benchmarks.py — importer/merge/quality/ฝึก/ประเมิน", "- scripts/fetch_additional_history.py, source_snapshot.py, crosscheck_history.py — แหล่งเพิ่มและตรวจย้อนกลับ", "- scripts/prepare_centre.py, seed_recent.mjs, package_recent_model.py, verify_recent_reproducibility.py — เตรียมข้อมูลเว็บ/โมเดล/ตรวจทำซ้ำ", "- packages/football/window.ts, markets.ts, selection.ts, settlement.ts, types.ts — กติกาเวลา/ตลาด/คัด/ตรวจผล", "- apps/api/analysis.ts, index.ts — endpoints และ signed operations", "- db/migrations/0004_match_centre.sql, 0005_centre_query_indexes.sql, db/seed-centre.sql — D1 และ indexes", "- apps/web/src/App.tsx, MatchCentre.tsx, MatchDetail.tsx, ResearchEvidence.tsx, centre.css, main.tsx — UI", "- ml/tests/test_expanded.py, tests/football.test.ts, analysis.test.ts, tests/ui/centre.spec.ts และ tests เดิมที่ปรับ selectors — tests", "- .github/workflows/recent-research.yml, ci.yml — manual research และ CI; ไม่ได้ execute บน GitHub จริง", "- data/snapshots/, data/ATTRIBUTION.md, README.md, docs/RECENT_EXPANSION_TH.md — ชุดต้นฉบับ/สิทธิ์/วิธีใช้", "", "## ข้อจำกัดและขั้นต่อไป", "", "1. ต่อ API จริงหลังตรวจสิทธิ์ฤดูกาลปัจจุบัน Coverage, identity/timezone, paging, quota/reset และงบ requests โดยไม่เปิดเผย key", "2. เชื่อม current results/feature updates และ optional player data ตามสิทธิ์ ไม่แทนข้อมูลขาดด้วยศูนย์", "3. ปรับ/สอบเทียบตลาดประตูที่ยังแพ้ baseline โดยใช้ validation แล้วล็อกกติกาก่อนเก็บ prospective test", "4. เก็บคำทำนายและรายงานก่อนเตะจริงเพื่อวัดถูกครบชุด/coverage/uncertainty ไม่มีการสมมติ ROI หรืออัตราถูกชุด", "5. จึงค่อยอนุมัติ promotion และ Cloudflare/GitHub production automation ปัจจุบันยังต้องเปิด local preview เอง", "", "## เปิดดู", "", "ใน D:/Football Prediction AI เปิดสอง terminal: npm run dev:api และ npm run dev แล้วใช้ URL ที่ Vite แสดง รายละเอียด setup/rebuild อยู่ README และ docs/RECENT_EXPANSION_TH.md"])
+    destination = ROOT / "reports/recent-v2/EXPANSION_REPORT_TH.md"
+    destination.write_text("\n".join(lines)+"\n", encoding="utf-8")
+    print(str(destination))
+
+
+if __name__ == "__main__":
+    main()

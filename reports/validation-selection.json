@@ -1,0 +1,33 @@
+{
+  "policy_sha256": "ffcfe1dd520a3f72a985b5c3e394e52ee3fb6f5d6a42438785a46f48247b7932",
+  "baseline": "elo",
+  "challenger": "logistic",
+  "gates": {
+    "en.1": {
+      "passed": true,
+      "winning_folds": 2,
+      "paired_delta_log_loss_ci95": [
+        -0.02854446458450041,
+        -0.0014467615772965944
+      ]
+    },
+    "es.1": {
+      "passed": true,
+      "winning_folds": 2,
+      "paired_delta_log_loss_ci95": [
+        -0.03216149017151916,
+        -0.005693073236077144
+      ]
+    },
+    "de.1": {
+      "passed": true,
+      "winning_folds": 2,
+      "paired_delta_log_loss_ci95": [
+        -0.026811404277673097,
+        -0.002146394082457196
+      ]
+    }
+  },
+  "selected_before_holdout": "logistic",
+  "auto_promoted": false
+}

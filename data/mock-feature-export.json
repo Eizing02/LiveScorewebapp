@@ -1,0 +1,229 @@
+{
+  "items": [
+    {
+      "fixture_id": "mock-1001",
+      "payload": {
+        "features": [
+          -81.15997993057863,
+          1.1057142857142856,
+          0.8994867408041061,
+          1.220986598232107,
+          0.684,
+          1.524390243902439,
+          1.221951219512195,
+          20,
+          20,
+          1.0,
+          3.0
+        ],
+        "feature_schema_version": "features-v1",
+        "information_cutoff_date": "2026-05-24",
+        "match_date": "2026-10-26",
+        "history_matches": 5700,
+        "cold_start": false,
+        "league_prior": [
+          0.4269230769230769,
+          0.27307692307692305,
+          0.3
+        ],
+        "elo": [
+          0.3545655241038684,
+          0.24494006942182317,
+          0.40049440647430845
+        ],
+        "poisson": {
+          "probabilities": [
+            0.32051719588544125,
+            0.26889004599404553,
+            0.41059275812051416
+          ],
+          "expected_home_goals": 1.1529094076655053,
+          "expected_away_goals": 1.3420216808791574,
+          "top_scorelines": [
+            {
+              "home": 1,
+              "away": 1,
+              "probability": 0.12764973296176563
+            },
+            {
+              "home": 0,
+              "away": 1,
+              "probability": 0.1107196559530554
+            },
+            {
+              "home": 1,
+              "away": 0,
+              "probability": 0.09511748936734195
+            },
+            {
+              "home": 1,
+              "away": 2,
+              "probability": 0.08565435459656215
+            },
+            {
+              "home": 0,
+              "away": 0,
+              "probability": 0.08250213653815415
+            }
+          ],
+          "tail_mass": 1.1102230246251565e-15,
+          "normalization": "1X2 conditioned on grid 0..20; scoreline probabilities retain raw mass"
+        },
+        "home_rate": 1.1529094076655053,
+        "away_rate": 1.3420216808791574
+      },
+      "snapshot_hash": "51910b50be542642cce1df71d9f871bf991b6da8d2d56497543b3b3e3b2f9068",
+      "kickoff_utc": "2026-10-26T19:00:00Z"
+    },
+    {
+      "fixture_id": "mock-1002",
+      "payload": {
+        "features": [
+          -24.74761485783165,
+          1.3560319928904687,
+          0.8245207173778604,
+          1.5534941249226966,
+          0.8778049322372806,
+          1.5682926829268293,
+          1.1268292682926828,
+          20,
+          20,
+          2.4,
+          1.8
+        ],
+        "feature_schema_version": "features-v1",
+        "information_cutoff_date": "2026-05-24",
+        "match_date": "2026-10-26",
+        "history_matches": 5310,
+        "cold_start": false,
+        "league_prior": [
+          0.48846153846153845,
+          0.24487179487179486,
+          0.26666666666666666
+        ],
+        "elo": [
+          0.41603918109045784,
+          0.2443329891113168,
+          0.33962782979822537
+        ],
+        "poisson": {
+          "probabilities": [
+            0.47613999607356966,
+            0.2247237222195028,
+            0.2991362817069278
+          ],
+          "expected_home_goals": 1.8667882940453806,
+          "expected_away_goals": 1.4433421895841012,
+          "top_scorelines": [
+            {
+              "home": 1,
+              "away": 1,
+              "probability": 0.09837686347503988
+            },
+            {
+              "home": 2,
+              "away": 1,
+              "probability": 0.09182438857005251
+            },
+            {
+              "home": 1,
+              "away": 2,
+              "probability": 0.07099573876624013
+            },
+            {
+              "home": 1,
+              "away": 0,
+              "probability": 0.06815907148351782
+            },
+            {
+              "home": 2,
+              "away": 2,
+              "probability": 0.06626700702796046
+            }
+          ],
+          "tail_mass": 2.220446049250313e-15,
+          "normalization": "1X2 conditioned on grid 0..20; scoreline probabilities retain raw mass"
+        },
+        "home_rate": 1.8667882940453806,
+        "away_rate": 1.4433421895841012
+      },
+      "snapshot_hash": "8a1fd8b08d42bd410e5fefd0bfb5bcbcd2dbf01d94cda1dbaf39353add33a04d",
+      "kickoff_utc": "2026-10-26T19:00:00Z"
+    },
+    {
+      "fixture_id": "mock-1003",
+      "payload": {
+        "features": [
+          77.14893908936688,
+          1.8523537803138375,
+          0.7923040715462462,
+          1.2265238879736409,
+          0.7870389239861423,
+          1.7097560975609756,
+          1.4804878048780488,
+          20,
+          20,
+          2.6,
+          1.8
+        ],
+        "feature_schema_version": "features-v1",
+        "information_cutoff_date": "2026-05-16",
+        "match_date": "2026-10-26",
+        "history_matches": 4895,
+        "cold_start": false,
+        "league_prior": [
+          0.40897435897435896,
+          0.2551282051282051,
+          0.33589743589743587
+        ],
+        "elo": [
+          0.5285193921280618,
+          0.23149313137022384,
+          0.23998747650171448
+        ],
+        "poisson": {
+          "probabilities": [
+            0.605363879207288,
+            0.18470285848678777,
+            0.20993326230592418
+          ],
+          "expected_home_goals": 2.492609860478063,
+          "expected_away_goals": 1.4387082469906836,
+          "top_scorelines": [
+            {
+              "home": 2,
+              "away": 1,
+              "probability": 0.0876802125940946
+            },
+            {
+              "home": 3,
+              "away": 1,
+              "probability": 0.07285085416028433
+            },
+            {
+              "home": 1,
+              "away": 1,
+              "probability": 0.07035213491234303
+            },
+            {
+              "home": 2,
+              "away": 2,
+              "probability": 0.06307312247851014
+            },
+            {
+              "home": 2,
+              "away": 0,
+              "probability": 0.06094370611796623
+            }
+          ],
+          "tail_mass": 3.9013237085328e-13,
+          "normalization": "1X2 conditioned on grid 0..20; scoreline probabilities retain raw mass"
+        },
+        "home_rate": 2.492609860478063,
+        "away_rate": 1.4387082469906836
+      },
+      "snapshot_hash": "08acc2571d143f51288879d26cb0bcf45477c50be97b9be0ad5fce6e716303c7",
+      "kickoff_utc": "2026-10-26T19:00:00Z"
+    }
+  ]
+}

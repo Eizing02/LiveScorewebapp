@@ -1,0 +1,16 @@
+import {test,expect} from '@playwright/test';
+test('rounds, deep-linked analysis, market research and responsive daily summary',async({page})=>{
+  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.clock.install({time:new Date('2026-10-26T00:00:00Z')});
+  await page.goto('/?view=research&panel=matches');await expect(page.getByText('17,027',{exact:true})).toBeVisible();
+  await expect(page.locator('.league-group')).toHaveCount(12);
+  await page.getByLabel('เลือกลีก',{exact:true}).selectOption('eng-championship');await expect(page.locator('.match-card')).toHaveCount(1);await page.locator('.match-card').click();
+  await expect(page.getByRole('dialog',{name:'วิเคราะห์รายคู่'})).toBeVisible();await expect(page.getByText('การพบกันก่อนเกม',{exact:false})).toBeVisible();await page.getByLabel('จำนวนเกมย้อนหลัง').selectOption('5');await expect(page.getByRole('dialog').getByRole('heading',{name:'เส้น 2.5',exact:true})).toBeVisible();
+  const linked=page.url();expect(linked).toContain('match=centre-en-2');await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await page.goto(linked);await expect(page.getByRole('dialog')).toBeVisible();await page.getByLabel('ปิดรายละเอียด').click();
+  await page.getByRole('button',{name:'สรุปประจำวัน',exact:true}).click();await expect(page.getByText('ชุดทดลอง 3 / 5 คู่',{exact:false})).toBeVisible();await page.getByLabel('ประเภทแนวทาง').selectOption('over_2.5');await expect(page.getByRole('columnheader',{name:'ผลคัดกรอง'})).toBeVisible();
+  await page.locator('.centre').evaluate(node=>node.scrollIntoView({block:'start'}));await page.screenshot({path:'reports/recent-v2/daily-desktop.png'});
+  await page.getByRole('button',{name:'ผลวิจัย 5 ปี',exact:true}).click();await expect(page.getByRole('cell',{name:'1.0087',exact:true}).first()).toBeVisible();await page.getByLabel('ตลาดสำหรับดูผลประเมิน').selectOption('over_2.5');await expect(page.getByText('ความแม่นทั้งชุด 3/5 คู่:',{exact:false})).toBeVisible();
+  await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'คู่แข่งขันจำลอง',exact:true}).click();await expect(page.locator('.match-card').first()).toBeVisible();await page.getByLabel('เลือกลีก',{exact:true}).selectOption('de-bundesliga');await page.locator('.match-card').first().click();await expect(page.getByRole('dialog').getByRole('heading',{name:'ประตูคาดหมายของแบบจำลอง',exact:true})).toBeVisible();await page.getByRole('dialog').evaluate(node=>{node.scrollTop=0;});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'reports/recent-v2/detail-mobile.png'});await page.keyboard.press('Escape');
+  await page.getByRole('button',{name:'วันนี้',exact:true}).click();await expect(page.getByLabel('วันที่เริ่มรอบ')).toHaveValue('2026-10-26');await page.getByLabel('วันที่เริ่มรอบ').fill('2026-10-27');await expect(page.locator('.match-card')).toHaveCount(1);await expect(page.locator('.match-card')).toContainText('06:00');
+  await page.getByRole('button',{name:'สรุปประจำวัน',exact:true}).click();await expect(page.getByText('คู่ผ่านเกณฑ์ไม่พอสำหรับชุดนี้').first()).toBeVisible();expect(errors).toEqual([]);
+});

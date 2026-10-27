@@ -1,0 +1,94 @@
+{
+  "version": "selective-research-v1",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "dataset_version": "830c9f5aa1230b5a7ff9ba037e69c82d0fe02d0b0cfd77135854ca873a0ff200",
+  "base_model": "logistic",
+  "validation_periods": [
+    [
+      "2022-07-01",
+      "2023-07-01"
+    ],
+    [
+      "2023-07-01",
+      "2024-07-01"
+    ]
+  ],
+  "new_test_period": [
+    "2025-07-01",
+    "2026-07-01"
+  ],
+  "old_holdout_role": "2024/25 is already inspected; never reuse it to validate the filtering policy. Its out-of-time predictions may calibrate a strictly later season.",
+  "calibration": {
+    "method": "scalar_temperature_on_previous_season_out_of_time_predictions",
+    "temperature_bounds": [
+      0.5,
+      3.0
+    ]
+  },
+  "history": {
+    "min_venue_matches_each_team": 8,
+    "min_current_season_matches_each_team": 5,
+    "min_league_matches_in_last_365_days_each_team": 20,
+    "max_days_since_last_known_league_result": 45
+  },
+  "stress": {
+    "elo_difference_shift_points": 40,
+    "strength_relative_shift": 0.1,
+    "minimum_selected_class_probability": 0.6,
+    "require_unchanged_class": true,
+    "meaning": "sensitivity scenarios, not a statistical confidence interval"
+  },
+  "candidate_search": {
+    "thresholds": [
+      0.7,
+      0.75,
+      0.8
+    ],
+    "layers": [
+      "probability",
+      "history",
+      "consensus",
+      "robust"
+    ],
+    "total_candidates": 12,
+    "consensus_models": [
+      "elo",
+      "poisson"
+    ],
+    "ranking": "Among qualified candidates only, maximize coverage; tie-break by validation date-cluster lower accuracy bound, then stable candidate id"
+  },
+  "qualification": {
+    "min_validation_selected": 150,
+    "min_each_fold_selected": 50,
+    "min_each_league_selected": 30,
+    "min_validation_coverage": 0.05,
+    "min_validation_accuracy": 0.8,
+    "min_each_fold_accuracy": 0.7,
+    "min_wilson95_lower": 0.7,
+    "min_date_cluster95_lower": 0.7,
+    "max_abs_confidence_hit_rate_gap": 0.08
+  },
+  "confirmation": {
+    "min_test_selected": 100,
+    "min_test_each_league_selected": 20,
+    "min_test_accuracy": 0.8,
+    "min_wilson95_lower": 0.7,
+    "min_date_cluster95_lower": 0.7,
+    "note": "Passing supports the predeclared selective accuracy target on this sample; it is not proof the underlying future hit rate exceeds 80%."
+  },
+  "fixed_controls": [
+    "all_raw",
+    "p75_raw",
+    "p75_calibrated"
+  ],
+  "live_gates": {
+    "max_fixture_feed_age_hours": 6,
+    "max_result_feed_age_hours": 24,
+    "require_verified_kickoff_and_mapping": true,
+    "require_approved_model": true,
+    "reject_mock": true
+  },
+  "auto_promote": false,
+  "network_requests": 0,
+  "interpretation": "All filtering metrics are conditional on accepted, date-batched source records. Models share data and features; agreement is not independent corroboration. Selection is immutable before evaluating the new test. Failure means insufficient evidence, never silently relax gates."
+}

@@ -1,0 +1,11 @@
+{
+  "en.1": {
+    "Aston Villa FC": "Aston Villa", "Brighton & Hove Albion FC": "Brighton & Hove Albion", "Crystal Palace FC": "Crystal Palace", "Hull City AFC": "Hull City", "Leicester City FC": "Leicester City", "Manchester City FC": "Manchester City", "Manchester United FC": "Manchester United", "Newcastle United FC": "Newcastle United", "Norwich City FC": "Norwich City", "Sheffield United FC": "Sheffield United", "Tottenham Hotspur FC": "Tottenham Hotspur", "West Bromwich Albion FC": "West Bromwich Albion", "West Ham United FC": "West Ham United", "Wolverhampton Wanderers FC": "Wolverhampton Wanderers"
+  },
+  "es.1": {
+    "Club Atlético de Madrid": "Atlético Madrid", "CD Alavés": "Deportivo Alavés", "RC Deportivo La Coruña": "Deportivo La Coruña", "RCD Espanyol de Barcelona": "Espanyol Barcelona", "RC Celta de Vigo": "RC Celta", "Rayo Vallecano de Madrid": "Rayo Vallecano", "Real Betis Balompié": "Real Betis", "Real Madrid CF": "Real Madrid", "Real Sociedad de Fútbol": "Real Sociedad", "Real Valladolid CF": "Real Valladolid"
+  },
+  "de.1": {
+    "1899 Hoffenheim": "TSG 1899 Hoffenheim", "Bayer Leverkusen": "Bayer 04 Leverkusen", "Bayern München": "FC Bayern München", "Bor. Mönchengladbach": "Borussia Mönchengladbach", "FC St. Pauli": "FC St. Pauli 1910", "SpVgg Greuther Fürth": "SpVgg Greuther Fürth 1903", "Werder Bremen": "SV Werder Bremen"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "predictions": [
+    {
+      "id": "mock-1001:poisson-v1:initial",
+      "fixture_id": "mock-1001",
+      "model_version": "poisson-v1",
+      "generated_at": "2026-10-25T00:00:00Z",
+      "information_cutoff_date": "2026-05-24",
+      "stage": "initial",
+      "probabilities": [
+        0.32051719588544125,
+        0.26889004599404553,
+        0.41059275812051416
+      ],
+      "feature_snapshot_hash": "51910b50be542642cce1df71d9f871bf991b6da8d2d56497543b3b3e3b2f9068"
+    },
+    {
+      "id": "mock-1002:poisson-v1:initial",
+      "fixture_id": "mock-1002",
+      "model_version": "poisson-v1",
+      "generated_at": "2026-10-25T00:00:00Z",
+      "information_cutoff_date": "2026-05-24",
+      "stage": "initial",
+      "probabilities": [
+        0.47613999607356966,
+        0.2247237222195028,
+        0.2991362817069278
+      ],
+      "feature_snapshot_hash": "8a1fd8b08d42bd410e5fefd0bfb5bcbcd2dbf01d94cda1dbaf39353add33a04d"
+    },
+    {
+      "id": "mock-1003:poisson-v1:initial",
+      "fixture_id": "mock-1003",
+      "model_version": "poisson-v1",
+      "generated_at": "2026-10-25T00:00:00Z",
+      "information_cutoff_date": "2026-05-16",
+      "stage": "initial",
+      "probabilities": [
+        0.605363879207288,
+        0.18470285848678777,
+        0.20993326230592418
+      ],
+      "feature_snapshot_hash": "08acc2571d143f51288879d26cb0bcf45477c50be97b9be0ad5fce6e716303c7"
+    }
+  ]
+}

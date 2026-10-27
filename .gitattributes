@@ -1,0 +1,17 @@
+* text=auto
+ml/models/** -text
+data/snapshots/** -text
+reports/**/*.zip -text
+ml/precision/__init__.py -text
+ml/precision/calibration.py -text
+ml/precision/experiment.py -text
+ml/precision/features.py -text
+ml/precision/goals.py -text
+ml/precision/selection.py -text
+ml/models.py -text
+ml/evaluate.py -text
+ml/selective.py -text
+ml/goal_markets.py -text
+ml/expanded.py -text
+ml/precision_predict.py -text
+requirements.lock -text

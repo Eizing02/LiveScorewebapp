@@ -1,0 +1,49 @@
+{
+  "name": "football-prediction-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:api": "node scripts/wrangler.mjs dev --local --ip 127.0.0.1 --port 8787",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint apps packages tests --max-warnings 0",
+    "test": "vitest run",
+    "test:ui": "playwright test",
+    "db:migrate:local": "node scripts/wrangler.mjs d1 migrations apply football-ai --local",
+    "db:seed:local": "node scripts/wrangler.mjs d1 execute football-ai --local --file=db/seed.sql",
+    "db:seed:selection:local": "node scripts/wrangler.mjs d1 execute football-ai --local --file=db/seed-selection.sql",
+    "db:seed:centre:local": "node scripts/seed_recent.mjs",
+    "db:seed:precision:local": "node scripts/seed_recent.mjs db/seed-precision.sql",
+    "worker:check": "node scripts/wrangler.mjs deploy --dry-run --outdir .worker-build",
+    "db:seed:provider:local": "node scripts/seed_recent.mjs db/seed-provider-preview.sql",
+    "db:seed:live:local": "node scripts/seed_recent.mjs db/seed-live-research.sql",
+    "db:seed:quota:local": "node scripts/seed_recent.mjs db/seed-provider-quota.sql"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261025.1",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "eslint": "10.13.0",
+    "miniflare": "4.20260730.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vite": "8.3.5",
+    "vitest": "5.0.5",
+    "wrangler": "4.116.0"
+  },
+  "overrides": {
+    "undici": "7.30.1",
+    "sharp": "0.35.5"
+  }
+}

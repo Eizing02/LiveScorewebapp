@@ -1,0 +1,580 @@
+{
+  "version": "recent-five-years-v2",
+  "window_start": "2021-10-25",
+  "asof_exclusive": "2026-10-25",
+  "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+  "policy_sha256": "b563bbd9b4442dc41314b673baf85131932954acedc566d5fbf30b5cf86228af",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "accepted": 17027,
+  "quarantined": 4363,
+  "excluded": 902,
+  "duplicate_evidence_merged": 2885,
+  "cross_source_agreement": 2705,
+  "quarantine_reasons": {
+    "non_regular_round": 35,
+    "status_awarded": 3,
+    "missing_score": 3272,
+    "status_cancelled": 2,
+    "status_postponed": 2,
+    "unplayed_or_unconfirmed": 470,
+    "unresolved_cross_source_team": 17,
+    "cross_source_date_conflict": 2,
+    "cross_source_score_conflict": 4,
+    "incomplete_closed_season": 556
+  },
+  "per_league_season": [
+    {
+      "league": "de.1",
+      "name": "Bundesliga",
+      "season": "2021-22",
+      "accepted": 225,
+      "quarantined": 0,
+      "excluded": 81,
+      "cross_source_agreement": 225
+    },
+    {
+      "league": "de.1",
+      "name": "Bundesliga",
+      "season": "2022-23",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 306
+    },
+    {
+      "league": "de.1",
+      "name": "Bundesliga",
+      "season": "2023-24",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 306
+    },
+    {
+      "league": "de.1",
+      "name": "Bundesliga",
+      "season": "2024-25",
+      "accepted": 306,
+      "quarantined": 1,
+      "excluded": 0,
+      "cross_source_agreement": 305
+    },
+    {
+      "league": "de.1",
+      "name": "Bundesliga",
+      "season": "2025-26",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 306
+    },
+    {
+      "league": "de.1",
+      "name": "Bundesliga",
+      "season": "2026-27",
+      "accepted": 61,
+      "quarantined": 515,
+      "excluded": 0,
+      "cross_source_agreement": 36
+    },
+    {
+      "league": "de.2",
+      "name": "2. Bundesliga",
+      "season": "2021-22",
+      "accepted": 207,
+      "quarantined": 0,
+      "excluded": 99,
+      "cross_source_agreement": 207
+    },
+    {
+      "league": "de.2",
+      "name": "2. Bundesliga",
+      "season": "2022-23",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 306
+    },
+    {
+      "league": "de.2",
+      "name": "2. Bundesliga",
+      "season": "2023-24",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 306
+    },
+    {
+      "league": "de.2",
+      "name": "2. Bundesliga",
+      "season": "2024-25",
+      "accepted": 303,
+      "quarantined": 6,
+      "excluded": 0,
+      "cross_source_agreement": 303
+    },
+    {
+      "league": "de.2",
+      "name": "2. Bundesliga",
+      "season": "2025-26",
+      "accepted": 306,
+      "quarantined": 207,
+      "excluded": 0,
+      "cross_source_agreement": 99
+    },
+    {
+      "league": "de.2",
+      "name": "2. Bundesliga",
+      "season": "2026-27",
+      "accepted": 61,
+      "quarantined": 242,
+      "excluded": 3,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.1",
+      "name": "Premier League",
+      "season": "2021-22",
+      "accepted": 290,
+      "quarantined": 0,
+      "excluded": 90,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.1",
+      "name": "Premier League",
+      "season": "2022-23",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.1",
+      "name": "Premier League",
+      "season": "2023-24",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.1",
+      "name": "Premier League",
+      "season": "2024-25",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.1",
+      "name": "Premier League",
+      "season": "2025-26",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.1",
+      "name": "Premier League",
+      "season": "2026-27",
+      "accepted": 50,
+      "quarantined": 330,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.2",
+      "name": "Championship",
+      "season": "2021-22",
+      "accepted": 384,
+      "quarantined": 5,
+      "excluded": 168,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.2",
+      "name": "Championship",
+      "season": "2022-23",
+      "accepted": 552,
+      "quarantined": 5,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.2",
+      "name": "Championship",
+      "season": "2023-24",
+      "accepted": 552,
+      "quarantined": 5,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.2",
+      "name": "Championship",
+      "season": "2024-25",
+      "accepted": 552,
+      "quarantined": 5,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.2",
+      "name": "Championship",
+      "season": "2025-26",
+      "accepted": 552,
+      "quarantined": 5,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "en.2",
+      "name": "Championship",
+      "season": "2026-27",
+      "accepted": 95,
+      "quarantined": 457,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.1",
+      "name": "La Liga",
+      "season": "2021-22",
+      "accepted": 285,
+      "quarantined": 0,
+      "excluded": 95,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.1",
+      "name": "La Liga",
+      "season": "2022-23",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.1",
+      "name": "La Liga",
+      "season": "2023-24",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.1",
+      "name": "La Liga",
+      "season": "2024-25",
+      "accepted": 370,
+      "quarantined": 10,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.1",
+      "name": "La Liga",
+      "season": "2025-26",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.1",
+      "name": "La Liga",
+      "season": "2026-27",
+      "accepted": 69,
+      "quarantined": 311,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.2",
+      "name": "Segunda División",
+      "season": "2024-25",
+      "accepted": 453,
+      "quarantined": 9,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "es.2",
+      "name": "Segunda División",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 462,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.1",
+      "name": "Ligue 1",
+      "season": "2021-22",
+      "accepted": 271,
+      "quarantined": 0,
+      "excluded": 109,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.1",
+      "name": "Ligue 1",
+      "season": "2022-23",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.1",
+      "name": "Ligue 1",
+      "season": "2023-24",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.1",
+      "name": "Ligue 1",
+      "season": "2024-25",
+      "accepted": 305,
+      "quarantined": 1,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.1",
+      "name": "Ligue 1",
+      "season": "2025-26",
+      "accepted": 305,
+      "quarantined": 1,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.1",
+      "name": "Ligue 1",
+      "season": "2026-27",
+      "accepted": 45,
+      "quarantined": 261,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.2",
+      "name": "Ligue 2",
+      "season": "2024-25",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "fr.2",
+      "name": "Ligue 2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 306,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.1",
+      "name": "Serie A",
+      "season": "2021-22",
+      "accepted": 290,
+      "quarantined": 0,
+      "excluded": 90,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.1",
+      "name": "Serie A",
+      "season": "2022-23",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.1",
+      "name": "Serie A",
+      "season": "2023-24",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.1",
+      "name": "Serie A",
+      "season": "2024-25",
+      "accepted": 370,
+      "quarantined": 10,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.1",
+      "name": "Serie A",
+      "season": "2025-26",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.1",
+      "name": "Serie A",
+      "season": "2026-27",
+      "accepted": 50,
+      "quarantined": 330,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.2",
+      "name": "Serie B",
+      "season": "2024-25",
+      "accepted": 379,
+      "quarantined": 11,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "it.2",
+      "name": "Serie B",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 380,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "nl.1",
+      "name": "Eredivisie",
+      "season": "2021-22",
+      "accepted": 218,
+      "quarantined": 0,
+      "excluded": 88,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "nl.1",
+      "name": "Eredivisie",
+      "season": "2022-23",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "nl.1",
+      "name": "Eredivisie",
+      "season": "2023-24",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "nl.1",
+      "name": "Eredivisie",
+      "season": "2024-25",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "nl.1",
+      "name": "Eredivisie",
+      "season": "2025-26",
+      "accepted": 305,
+      "quarantined": 1,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "nl.1",
+      "name": "Eredivisie",
+      "season": "2026-27",
+      "accepted": 63,
+      "quarantined": 243,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "pt.1",
+      "name": "Primeira Liga",
+      "season": "2021-22",
+      "accepted": 227,
+      "quarantined": 0,
+      "excluded": 79,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "pt.1",
+      "name": "Primeira Liga",
+      "season": "2022-23",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "pt.1",
+      "name": "Primeira Liga",
+      "season": "2023-24",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "pt.1",
+      "name": "Primeira Liga",
+      "season": "2024-25",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "pt.1",
+      "name": "Primeira Liga",
+      "season": "2025-26",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    },
+    {
+      "league": "pt.1",
+      "name": "Primeira Liga",
+      "season": "2026-27",
+      "accepted": 62,
+      "quarantined": 244,
+      "excluded": 0,
+      "cross_source_agreement": 0
+    }
+  ],
+  "licenses": {
+    "openfootball": "CC0-1.0",
+    "openligadb": "ODbL-1.0; attribution and share-alike for adapted database"
+  },
+  "attribution": "OpenFootball contributors; OpenLigaDB community https://www.openligadb.de/ (ODbL-1.0)",
+  "limitations": [
+    "Retrospective records, not first-seen snapshots; dates and provider identity remain unverified",
+    "Agreement is corroboration, not proof of independent sources",
+    "Incomplete closed seasons withheld; current season contains observed prefix with unverified completeness",
+    "Only regular league rounds accepted; playoffs/awards/missing results not invented",
+    "Legacy 66 EPL2019/20 anomalies remain untouched outside the new time window",
+    "No target-match post-kickoff statistics or odds used as features"
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "scope": "cached provider responses only; planning evidence, not fresh live fixtures",
+  "business_date": "2026-10-27",
+  "timezone": "Asia/Bangkok",
+  "start_inclusive": "2026-10-27T06:00:00+07:00",
+  "end_exclusive": "2026-10-28T06:00:00+07:00",
+  "provider_requests_made": 0,
+  "sources": [
+    {
+      "date": "2026-10-27",
+      "captured_at": "2026-10-27T08:09:36.318077+00:00",
+      "sha256": "535825d976c76b90d12eb48f6bffeeb9ae234764eb57c48759c1774e060fee76",
+      "raw_rows": 207,
+      "paging": {
+        "current": 1,
+        "total": 1
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "captured_at": "2026-10-27T08:09:50.051926+00:00",
+      "sha256": "989daacf656abf924b937d618b090ef4f97d6aaeded3e79ad099f5502ffbb4e6",
+      "raw_rows": 458,
+      "paging": {
+        "current": 1,
+        "total": 1
+      }
+    }
+  ],
+  "raw_rows": 665,
+  "unique_global_fixture_ids": 665,
+  "unique_fixture_ids_in_round": 332,
+  "competition_ids_in_round": 112,
+  "in_existing_five_leagues": 3,
+  "outside_existing_five_leagues": 329,
+  "status_counts_at_capture": {
+    "FT": 15,
+    "NS": 315,
+    "PST": 2
+  },
+  "competitions": [
+    {
+      "id": 143,
+      "country": "Spain",
+      "name": "Copa del Rey",
+      "n": 18
+    },
+    {
+      "id": 206,
+      "country": "Turkey",
+      "name": "Türkiye Kupası",
+      "n": 12
+    },
+    {
+      "id": 50,
+      "country": "England",
+      "name": "National League - North",
+      "n": 11
+    },
+    {
+      "id": 51,
+      "country": "England",
+      "name": "National League - South",
+      "n": 11
+    },
+    {
+      "id": 931,
+      "country": "England",
+      "name": "Non League Premier - Southern Central",
+      "n": 10
+    },
+    {
+      "id": 90,
+      "country": "Netherlands",
+      "name": "KNVB Beker",
+      "n": 9
+    },
+    {
+      "id": 43,
+      "country": "England",
+      "name": "National League",
+      "n": 9
+    },
+    {
+      "id": 60,
+      "country": "England",
+      "name": "Non League Premier - Southern South",
+      "n": 9
+    },
+    {
+      "id": 17,
+      "country": "World",
+      "name": "AFC Champions League Elite",
+      "n": 8
+    },
+    {
+      "id": 701,
+      "country": "Portugal",
+      "name": "Liga Revelação U23",
+      "n": 8
+    },
+    {
+      "id": 81,
+      "country": "Germany",
+      "name": "DFB Pokal",
+      "n": 8
+    },
+    {
+      "id": 136,
+      "country": "Italy",
+      "name": "Serie B",
+      "n": 7
+    },
+    {
+      "id": 731,
+      "country": "Scotland",
+      "name": "Football League - Lowland League",
+      "n": 7
+    },
+    {
+      "id": 58,
+      "country": "England",
+      "name": "Non League Premier - Isthmian",
+      "n": 7
+    },
+    {
+      "id": 314,
+      "country": "Bosnia",
+      "name": "Cup",
+      "n": 6
+    },
+    {
+      "id": 828,
+      "country": "Tunisia",
+      "name": "Ligue 2",
+      "n": 6
+    },
+    {
+      "id": 906,
+      "country": "Argentina",
+      "name": "Reserve League",
+      "n": 6
+    },
+    {
+      "id": 704,
+      "country": "Italy",
+      "name": "Coppa Italia Primavera",
+      "n": 5
+    },
+    {
+      "id": 420,
+      "country": "Azerbaijan",
+      "name": "Cup",
+      "n": 5
+    },
+    {
+      "id": 374,
+      "country": "Slovenia",
+      "name": "2. SNL",
+      "n": 5
+    },
+    {
+      "id": 585,
+      "country": "Uganda",
+      "name": "Premier League",
+      "n": 5
+    },
+    {
+      "id": 41,
+      "country": "England",
+      "name": "League One",
+      "n": 5
+    },
+    {
+      "id": 637,
+      "country": "Vietnam",
+      "name": "V.League 2",
+      "n": 4
+    },
+    {
+      "id": 674,
+      "country": "Moldova",
+      "name": "Cupa",
+      "n": 4
+    },
+    {
+      "id": 108,
+      "country": "Poland",
+      "name": "Cup",
+      "n": 4
+    },
+    {
+      "id": 291,
+      "country": "Iran",
+      "name": "Azadegan League",
+      "n": 4
+    },
+    {
+      "id": 569,
+      "country": "Kyrgyzstan",
+      "name": "Premier League",
+      "n": 4
+    },
+    {
+      "id": 703,
+      "country": "England",
+      "name": "Professional Development League",
+      "n": 4
+    },
+    {
+      "id": 285,
+      "country": "Romania",
+      "name": "Cupa României",
+      "n": 4
+    },
+    {
+      "id": 220,
+      "country": "Austria",
+      "name": "Cup",
+      "n": 4
+    },
+    {
+      "id": 46,
+      "country": "England",
+      "name": "EFL Trophy",
+      "n": 4
+    },
+    {
+      "id": 335,
+      "country": "Ukraine",
+      "name": "Cup",
+      "n": 3
+    },
+    {
+      "id": 308,
+      "country": "Saudi-Arabia",
+      "name": "Division 1",
+      "n": 3
+    },
+    {
+      "id": 1162,
+      "country": "World",
+      "name": "AGCFF Gulf Champions League",
+      "n": 3
+    },
+    {
+      "id": 508,
+      "country": "South-Africa",
+      "name": "League Cup",
+      "n": 3
+    },
+    {
+      "id": 135,
+      "country": "Italy",
+      "name": "Serie A",
+      "n": 3
+    },
+    {
+      "id": 891,
+      "country": "Italy",
+      "name": "Coppa Italia Serie C",
+      "n": 3
+    },
+    {
+      "id": 59,
+      "country": "England",
+      "name": "Non League Premier - Northern",
+      "n": 3
+    },
+    {
+      "id": 729,
+      "country": "San-Marino",
+      "name": "Coppa Titano",
+      "n": 3
+    },
+    {
+      "id": 239,
+      "country": "Colombia",
+      "name": "Primera A",
+      "n": 2
+    },
+    {
+      "id": 673,
+      "country": "Mexico",
+      "name": "Liga MX Femenil",
+      "n": 2
+    },
+    {
+      "id": 1205,
+      "country": "Brazil",
+      "name": "Kings Cup",
+      "n": 2
+    },
+    {
+      "id": 128,
+      "country": "Argentina",
+      "name": "Liga Profesional Argentina",
+      "n": 2
+    },
+    {
+      "id": 304,
+      "country": "Panama",
+      "name": "Liga Panameña de Fútbol",
+      "n": 2
+    },
+    {
+      "id": 571,
+      "country": "Tajikistan",
+      "name": "Vysshaya Liga",
+      "n": 2
+    },
+    {
+      "id": 675,
+      "country": "Netherlands",
+      "name": "U21 Divisie 1",
+      "n": 2
+    },
+    {
+      "id": 273,
+      "country": "Hungary",
+      "name": "Magyar Kupa",
+      "n": 2
+    },
+    {
+      "id": 397,
+      "country": "Angola",
+      "name": "Girabola",
+      "n": 2
+    },
+    {
+      "id": 199,
+      "country": "Greece",
+      "name": "Cup",
+      "n": 2
+    },
+    {
+      "id": 172,
+      "country": "Bulgaria",
+      "name": "First League",
+      "n": 2
+    },
+    {
+      "id": 237,
+      "country": "Russia",
+      "name": "Cup",
+      "n": 2
+    },
+    {
+      "id": 709,
+      "country": "Armenia",
+      "name": "Cup",
+      "n": 2
+    },
+    {
+      "id": 567,
+      "country": "Tanzania",
+      "name": "Ligi kuu Bara",
+      "n": 2
+    },
+    {
+      "id": 329,
+      "country": "Estonia",
+      "name": "Meistriliiga",
+      "n": 2
+    },
+    {
+      "id": 373,
+      "country": "Slovenia",
+      "name": "1. SNL",
+      "n": 2
+    },
+    {
+      "id": 18,
+      "country": "World",
+      "name": "AFC Champions League Two",
+      "n": 2
+    },
+    {
+      "id": 347,
+      "country": "Czech-Republic",
+      "name": "Cup",
+      "n": 2
+    },
+    {
+      "id": 622,
+      "country": "Brazil",
+      "name": "Pernambucano - 1",
+      "n": 2
+    },
+    {
+      "id": 761,
+      "country": "Liechtenstein",
+      "name": "Cup",
+      "n": 2
+    },
+    {
+      "id": 48,
+      "country": "England",
+      "name": "League Cup",
+      "n": 2
+    },
+    {
+      "id": 358,
+      "country": "Ireland",
+      "name": "First Division",
+      "n": 2
+    },
+    {
+      "id": 71,
+      "country": "Brazil",
+      "name": "Serie A",
+      "n": 1
+    },
+    {
+      "id": 72,
+      "country": "Brazil",
+      "name": "Serie B",
+      "n": 1
+    },
+    {
+      "id": 269,
+      "country": "Uruguay",
+      "name": "Segunda División",
+      "n": 1
+    },
+    {
+      "id": 1182,
+      "country": "Canada",
+      "name": "Northern Super League",
+      "n": 1
+    },
+    {
+      "id": 344,
+      "country": "Bolivia",
+      "name": "Primera División",
+      "n": 1
+    },
+    {
+      "id": 421,
+      "country": "Aruba",
+      "name": "Division di Honor",
+      "n": 1
+    },
+    {
+      "id": 163,
+      "country": "Costa-Rica",
+      "name": "Liga de Ascenso",
+      "n": 1
+    },
+    {
+      "id": 322,
+      "country": "Jamaica",
+      "name": "Premier League",
+      "n": 1
+    },
+    {
+      "id": 722,
+      "country": "Mexico",
+      "name": "Liga Premier Serie A",
+      "n": 1
+    },
+    {
+      "id": 274,
+      "country": "Indonesia",
+      "name": "Liga 1",
+      "n": 1
+    },
+    {
+      "id": 1075,
+      "country": "Uzbekistan",
+      "name": "Pro League A",
+      "n": 1
+    },
+    {
+      "id": 1039,
+      "country": "World",
+      "name": "Premier League International Cup",
+      "n": 1
+    },
+    {
+      "id": 363,
+      "country": "Ethiopia",
+      "name": "Premier League",
+      "n": 1
+    },
+    {
+      "id": 309,
+      "country": "Saudi-Arabia",
+      "name": "Division 2",
+      "n": 1
+    },
+    {
+      "id": 307,
+      "country": "Saudi-Arabia",
+      "name": "Pro League",
+      "n": 1
+    },
+    {
+      "id": 886,
+      "country": "World",
+      "name": "UEFA U17 Championship - Qualification",
+      "n": 1
+    },
+    {
+      "id": 695,
+      "country": "England",
+      "name": "U18 Premier League - North",
+      "n": 1
+    },
+    {
+      "id": 405,
+      "country": "Rwanda",
+      "name": "National Soccer League",
+      "n": 1
+    },
+    {
+      "id": 1243,
+      "country": "South-Africa",
+      "name": "Super League Women",
+      "n": 1
+    },
+    {
+      "id": 424,
+      "country": "Congo-DR",
+      "name": "Ligue 1",
+      "n": 1
+    },
+    {
+      "id": 943,
+      "country": "Italy",
+      "name": "Serie C - Girone C",
+      "n": 1
+    },
+    {
+      "id": 488,
+      "country": "Germany",
+      "name": "U19 Bundesliga",
+      "n": 1
+    },
+    {
+      "id": 186,
+      "country": "Algeria",
+      "name": "Ligue 1",
+      "n": 1
+    },
+    {
+      "id": 173,
+      "country": "Bulgaria",
+      "name": "Second League",
+      "n": 1
+    },
+    {
+      "id": 672,
+      "country": "Georgia",
+      "name": "David Kipiani Cup",
+      "n": 1
+    },
+    {
+      "id": 732,
+      "country": "Serbia",
+      "name": "Cup",
+      "n": 1
+    },
+    {
+      "id": 210,
+      "country": "Croatia",
+      "name": "HNL",
+      "n": 1
+    },
+    {
+      "id": 355,
+      "country": "Montenegro",
+      "name": "First League",
+      "n": 1
+    },
+    {
+      "id": 412,
+      "country": "Botswana",
+      "name": "Premier League",
+      "n": 1
+    },
+    {
+      "id": 14,
+      "country": "World",
+      "name": "UEFA Youth League",
+      "n": 1
+    },
+    {
+      "id": 113,
+      "country": "Sweden",
+      "name": "Allsvenskan",
+      "n": 1
+    },
+    {
+      "id": 114,
+      "country": "Sweden",
+      "name": "Superettan",
+      "n": 1
+    },
+    {
+      "id": 638,
+      "country": "Denmark",
+      "name": "Kvindeliga",
+      "n": 1
+    },
+    {
+      "id": 83,
+      "country": "Germany",
+      "name": "Regionalliga - Bayern",
+      "n": 1
+    },
+    {
+      "id": 86,
+      "country": "Germany",
+      "name": "Regionalliga - SudWest",
+      "n": 1
+    },
+    {
+      "id": 121,
+      "country": "Denmark",
+      "name": "DBU Pokalen",
+      "n": 1
+    },
+    {
+      "id": 744,
+      "country": "Germany",
+      "name": "Oberliga - Schleswig-Holstein",
+      "n": 1
+    },
+    {
+      "id": 243,
+      "country": "Ecuador",
+      "name": "Liga Pro Serie B",
+      "n": 1
+    },
+    {
+      "id": 180,
+      "country": "Scotland",
+      "name": "Championship",
+      "n": 1
+    },
+    {
+      "id": 183,
+      "country": "Scotland",
+      "name": "League One",
+      "n": 1
+    },
+    {
+      "id": 408,
+      "country": "Northern-Ireland",
+      "name": "Premiership",
+      "n": 1
+    },
+    {
+      "id": 42,
+      "country": "England",
+      "name": "League Two",
+      "n": 1
+    },
+    {
+      "id": 47,
+      "country": "England",
+      "name": "FA Trophy",
+      "n": 1
+    },
+    {
+      "id": 181,
+      "country": "Scotland",
+      "name": "FA Cup",
+      "n": 1
+    },
+    {
+      "id": 281,
+      "country": "Peru",
+      "name": "Primera División",
+      "n": 1
+    },
+    {
+      "id": 758,
+      "country": "Gibraltar",
+      "name": "Premier Division",
+      "n": 1
+    },
+    {
+      "id": 97,
+      "country": "Portugal",
+      "name": "Taça da Liga",
+      "n": 1
+    },
+    {
+      "id": 299,
+      "country": "Venezuela",
+      "name": "Primera División",
+      "n": 1
+    },
+    {
+      "id": 1037,
+      "country": "Brazil",
+      "name": "Paraibano 2",
+      "n": 1
+    },
+    {
+      "id": 930,
+      "country": "Uruguay",
+      "name": "Copa Uruguay",
+      "n": 1
+    },
+    {
+      "id": 501,
+      "country": "Paraguay",
+      "name": "Copa Paraguay",
+      "n": 1
+    }
+  ],
+  "limitations": [
+    "Snapshot not current live status",
+    "Youth/reserve and other competitions included",
+    "No assertion of complete worldwide coverage",
+    "More fixtures does not establish model support"
+  ]
+}

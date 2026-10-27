@@ -1,0 +1,9 @@
+CREATE TABLE filter_research_runs(id TEXT PRIMARY KEY, policy_hash TEXT NOT NULL, selection_hash TEXT NOT NULL, dataset_version TEXT NOT NULL, test_start TEXT NOT NULL, test_end TEXT NOT NULL, payload TEXT NOT NULL, research_only INTEGER NOT NULL DEFAULT 1 CHECK(research_only=1));
+CREATE TABLE filter_research_decisions(run_id TEXT NOT NULL REFERENCES filter_research_runs(id), fixture_id TEXT NOT NULL, league TEXT NOT NULL, match_date TEXT NOT NULL, home_name TEXT NOT NULL, away_name TEXT NOT NULL, predicted_outcome INTEGER NOT NULL CHECK(predicted_outcome BETWEEN 0 AND 2), actual_outcome INTEGER NOT NULL CHECK(actual_outcome BETWEEN 0 AND 2), selected INTEGER NOT NULL CHECK(selected IN(0,1)), payload TEXT NOT NULL, PRIMARY KEY(run_id,fixture_id));
+CREATE INDEX filter_research_lookup ON filter_research_decisions(run_id,league,selected,match_date,fixture_id);
+CREATE TRIGGER immutable_filter_run_update BEFORE UPDATE ON filter_research_runs BEGIN SELECT RAISE(ABORT,'filter_research_immutable'); END;
+CREATE TRIGGER immutable_filter_run_delete BEFORE DELETE ON filter_research_runs BEGIN SELECT RAISE(ABORT,'filter_research_immutable'); END;
+CREATE TRIGGER immutable_filter_decision_update BEFORE UPDATE ON filter_research_decisions BEGIN SELECT RAISE(ABORT,'filter_research_immutable'); END;
+CREATE TRIGGER immutable_filter_decision_delete BEFORE DELETE ON filter_research_decisions BEGIN SELECT RAISE(ABORT,'filter_research_immutable'); END;
+CREATE TRIGGER filter_run_collision BEFORE INSERT ON filter_research_runs WHEN EXISTS(SELECT 1 FROM filter_research_runs WHERE id=NEW.id AND payload<>NEW.payload) BEGIN SELECT RAISE(ABORT,'filter_research_collision'); END;
+CREATE TRIGGER filter_decision_collision BEFORE INSERT ON filter_research_decisions WHEN EXISTS(SELECT 1 FROM filter_research_decisions WHERE run_id=NEW.run_id AND fixture_id=NEW.fixture_id AND payload<>NEW.payload) BEGIN SELECT RAISE(ABORT,'filter_research_collision'); END;

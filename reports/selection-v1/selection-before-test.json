@@ -1,0 +1,1408 @@
+{
+  "policy_sha256": "76b2c36a6e937a21d6298aacc671dc338421db1c95005ee7fa95dceb79727141",
+  "implementation_sha256": "90e50751f36a99e2189462cc28dbe25a1bf45cbee00485e36d2f1d9a2ac57eff",
+  "chosen_rule": {
+    "id": "probability-p70",
+    "layer": "probability",
+    "threshold": 0.7
+  },
+  "status": "validation_qualified_pending_new_test",
+  "candidates": [
+    {
+      "id": "probability-p70",
+      "layer": "probability",
+      "threshold": 0.7,
+      "summary": {
+        "n": 211,
+        "total": 2132,
+        "coverage": 0.09896810506566604,
+        "correct": 169,
+        "accuracy": 0.8009478672985783,
+        "mean_probability": 0.7585702035693157,
+        "absolute_calibration_gap": 0.04237766372926255,
+        "log_loss": 0.6079671088696721,
+        "brier": 0.33194504896854854,
+        "ece": 0.04237766372926249,
+        "wilson95": [
+          0.7419045052112383,
+          0.8492290715999011
+        ],
+        "date_cluster95": [
+          0.7420055821371611,
+          0.8524615975422427
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 90,
+            "correct": 77
+          },
+          "es.1": {
+            "n": 65,
+            "correct": 51
+          },
+          "de.1": {
+            "n": 56,
+            "correct": 41
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 96,
+          "total": 1066,
+          "coverage": 0.0900562851782364,
+          "correct": 74,
+          "accuracy": 0.7708333333333334,
+          "mean_probability": 0.7613128171352365,
+          "absolute_calibration_gap": 0.009520516198096907,
+          "log_loss": 0.6587964885639152,
+          "brier": 0.37001790931718354,
+          "ece": 0.029515963246109715,
+          "wilson95": [
+            0.6773148946997619,
+            0.8435108285439975
+          ],
+          "date_cluster95": [
+            0.6890938511326861,
+            0.8518868980963046
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 45,
+              "correct": 37
+            },
+            "es.1": {
+              "n": 27,
+              "correct": 21
+            },
+            "de.1": {
+              "n": 24,
+              "correct": 16
+            }
+          }
+        },
+        {
+          "n": 115,
+          "total": 1066,
+          "coverage": 0.10787992495309569,
+          "correct": 95,
+          "accuracy": 0.8260869565217391,
+          "mean_probability": 0.7562807174621122,
+          "absolute_calibration_gap": 0.0698062390596269,
+          "log_loss": 0.5655356266901299,
+          "brier": 0.30016248728620976,
+          "ece": 0.0698062390596268,
+          "wilson95": [
+            0.7465896677058923,
+            0.8845032248271645
+          ],
+          "date_cluster95": [
+            0.7581922043010753,
+            0.8967355845529889
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 45,
+              "correct": 40
+            },
+            "es.1": {
+              "n": 38,
+              "correct": 30
+            },
+            "de.1": {
+              "n": 32,
+              "correct": 25
+            }
+          }
+        }
+      ],
+      "qualification_failures": [],
+      "qualified": true
+    },
+    {
+      "id": "probability-p75",
+      "layer": "probability",
+      "threshold": 0.75,
+      "summary": {
+        "n": 106,
+        "total": 2132,
+        "coverage": 0.04971857410881801,
+        "correct": 91,
+        "accuracy": 0.8584905660377359,
+        "mean_probability": 0.7912301704561219,
+        "absolute_calibration_gap": 0.06726039558161401,
+        "log_loss": 0.5090510521099604,
+        "brier": 0.2601775691001291,
+        "ece": 0.06726039558161373,
+        "wilson95": [
+          0.7795766972144925,
+          0.9123296268271689
+        ],
+        "date_cluster95": [
+          0.7904761904761904,
+          0.9223300970873787
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 45,
+            "correct": 38
+          },
+          "es.1": {
+            "n": 35,
+            "correct": 31
+          },
+          "de.1": {
+            "n": 26,
+            "correct": 22
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 50,
+          "total": 1066,
+          "coverage": 0.04690431519699812,
+          "correct": 42,
+          "accuracy": 0.84,
+          "mean_probability": 0.7932520103938587,
+          "absolute_calibration_gap": 0.04674798960614124,
+          "log_loss": 0.5460470554908035,
+          "brier": 0.28771048358018375,
+          "ece": 0.08513924793832599,
+          "wilson95": [
+            0.7148578393696501,
+            0.916625793219666
+          ],
+          "date_cluster95": [
+            0.7272727272727273,
+            0.9387755102040817
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 25,
+              "correct": 21
+            },
+            "es.1": {
+              "n": 16,
+              "correct": 14
+            },
+            "de.1": {
+              "n": 9,
+              "correct": 7
+            }
+          }
+        },
+        {
+          "n": 56,
+          "total": 1066,
+          "coverage": 0.0525328330206379,
+          "correct": 49,
+          "accuracy": 0.875,
+          "mean_probability": 0.7894249562259998,
+          "absolute_calibration_gap": 0.08557504377400016,
+          "log_loss": 0.4760189062342075,
+          "brier": 0.2355946097429375,
+          "ece": 0.08557504377400015,
+          "wilson95": [
+            0.7637452344180986,
+            0.9381093130428289
+          ],
+          "date_cluster95": [
+            0.7960978835978836,
+            0.9626310272536687
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 20,
+              "correct": 17
+            },
+            "es.1": {
+              "n": 19,
+              "correct": 17
+            },
+            "de.1": {
+              "n": 17,
+              "correct": 15
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "league_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "probability-p80",
+      "layer": "probability",
+      "threshold": 0.8,
+      "summary": {
+        "n": 35,
+        "total": 2132,
+        "coverage": 0.016416510318949345,
+        "correct": 30,
+        "accuracy": 0.8571428571428571,
+        "mean_probability": 0.8277009678556307,
+        "absolute_calibration_gap": 0.029441889287226353,
+        "log_loss": 0.5129923749367217,
+        "brier": 0.2580798123308881,
+        "ece": 0.029441889287226353,
+        "wilson95": [
+          0.7062444591340484,
+          0.9373976892056628
+        ],
+        "date_cluster95": [
+          0.7396992481203007,
+          0.9696969696969697
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 23,
+            "correct": 20
+          },
+          "es.1": {
+            "n": 6,
+            "correct": 6
+          },
+          "de.1": {
+            "n": 6,
+            "correct": 4
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 18,
+          "total": 1066,
+          "coverage": 0.016885553470919325,
+          "correct": 14,
+          "accuracy": 0.7777777777777778,
+          "mean_probability": 0.8310989699058121,
+          "absolute_calibration_gap": 0.05332119212803432,
+          "log_loss": 0.6597237821226944,
+          "brier": 0.36822765177825056,
+          "ece": 0.05332119212803432,
+          "wilson95": [
+            0.5478541568378739,
+            0.9099907189139831
+          ],
+          "date_cluster95": [
+            0.5789473684210527,
+            0.9411764705882353
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 13,
+              "correct": 10
+            },
+            "es.1": {
+              "n": 2,
+              "correct": 2
+            },
+            "de.1": {
+              "n": 3,
+              "correct": 2
+            }
+          }
+        },
+        {
+          "n": 17,
+          "total": 1066,
+          "coverage": 0.01594746716697936,
+          "correct": 16,
+          "accuracy": 0.9411764705882353,
+          "mean_probability": 0.8241030833319091,
+          "absolute_calibration_gap": 0.11707338725632621,
+          "log_loss": 0.3576297085045155,
+          "brier": 0.1414526882101514,
+          "ece": 0.11707338725632621,
+          "wilson95": [
+            0.7301796936242461,
+            0.9895395990150025
+          ],
+          "date_cluster95": [
+            0.8421052631578947,
+            1.0
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 10,
+              "correct": 10
+            },
+            "es.1": {
+              "n": 4,
+              "correct": 4
+            },
+            "de.1": {
+              "n": 3,
+              "correct": 2
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "history-p70",
+      "layer": "history",
+      "threshold": 0.7,
+      "summary": {
+        "n": 162,
+        "total": 2132,
+        "coverage": 0.07598499061913697,
+        "correct": 130,
+        "accuracy": 0.8024691358024691,
+        "mean_probability": 0.758553969525295,
+        "absolute_calibration_gap": 0.04391516627717418,
+        "log_loss": 0.6140281002387967,
+        "brier": 0.3324133812912271,
+        "ece": 0.0439151662771742,
+        "wilson95": [
+          0.7344647106403248,
+          0.8564611090966836
+        ],
+        "date_cluster95": [
+          0.7372519413287316,
+          0.858916329917737
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 66,
+            "correct": 57
+          },
+          "es.1": {
+            "n": 53,
+            "correct": 42
+          },
+          "de.1": {
+            "n": 43,
+            "correct": 31
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 74,
+          "total": 1066,
+          "coverage": 0.06941838649155722,
+          "correct": 58,
+          "accuracy": 0.7837837837837838,
+          "mean_probability": 0.7619743311824089,
+          "absolute_calibration_gap": 0.0218094526013749,
+          "log_loss": 0.6487996476531496,
+          "brier": 0.35854055616324504,
+          "ece": 0.06125222189230166,
+          "wilson95": [
+            0.6772627498746149,
+            0.8622954834409498
+          ],
+          "date_cluster95": [
+            0.6883116883116883,
+            0.8750586029067041
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 34,
+              "correct": 28
+            },
+            "es.1": {
+              "n": 22,
+              "correct": 18
+            },
+            "de.1": {
+              "n": 18,
+              "correct": 12
+            }
+          }
+        },
+        {
+          "n": 88,
+          "total": 1066,
+          "coverage": 0.0825515947467167,
+          "correct": 72,
+          "accuracy": 0.8181818181818182,
+          "mean_probability": 0.7556777563136309,
+          "absolute_calibration_gap": 0.06250406186818735,
+          "log_loss": 0.584788389913091,
+          "brier": 0.3104428024215756,
+          "ece": 0.06250406186818729,
+          "wilson95": [
+            0.7248774097917624,
+            0.8848690023305791
+          ],
+          "date_cluster95": [
+            0.7333272004710039,
+            0.9061627906976744
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 32,
+              "correct": 29
+            },
+            "es.1": {
+              "n": 31,
+              "correct": 24
+            },
+            "de.1": {
+              "n": 25,
+              "correct": 19
+            }
+          }
+        }
+      ],
+      "qualification_failures": [],
+      "qualified": true
+    },
+    {
+      "id": "history-p75",
+      "layer": "history",
+      "threshold": 0.75,
+      "summary": {
+        "n": 80,
+        "total": 2132,
+        "coverage": 0.0375234521575985,
+        "correct": 69,
+        "accuracy": 0.8625,
+        "mean_probability": 0.7917205699059755,
+        "absolute_calibration_gap": 0.07077943009402454,
+        "log_loss": 0.5149303331535828,
+        "brier": 0.2586134074507122,
+        "ece": 0.07077943009402457,
+        "wilson95": [
+          0.7703289993301339,
+          0.9214528567566089
+        ],
+        "date_cluster95": [
+          0.7855769230769231,
+          0.9358974358974359
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 33,
+            "correct": 27
+          },
+          "es.1": {
+            "n": 28,
+            "correct": 26
+          },
+          "de.1": {
+            "n": 19,
+            "correct": 16
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 39,
+          "total": 1066,
+          "coverage": 0.036585365853658534,
+          "correct": 33,
+          "accuracy": 0.8461538461538461,
+          "mean_probability": 0.7937404873317394,
+          "absolute_calibration_gap": 0.05241335882210674,
+          "log_loss": 0.5536861755070381,
+          "brier": 0.2862630689524791,
+          "ece": 0.12725348516899332,
+          "wilson95": [
+            0.7027053635107331,
+            0.927525276230179
+          ],
+          "date_cluster95": [
+            0.7368421052631579,
+            0.95
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 19,
+              "correct": 15
+            },
+            "es.1": {
+              "n": 13,
+              "correct": 13
+            },
+            "de.1": {
+              "n": 7,
+              "correct": 5
+            }
+          }
+        },
+        {
+          "n": 41,
+          "total": 1066,
+          "coverage": 0.038461538461538464,
+          "correct": 36,
+          "accuracy": 0.8780487804878049,
+          "mean_probability": 0.7897991850375655,
+          "absolute_calibration_gap": 0.08824959545023936,
+          "log_loss": 0.478065019695418,
+          "brier": 0.2323125099246414,
+          "ece": 0.08824959545023953,
+          "wilson95": [
+            0.7445578847902312,
+            0.9467666353142228
+          ],
+          "date_cluster95": [
+            0.782053394858273,
+            0.9534883720930233
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 14,
+              "correct": 12
+            },
+            "es.1": {
+              "n": 15,
+              "correct": 13
+            },
+            "de.1": {
+              "n": 12,
+              "correct": 11
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "history-p80",
+      "layer": "history",
+      "threshold": 0.8,
+      "summary": {
+        "n": 29,
+        "total": 2132,
+        "coverage": 0.013602251407129456,
+        "correct": 24,
+        "accuracy": 0.8275862068965517,
+        "mean_probability": 0.8263903272003376,
+        "absolute_calibration_gap": 0.0011958796962141527,
+        "log_loss": 0.5815530960641764,
+        "brier": 0.30234083375576104,
+        "ece": 0.0011958796962141527,
+        "wilson95": [
+          0.6545156010980476,
+          0.9240214274710877
+        ],
+        "date_cluster95": [
+          0.6875,
+          0.9629629629629629
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 18,
+            "correct": 15
+          },
+          "es.1": {
+            "n": 6,
+            "correct": 6
+          },
+          "de.1": {
+            "n": 5,
+            "correct": 3
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 15,
+          "total": 1066,
+          "coverage": 0.014071294559099437,
+          "correct": 11,
+          "accuracy": 0.7333333333333333,
+          "mean_probability": 0.8306254975842862,
+          "absolute_calibration_gap": 0.09729216425095288,
+          "log_loss": 0.7552100915628627,
+          "brier": 0.4331007611636736,
+          "ece": 0.09729216425095288,
+          "wilson95": [
+            0.4804956594401943,
+            0.8910254667430761
+          ],
+          "date_cluster95": [
+            0.5,
+            0.9333333333333333
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 10,
+              "correct": 7
+            },
+            "es.1": {
+              "n": 2,
+              "correct": 2
+            },
+            "de.1": {
+              "n": 3,
+              "correct": 2
+            }
+          }
+        },
+        {
+          "n": 14,
+          "total": 1066,
+          "coverage": 0.013133208255159476,
+          "correct": 13,
+          "accuracy": 0.9285714285714286,
+          "mean_probability": 0.8218526446461066,
+          "absolute_calibration_gap": 0.10671878392532197,
+          "log_loss": 0.395492029458441,
+          "brier": 0.1622409115329976,
+          "ece": 0.10671878392532197,
+          "wilson95": [
+            0.6853129557584889,
+            0.9872777847521093
+          ],
+          "date_cluster95": [
+            0.8125,
+            1.0
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 8,
+              "correct": 8
+            },
+            "es.1": {
+              "n": 4,
+              "correct": 4
+            },
+            "de.1": {
+              "n": 2,
+              "correct": 1
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "wilson_lower_bound_too_low",
+        "date_cluster_lower_bound_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "consensus-p70",
+      "layer": "consensus",
+      "threshold": 0.7,
+      "summary": {
+        "n": 162,
+        "total": 2132,
+        "coverage": 0.07598499061913697,
+        "correct": 130,
+        "accuracy": 0.8024691358024691,
+        "mean_probability": 0.758553969525295,
+        "absolute_calibration_gap": 0.04391516627717418,
+        "log_loss": 0.6140281002387967,
+        "brier": 0.3324133812912271,
+        "ece": 0.0439151662771742,
+        "wilson95": [
+          0.7344647106403248,
+          0.8564611090966836
+        ],
+        "date_cluster95": [
+          0.7372519413287316,
+          0.858916329917737
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 66,
+            "correct": 57
+          },
+          "es.1": {
+            "n": 53,
+            "correct": 42
+          },
+          "de.1": {
+            "n": 43,
+            "correct": 31
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 74,
+          "total": 1066,
+          "coverage": 0.06941838649155722,
+          "correct": 58,
+          "accuracy": 0.7837837837837838,
+          "mean_probability": 0.7619743311824089,
+          "absolute_calibration_gap": 0.0218094526013749,
+          "log_loss": 0.6487996476531496,
+          "brier": 0.35854055616324504,
+          "ece": 0.06125222189230166,
+          "wilson95": [
+            0.6772627498746149,
+            0.8622954834409498
+          ],
+          "date_cluster95": [
+            0.6883116883116883,
+            0.8750586029067041
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 34,
+              "correct": 28
+            },
+            "es.1": {
+              "n": 22,
+              "correct": 18
+            },
+            "de.1": {
+              "n": 18,
+              "correct": 12
+            }
+          }
+        },
+        {
+          "n": 88,
+          "total": 1066,
+          "coverage": 0.0825515947467167,
+          "correct": 72,
+          "accuracy": 0.8181818181818182,
+          "mean_probability": 0.7556777563136309,
+          "absolute_calibration_gap": 0.06250406186818735,
+          "log_loss": 0.584788389913091,
+          "brier": 0.3104428024215756,
+          "ece": 0.06250406186818729,
+          "wilson95": [
+            0.7248774097917624,
+            0.8848690023305791
+          ],
+          "date_cluster95": [
+            0.7333272004710039,
+            0.9061627906976744
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 32,
+              "correct": 29
+            },
+            "es.1": {
+              "n": 31,
+              "correct": 24
+            },
+            "de.1": {
+              "n": 25,
+              "correct": 19
+            }
+          }
+        }
+      ],
+      "qualification_failures": [],
+      "qualified": true
+    },
+    {
+      "id": "consensus-p75",
+      "layer": "consensus",
+      "threshold": 0.75,
+      "summary": {
+        "n": 80,
+        "total": 2132,
+        "coverage": 0.0375234521575985,
+        "correct": 69,
+        "accuracy": 0.8625,
+        "mean_probability": 0.7917205699059755,
+        "absolute_calibration_gap": 0.07077943009402454,
+        "log_loss": 0.5149303331535828,
+        "brier": 0.2586134074507122,
+        "ece": 0.07077943009402457,
+        "wilson95": [
+          0.7703289993301339,
+          0.9214528567566089
+        ],
+        "date_cluster95": [
+          0.7855769230769231,
+          0.9358974358974359
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 33,
+            "correct": 27
+          },
+          "es.1": {
+            "n": 28,
+            "correct": 26
+          },
+          "de.1": {
+            "n": 19,
+            "correct": 16
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 39,
+          "total": 1066,
+          "coverage": 0.036585365853658534,
+          "correct": 33,
+          "accuracy": 0.8461538461538461,
+          "mean_probability": 0.7937404873317394,
+          "absolute_calibration_gap": 0.05241335882210674,
+          "log_loss": 0.5536861755070381,
+          "brier": 0.2862630689524791,
+          "ece": 0.12725348516899332,
+          "wilson95": [
+            0.7027053635107331,
+            0.927525276230179
+          ],
+          "date_cluster95": [
+            0.7368421052631579,
+            0.95
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 19,
+              "correct": 15
+            },
+            "es.1": {
+              "n": 13,
+              "correct": 13
+            },
+            "de.1": {
+              "n": 7,
+              "correct": 5
+            }
+          }
+        },
+        {
+          "n": 41,
+          "total": 1066,
+          "coverage": 0.038461538461538464,
+          "correct": 36,
+          "accuracy": 0.8780487804878049,
+          "mean_probability": 0.7897991850375655,
+          "absolute_calibration_gap": 0.08824959545023936,
+          "log_loss": 0.478065019695418,
+          "brier": 0.2323125099246414,
+          "ece": 0.08824959545023953,
+          "wilson95": [
+            0.7445578847902312,
+            0.9467666353142228
+          ],
+          "date_cluster95": [
+            0.782053394858273,
+            0.9534883720930233
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 14,
+              "correct": 12
+            },
+            "es.1": {
+              "n": 15,
+              "correct": 13
+            },
+            "de.1": {
+              "n": 12,
+              "correct": 11
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "consensus-p80",
+      "layer": "consensus",
+      "threshold": 0.8,
+      "summary": {
+        "n": 29,
+        "total": 2132,
+        "coverage": 0.013602251407129456,
+        "correct": 24,
+        "accuracy": 0.8275862068965517,
+        "mean_probability": 0.8263903272003376,
+        "absolute_calibration_gap": 0.0011958796962141527,
+        "log_loss": 0.5815530960641764,
+        "brier": 0.30234083375576104,
+        "ece": 0.0011958796962141527,
+        "wilson95": [
+          0.6545156010980476,
+          0.9240214274710877
+        ],
+        "date_cluster95": [
+          0.6875,
+          0.9629629629629629
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 18,
+            "correct": 15
+          },
+          "es.1": {
+            "n": 6,
+            "correct": 6
+          },
+          "de.1": {
+            "n": 5,
+            "correct": 3
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 15,
+          "total": 1066,
+          "coverage": 0.014071294559099437,
+          "correct": 11,
+          "accuracy": 0.7333333333333333,
+          "mean_probability": 0.8306254975842862,
+          "absolute_calibration_gap": 0.09729216425095288,
+          "log_loss": 0.7552100915628627,
+          "brier": 0.4331007611636736,
+          "ece": 0.09729216425095288,
+          "wilson95": [
+            0.4804956594401943,
+            0.8910254667430761
+          ],
+          "date_cluster95": [
+            0.5,
+            0.9333333333333333
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 10,
+              "correct": 7
+            },
+            "es.1": {
+              "n": 2,
+              "correct": 2
+            },
+            "de.1": {
+              "n": 3,
+              "correct": 2
+            }
+          }
+        },
+        {
+          "n": 14,
+          "total": 1066,
+          "coverage": 0.013133208255159476,
+          "correct": 13,
+          "accuracy": 0.9285714285714286,
+          "mean_probability": 0.8218526446461066,
+          "absolute_calibration_gap": 0.10671878392532197,
+          "log_loss": 0.395492029458441,
+          "brier": 0.1622409115329976,
+          "ece": 0.10671878392532197,
+          "wilson95": [
+            0.6853129557584889,
+            0.9872777847521093
+          ],
+          "date_cluster95": [
+            0.8125,
+            1.0
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 8,
+              "correct": 8
+            },
+            "es.1": {
+              "n": 4,
+              "correct": 4
+            },
+            "de.1": {
+              "n": 2,
+              "correct": 1
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "wilson_lower_bound_too_low",
+        "date_cluster_lower_bound_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "robust-p70",
+      "layer": "robust",
+      "threshold": 0.7,
+      "summary": {
+        "n": 162,
+        "total": 2132,
+        "coverage": 0.07598499061913697,
+        "correct": 130,
+        "accuracy": 0.8024691358024691,
+        "mean_probability": 0.758553969525295,
+        "absolute_calibration_gap": 0.04391516627717418,
+        "log_loss": 0.6140281002387967,
+        "brier": 0.3324133812912271,
+        "ece": 0.0439151662771742,
+        "wilson95": [
+          0.7344647106403248,
+          0.8564611090966836
+        ],
+        "date_cluster95": [
+          0.7372519413287316,
+          0.858916329917737
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 66,
+            "correct": 57
+          },
+          "es.1": {
+            "n": 53,
+            "correct": 42
+          },
+          "de.1": {
+            "n": 43,
+            "correct": 31
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 74,
+          "total": 1066,
+          "coverage": 0.06941838649155722,
+          "correct": 58,
+          "accuracy": 0.7837837837837838,
+          "mean_probability": 0.7619743311824089,
+          "absolute_calibration_gap": 0.0218094526013749,
+          "log_loss": 0.6487996476531496,
+          "brier": 0.35854055616324504,
+          "ece": 0.06125222189230166,
+          "wilson95": [
+            0.6772627498746149,
+            0.8622954834409498
+          ],
+          "date_cluster95": [
+            0.6883116883116883,
+            0.8750586029067041
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 34,
+              "correct": 28
+            },
+            "es.1": {
+              "n": 22,
+              "correct": 18
+            },
+            "de.1": {
+              "n": 18,
+              "correct": 12
+            }
+          }
+        },
+        {
+          "n": 88,
+          "total": 1066,
+          "coverage": 0.0825515947467167,
+          "correct": 72,
+          "accuracy": 0.8181818181818182,
+          "mean_probability": 0.7556777563136309,
+          "absolute_calibration_gap": 0.06250406186818735,
+          "log_loss": 0.584788389913091,
+          "brier": 0.3104428024215756,
+          "ece": 0.06250406186818729,
+          "wilson95": [
+            0.7248774097917624,
+            0.8848690023305791
+          ],
+          "date_cluster95": [
+            0.7333272004710039,
+            0.9061627906976744
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 32,
+              "correct": 29
+            },
+            "es.1": {
+              "n": 31,
+              "correct": 24
+            },
+            "de.1": {
+              "n": 25,
+              "correct": 19
+            }
+          }
+        }
+      ],
+      "qualification_failures": [],
+      "qualified": true
+    },
+    {
+      "id": "robust-p75",
+      "layer": "robust",
+      "threshold": 0.75,
+      "summary": {
+        "n": 80,
+        "total": 2132,
+        "coverage": 0.0375234521575985,
+        "correct": 69,
+        "accuracy": 0.8625,
+        "mean_probability": 0.7917205699059755,
+        "absolute_calibration_gap": 0.07077943009402454,
+        "log_loss": 0.5149303331535828,
+        "brier": 0.2586134074507122,
+        "ece": 0.07077943009402457,
+        "wilson95": [
+          0.7703289993301339,
+          0.9214528567566089
+        ],
+        "date_cluster95": [
+          0.7855769230769231,
+          0.9358974358974359
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 33,
+            "correct": 27
+          },
+          "es.1": {
+            "n": 28,
+            "correct": 26
+          },
+          "de.1": {
+            "n": 19,
+            "correct": 16
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 39,
+          "total": 1066,
+          "coverage": 0.036585365853658534,
+          "correct": 33,
+          "accuracy": 0.8461538461538461,
+          "mean_probability": 0.7937404873317394,
+          "absolute_calibration_gap": 0.05241335882210674,
+          "log_loss": 0.5536861755070381,
+          "brier": 0.2862630689524791,
+          "ece": 0.12725348516899332,
+          "wilson95": [
+            0.7027053635107331,
+            0.927525276230179
+          ],
+          "date_cluster95": [
+            0.7368421052631579,
+            0.95
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 19,
+              "correct": 15
+            },
+            "es.1": {
+              "n": 13,
+              "correct": 13
+            },
+            "de.1": {
+              "n": 7,
+              "correct": 5
+            }
+          }
+        },
+        {
+          "n": 41,
+          "total": 1066,
+          "coverage": 0.038461538461538464,
+          "correct": 36,
+          "accuracy": 0.8780487804878049,
+          "mean_probability": 0.7897991850375655,
+          "absolute_calibration_gap": 0.08824959545023936,
+          "log_loss": 0.478065019695418,
+          "brier": 0.2323125099246414,
+          "ece": 0.08824959545023953,
+          "wilson95": [
+            0.7445578847902312,
+            0.9467666353142228
+          ],
+          "date_cluster95": [
+            0.782053394858273,
+            0.9534883720930233
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 14,
+              "correct": 12
+            },
+            "es.1": {
+              "n": 15,
+              "correct": 13
+            },
+            "de.1": {
+              "n": 12,
+              "correct": 11
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    },
+    {
+      "id": "robust-p80",
+      "layer": "robust",
+      "threshold": 0.8,
+      "summary": {
+        "n": 29,
+        "total": 2132,
+        "coverage": 0.013602251407129456,
+        "correct": 24,
+        "accuracy": 0.8275862068965517,
+        "mean_probability": 0.8263903272003376,
+        "absolute_calibration_gap": 0.0011958796962141527,
+        "log_loss": 0.5815530960641764,
+        "brier": 0.30234083375576104,
+        "ece": 0.0011958796962141527,
+        "wilson95": [
+          0.6545156010980476,
+          0.9240214274710877
+        ],
+        "date_cluster95": [
+          0.6875,
+          0.9629629629629629
+        ],
+        "per_league": {
+          "en.1": {
+            "n": 18,
+            "correct": 15
+          },
+          "es.1": {
+            "n": 6,
+            "correct": 6
+          },
+          "de.1": {
+            "n": 5,
+            "correct": 3
+          }
+        }
+      },
+      "folds": [
+        {
+          "n": 15,
+          "total": 1066,
+          "coverage": 0.014071294559099437,
+          "correct": 11,
+          "accuracy": 0.7333333333333333,
+          "mean_probability": 0.8306254975842862,
+          "absolute_calibration_gap": 0.09729216425095288,
+          "log_loss": 0.7552100915628627,
+          "brier": 0.4331007611636736,
+          "ece": 0.09729216425095288,
+          "wilson95": [
+            0.4804956594401943,
+            0.8910254667430761
+          ],
+          "date_cluster95": [
+            0.5,
+            0.9333333333333333
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 10,
+              "correct": 7
+            },
+            "es.1": {
+              "n": 2,
+              "correct": 2
+            },
+            "de.1": {
+              "n": 3,
+              "correct": 2
+            }
+          }
+        },
+        {
+          "n": 14,
+          "total": 1066,
+          "coverage": 0.013133208255159476,
+          "correct": 13,
+          "accuracy": 0.9285714285714286,
+          "mean_probability": 0.8218526446461066,
+          "absolute_calibration_gap": 0.10671878392532197,
+          "log_loss": 0.395492029458441,
+          "brier": 0.1622409115329976,
+          "ece": 0.10671878392532197,
+          "wilson95": [
+            0.6853129557584889,
+            0.9872777847521093
+          ],
+          "date_cluster95": [
+            0.8125,
+            1.0
+          ],
+          "per_league": {
+            "en.1": {
+              "n": 8,
+              "correct": 8
+            },
+            "es.1": {
+              "n": 4,
+              "correct": 4
+            },
+            "de.1": {
+              "n": 2,
+              "correct": 1
+            }
+          }
+        }
+      ],
+      "qualification_failures": [
+        "too_few_validation_samples",
+        "coverage_too_low",
+        "wilson_lower_bound_too_low",
+        "date_cluster_lower_bound_too_low",
+        "league_support_too_small",
+        "fold_support_too_small"
+      ],
+      "qualified": false
+    }
+  ],
+  "validation_temperatures": [
+    {
+      "period": [
+        "2022-07-01",
+        "2023-07-01"
+      ],
+      "temperature": 1.0551638748311802,
+      "calibration_period_start": "2021-07-01"
+    },
+    {
+      "period": [
+        "2023-07-01",
+        "2024-07-01"
+      ],
+      "temperature": 1.041665400938284,
+      "calibration_period_start": "2022-07-01"
+    }
+  ],
+  "auto_promoted": false
+}

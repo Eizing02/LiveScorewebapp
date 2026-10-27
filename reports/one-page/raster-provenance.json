@@ -1,0 +1,194 @@
+{
+  "rasters_with_embedded_origin": 47,
+  "pixel_payloads_unchanged": true,
+  "assets": [
+    {
+      "path": "apps\\web\\public\\media\\leagues\\39.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\leagues\\78.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\leagues\\135.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\leagues\\140.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\33.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\34.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\35.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\40.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\51.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\52.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\55.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\63.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\64.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\157.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\160.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\167.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\168.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\487.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\488.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\489.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\490.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\494.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\495.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\496.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\497.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\499.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\502.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\503.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\505.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\512.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\517.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\523.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\529.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\530.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\531.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\536.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\538.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\539.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\541.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\543.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\544.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\546.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\548.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\727.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\746.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\867.png",
+      "image_payload_unchanged": true
+    },
+    {
+      "path": "apps\\web\\public\\media\\teams\\895.png",
+      "image_payload_unchanged": true
+    }
+  ]
+}

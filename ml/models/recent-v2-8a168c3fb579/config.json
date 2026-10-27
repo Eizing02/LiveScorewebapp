@@ -1,0 +1,107 @@
+{
+  "version": "recent-five-years-v2",
+  "window_start": "2021-10-25",
+  "asof_exclusive": "2026-10-25",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "closed_season_minimum_coverage": 0.95,
+  "current_season": "2026-27",
+  "leagues": {
+    "en.1": {
+      "id": "eng-premier",
+      "name": "Premier League",
+      "country": "England",
+      "expected": 380
+    },
+    "en.2": {
+      "id": "eng-championship",
+      "name": "Championship",
+      "country": "England",
+      "expected": 552
+    },
+    "es.1": {
+      "id": "esp-laliga",
+      "name": "La Liga",
+      "country": "Spain",
+      "expected": 380
+    },
+    "de.1": {
+      "id": "de-bundesliga",
+      "name": "Bundesliga",
+      "country": "Germany",
+      "expected": 306
+    },
+    "it.1": {
+      "id": "ita-serie-a",
+      "name": "Serie A",
+      "country": "Italy",
+      "expected": 380
+    },
+    "fr.1": {
+      "id": "fra-ligue-one",
+      "name": "Ligue 1",
+      "country": "France",
+      "expected": 306,
+      "expected_before_2023": 380
+    },
+    "nl.1": {
+      "id": "ned-eredivisie",
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "expected": 306
+    },
+    "pt.1": {
+      "id": "por-primeira",
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "expected": 306
+    },
+    "de.2": {
+      "id": "de-bundesliga-two",
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "expected": 306
+    },
+    "es.2": {
+      "id": "esp-segunda",
+      "name": "Segunda División",
+      "country": "Spain",
+      "expected": 462
+    },
+    "it.2": {
+      "id": "ita-serie-b",
+      "name": "Serie B",
+      "country": "Italy",
+      "expected": 380
+    },
+    "fr.2": {
+      "id": "fra-ligue-two",
+      "name": "Ligue 2",
+      "country": "France",
+      "expected": 306,
+      "expected_before_2024": 380
+    }
+  },
+  "validation": [
+    [
+      "2023-07-01",
+      "2024-07-01"
+    ],
+    [
+      "2024-07-01",
+      "2025-07-01"
+    ]
+  ],
+  "retrospective_test": [
+    "2025-07-01",
+    "2026-07-01"
+  ],
+  "test_status": "previously inspected dates; exploratory comparison, not a fresh confirmatory holdout",
+  "daily_selection": {
+    "probability_threshold": 0.7,
+    "min_venue_matches": 8,
+    "min_league_history": 40,
+    "one_selection_per_fixture": true,
+    "status": "research_only_unconfirmed_for_new_leagues_and_markets"
+  },
+  "automatic_promotion": false
+}

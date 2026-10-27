@@ -1,0 +1,38 @@
+name: Manually approved immutable model release
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Existing reviewed model version in ml/models
+        required: true
+        type: string
+      approve_publication:
+        description: Explicitly authorize uploading the reviewed model bundle
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: read
+jobs:
+  release:
+    if: inputs.approve_publication
+    environment: model-release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m scripts.package_model
+        env:
+          MODEL_VERSION: ${{ inputs.version }}
+      - run: python -m scripts.publish_model
+        env:
+          MODEL_VERSION: ${{ inputs.version }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+      # Configure required reviewers for model-release BEFORE enabling this workflow.
+      # A release uploads a version; it never promotes the model or deploys the application.

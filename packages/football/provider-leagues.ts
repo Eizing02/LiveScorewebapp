@@ -1,0 +1,1 @@
+export const PROVIDER_LEAGUES=[{provider_id:39,id:'eng-premier',name:'Premier League'},{provider_id:140,id:'esp-laliga',name:'La Liga'},{provider_id:78,id:'de-bundesliga',name:'Bundesliga'},{provider_id:135,id:'ita-serie-a',name:'Serie A'},{provider_id:40,id:'eng-championship',name:'Championship'}] as const;

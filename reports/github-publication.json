@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-27T17:53:35.538929+00:00",
+  "repository": "Eizing02/LiveScorewebapp",
+  "visibility": "public",
+  "empty_before_import": true,
+  "scope": "exact staged Git blobs before initial commit",
+  "files_scanned": 502,
+  "total_bytes": 48928699,
+  "archive_members_scanned": 24,
+  "known_secret_values_or_credential_patterns": [],
+  "oversized_files": [],
+  "frozen_model_entries_verified": 23,
+  "frozen_model_checksums_match": true,
+  "git_credentials_in_source": false,
+  "data_source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "tests": "latest implementation run: Python 78 / TypeScript-API 59 / browser 17 = 154 passed; publication preparation changes only ignore rules and documentation",
+  "production_deployed": false,
+  "remote_d1_written": false,
+  "live_api_calls_for_publication": 0,
+  "secrets_values_omitted": true
+}

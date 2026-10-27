@@ -1,0 +1,9 @@
+{
+  "name": "football-prediction-ai",
+  "main": "apps/api/index.ts",
+  "compatibility_date": "2026-07-30",
+  "workers_dev": false,
+  "assets": {"directory":"dist","binding":"ASSETS","not_found_handling":"single-page-application","run_worker_first":["/api/*","/internal/*"]},
+  "d1_databases": [{"binding":"DB","database_name":"football-ai","database_id":"00000000-0000-0000-0000-000000000000","migrations_dir":"db/migrations"}],
+  "vars": {"ZERO_COST_MODE":"true","LIVE_API_ENABLED":"false","INTEGRATION_APPROVED":"false","MODEL_AUTO_PROMOTE":"false","SCHEDULER_ENABLED":"false","PROVIDER_WINDOW_VERIFIED":"false","PROVIDER_RESET_UTC_HOUR":"0","MOCK_MODE":"true","PROVIDER_BROKER_ENABLED":"false","LIVE_RESEARCH_ENABLED":"false","ALLOWED_ORIGIN":"http://127.0.0.1:5173"}
+}

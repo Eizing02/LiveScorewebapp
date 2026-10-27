@@ -1,0 +1,11 @@
+{
+  "active": null,
+  "previous": null,
+  "candidates": [
+    "v1-75266654e0ee",
+    "v1-a848ffb6bad8",
+    "v1-c991e0a91b8f"
+  ],
+  "MODEL_AUTO_PROMOTE": false,
+  "latest_candidate": "v1-c991e0a91b8f"
+}

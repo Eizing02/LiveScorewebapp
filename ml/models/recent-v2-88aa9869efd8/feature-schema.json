@@ -1,0 +1,17 @@
+{
+  "version": "features-v1",
+  "features": [
+    "elo_difference",
+    "home_attack",
+    "home_defence",
+    "away_attack",
+    "away_defence",
+    "league_home_goals",
+    "league_away_goals",
+    "home_matches",
+    "away_matches",
+    "home_form",
+    "away_form"
+  ],
+  "new_post_match_features": false
+}

@@ -1,0 +1,9 @@
+{
+  "version": "recent-v2-88aa9869efd8",
+  "archive": "reports\\recent-v2\\recent-v2-88aa9869efd8.zip",
+  "sha256": "24679983fbddb7d9f2a8c8f1c002012df2ab3431ac8ea70c5b2fde6404dcf5e1",
+  "source_manifest_sha256": "dfafa0d4d1546dda784bf1b23307350632f4e1af09ffe846fac3ddb0d57e0925",
+  "status": "local_research_candidate",
+  "permanent_storage_plan": "Keep versioned source/checksummed ZIP; publish reviewed ZIP to an immutable GitHub Release only after explicit authorization. Actions artifacts are review copies only.",
+  "auto_promote": false
+}

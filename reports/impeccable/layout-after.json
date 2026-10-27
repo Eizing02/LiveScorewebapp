@@ -1,0 +1,32 @@
+[
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "firstFixtureY": 688.734375,
+    "firstFixtureBottom": 858.265625,
+    "font": "\"IBM Plex Sans Thai\", system-ui, sans-serif",
+    "fixtures": 3,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "firstFixtureY": 734.875,
+    "firstFixtureBottom": 882.96875,
+    "font": "\"IBM Plex Sans Thai\", system-ui, sans-serif",
+    "fixtures": 3,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "firstFixtureY": 674.875,
+    "firstFixtureBottom": 787.875,
+    "font": "\"IBM Plex Sans Thai\", system-ui, sans-serif",
+    "fixtures": 3,
+    "brokenImages": [],
+    "errors": []
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "review_date": "2026-10-25",
+  "scope": "reasonable survey of available sources; not a claim to have exhausted every dataset on the internet",
+  "window": [
+    "2021-10-25",
+    "2026-10-25"
+  ],
+  "sources": [
+    {
+      "name": "OpenFootball football.json",
+      "url": "https://github.com/openfootball/football.json",
+      "license": "CC0-1.0",
+      "decision": "training_results",
+      "pin": "e6744429ee395bc86f247348c6184bb08d4eb361",
+      "reason": "Audited pinned snapshot; restrict to recent five years and regular rounds."
+    },
+    {
+      "name": "OpenLigaDB",
+      "url": "https://www.openligadb.de/",
+      "license": "ODbL-1.0",
+      "decision": "training_results_and_corroboration",
+      "reason": "Public historical API, content checksums and frozen snapshot; keep attribution/share-alike for adapted database."
+    },
+    {
+      "name": "Fjelstul English Football Database",
+      "url": "https://github.com/jfjelstul/englishfootball",
+      "license": "CC-BY-SA-4.0",
+      "decision": "separate_crosscheck_only",
+      "pin": "ff3c37698065476e1852243685da6b756a580b9f",
+      "reason": "Downloaded matches/teams/seasons; score agreement only because match CSV has no match dates. Kept separate from training union."
+    },
+    {
+      "name": "Football-Data.co.uk",
+      "url": "https://www.football-data.co.uk/data.php",
+      "decision": "excluded_training_restriction",
+      "reason": "Source explicitly states private individuals only and not commercial or data-training products using automated bots/scrapers/AI. No CSV downloaded."
+    },
+    {
+      "name": "OpenFootball europe and england text repositories",
+      "url": "https://github.com/openfootball/europe",
+      "license": "CC0-1.0",
+      "decision": "reviewed_related_upstream_not_independent",
+      "reason": "Inspected pinned text and licenses. Same source family as football.json; not counted as additional independent evidence."
+    },
+    {
+      "name": "footballcsv/england",
+      "url": "https://github.com/footballcsv/england",
+      "license": "CC0-1.0",
+      "decision": "outside_requested_recent_coverage",
+      "pin": "52b7e5f5f37b28db72dba1fdc8dbec1adae4c8d0",
+      "reason": "Latest available season directory is 2020-21; outside this five-year match-date window."
+    },
+    {
+      "name": "engsoccerdata",
+      "url": "https://github.com/jalapic/engsoccerdata",
+      "decision": "held_provenance_and_noncommercial_scope",
+      "reason": "README limits to non-commercial use; do not merge source labels until upstream rights and scope are resolved."
+    },
+    {
+      "name": "Hudl / StatsBomb Open Data",
+      "url": "https://github.com/hudl/open-data",
+      "decision": "not_ingested_license_and_coverage_review_pending",
+      "reason": "Selected event-data competitions, not a complete recent archive for all requested leagues. Data agreement is separate; event features not treated as pre-match inputs."
+    },
+    {
+      "name": "FiveThirtyEight soccer SPI",
+      "url": "https://github.com/fivethirtyeight/data/tree/master/soccer-spi",
+      "decision": "not_ingested_archive_endpoint_unverified",
+      "reason": "Official repository currently provides links to external data files rather than an immutable CSV in that directory; not used as training evidence."
+    },
+    {
+      "name": "Understat / FBref",
+      "url": "https://understat.com/",
+      "decision": "not_ingested_no_verified_open_data_license",
+      "reason": "Did not scrape pages or adopt third-party scrapers as permission to train/re-publish."
+    },
+    {
+      "name": "Kaggle / Club Football Match Data mirrors",
+      "url": "https://github.com/xgabora/Club-Football-Match-Data-2000-2025",
+      "decision": "excluded_upstream_restriction",
+      "reason": "Reported Football-Data.co.uk derivation; a mirror license is not used to bypass the upstream restriction."
+    }
+  ],
+  "api_football_requests": 0
+}

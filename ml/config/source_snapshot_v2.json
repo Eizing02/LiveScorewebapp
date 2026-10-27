@@ -1,0 +1,8 @@
+{
+  "archive": "data/snapshots/openligadb-20261025.zip",
+  "sha256": "6b234d8ab96a8058324aace39fa09a4de3259c20f66096a7c3cdf25229afff57",
+  "source": "OpenLigaDB community",
+  "license": "ODbL-1.0",
+  "attribution": "https://www.openligadb.de/",
+  "notice": "See data/ATTRIBUTION.md; this is a historical research snapshot, not a current API feed."
+}

@@ -1,0 +1,1504 @@
+{
+  "generated_at": "2026-10-25T18:36:19.970Z",
+  "model": "precision-v3-9f46ca6392a2",
+  "snapshots": [
+    {
+      "fixture_id": "centre-de-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8732363263350574,
+        0.09067405038982151,
+        0.03608962327512118
+      ],
+      "poisson_probabilities": [
+        0.8711927238641526,
+        0.08407600587605832,
+        0.04473127025978905
+      ],
+      "home_rate": 3.8397340015456822,
+      "away_rate": 0.9301111253536725,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08002667080398741
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.0768202822291434
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07443369683980462
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0714513991541353
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.06252516771091908
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8895726052891141,
+        "under_1.5": 0.11042739471088592,
+        "over_2.5": 0.7482532792941734,
+        "under_2.5": 0.2517467207058266,
+        "over_3.5": 0.5708011401875701,
+        "under_3.5": 0.4291988598124299,
+        "btts_yes": 0.5867456151214945,
+        "btts_no": 0.4132543848785055
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": true,
+      "research_rejection_reasons": [],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-de-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-de-2",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.5921731532505817,
+        0.22279849789280595,
+        0.18502834885661237
+      ],
+      "poisson_probabilities": [
+        0.5726559963045991,
+        0.22491910939907556,
+        0.2024248942963251
+      ],
+      "home_rate": 1.953421854544632,
+      "away_rate": 1.0821080229322206,
+      "scorelines": [
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.10517121275026767
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09920163505638242
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.09167442894247542
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.09025617386853672
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.06459421397523277
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8018503342553096,
+        "under_1.5": 0.1981496657446904,
+        "over_2.5": 0.5803995175389705,
+        "under_2.5": 0.41960048246102954,
+        "over_3.5": 0.3383848850898781,
+        "under_3.5": 0.6616151149101219,
+        "btts_yes": 0.5738940527361721,
+        "btts_no": 0.4261059472638279
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1489,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-24",
+        "2026-10-17"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "league_not_supported_by_validation_sample",
+        "precision_probability_below_threshold"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-de-2:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-en-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8655959779168538,
+        0.0957047470920705,
+        0.038699274991075706
+      ],
+      "poisson_probabilities": [
+        0.8593000173795315,
+        0.10159536158690351,
+        0.03910462103356495
+      ],
+      "home_rate": 3.130027220149866,
+      "away_rate": 0.6010102628396152,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.12249661903723388
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.11740787899413417
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.09585443799071759
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07362172520453215
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.07185030026325703
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8394495826145889,
+        "under_1.5": 0.1605504173854111,
+        "over_2.5": 0.6345145157471632,
+        "under_2.5": 0.3654854842528368,
+        "over_3.5": 0.40441776783996997,
+        "under_3.5": 0.59558223216003,
+        "btts_yes": 0.5080932067099432,
+        "btts_no": 0.4919067932900568
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1860,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "insufficient_recent_history"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-en-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-en-2",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.6798181356340727,
+        0.18774904313671895,
+        0.13243282122920833
+      ],
+      "poisson_probabilities": [
+        0.6530367747211191,
+        0.19718993579827926,
+        0.1497732894806015
+      ],
+      "home_rate": 2.2479789533446493,
+      "away_rate": 0.9928137877742105,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.09887718223571265
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09816662981987875
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.09136702803296855
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.08394049587638151
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.07409127487730184
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8099401684080032,
+        "under_1.5": 0.1900598315919968,
+        "over_2.5": 0.5815787040907858,
+        "under_2.5": 0.4184212959092142,
+        "over_3.5": 0.3381248330072023,
+        "under_3.5": 0.6618751669927977,
+        "btts_yes": 0.5702115182284254,
+        "btts_no": 0.4297884817715746
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 2687,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "league_not_supported_by_validation_sample",
+        "precision_probability_below_threshold"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-en-2:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-es-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8425591182818839,
+        0.10508468141248865,
+        0.0523562003056274
+      ],
+      "poisson_probabilities": [
+        0.8153489866946472,
+        0.11730381189193254,
+        0.06734720141342031
+      ],
+      "home_rate": 2.948685486679388,
+      "away_rate": 0.7586742765793217,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.10669425152924115
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.10486926366546452
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.08094618409411922
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07956161274680244
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07730661894227732
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8278478432027283,
+        "under_1.5": 0.1721521567972717,
+        "over_2.5": 0.6178944944869034,
+        "under_2.5": 0.38210550551309663,
+        "over_3.5": 0.39585826673874447,
+        "under_3.5": 0.6041417332612555,
+        "btts_yes": 0.5391377145937323,
+        "btts_no": 0.4608622854062677
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1864,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-18"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": true,
+      "research_rejection_reasons": [],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-es-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-es-2",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2025-05-31",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8324875725181754,
+        0.11292029923559739,
+        0.05459212824622719
+      ],
+      "poisson_probabilities": [
+        0.8101230450786955,
+        0.13330693265225274,
+        0.05657002226905164
+      ],
+      "home_rate": 2.6225873486102436,
+      "away_rate": 0.5689006466197778,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.14137880374383152
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.12359275402007436
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.10590995380684762
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.08103319826823621
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.08043049286819641
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.7630154996675389,
+        "under_1.5": 0.2369845003324611,
+        "over_2.5": 0.549635626919309,
+        "under_2.5": 0.450364373080691,
+        "over_3.5": 0.33995979435997575,
+        "under_3.5": 0.6600402056400243,
+        "btts_yes": 0.48815418259320426,
+        "btts_no": 0.5118458174067957
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 453,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2025-05-25",
+        "2025-05-25"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "insufficient_recent_history",
+        "old_known_league_history",
+        "league_not_supported_by_validation_sample"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-es-2:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-fr-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7708045107175013,
+        0.15277214832971978,
+        0.07642334095277899
+      ],
+      "poisson_probabilities": [
+        0.7718978459623665,
+        0.15278633368801411,
+        0.0753158203496194
+      ],
+      "home_rate": 2.539545910958229,
+      "away_rate": 0.6858014018157166,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.12815383334524247
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.10848418114851095
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.09733720722101039
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.087888078556225
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07439860350647895
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.7892233300005991,
+        "under_1.5": 0.21077666999940092,
+        "over_2.5": 0.579986988324722,
+        "under_2.5": 0.42001301167527805,
+        "over_3.5": 0.3632387291445088,
+        "under_3.5": 0.6367612708554913,
+        "btts_yes": 0.5131213334139088,
+        "btts_no": 0.48687866658609125
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1612,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-20",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "league_not_supported_by_validation_sample"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-fr-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-fr-2",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2025-05-10",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8784871629896888,
+        0.07659920739128591,
+        0.04491362961902524
+      ],
+      "poisson_probabilities": [
+        0.8457812119235131,
+        0.10474833205226217,
+        0.04947045602422471
+      ],
+      "home_rate": 2.920558115504062,
+      "away_rate": 0.5842032984419397,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.12817495305359425
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.12478079978167564
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.09110739436536507
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.08931262779657526
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.07488023035155054
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.7879965215559891,
+        "under_1.5": 0.2120034784440109,
+        "over_2.5": 0.5813723339536245,
+        "under_2.5": 0.41862766604637547,
+        "over_3.5": 0.3684728597897624,
+        "under_3.5": 0.6315271402102376,
+        "btts_yes": 0.48728887088546674,
+        "btts_no": 0.5127111291145332
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 306,
+      "venue_matches": [
+        17,
+        17
+      ],
+      "last_result_dates": [
+        "2025-05-10",
+        "2025-05-10"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "insufficient_recent_history",
+        "old_known_league_history",
+        "league_not_supported_by_validation_sample"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-fr-2:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-it-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.859435479503971,
+        0.10253175512197658,
+        0.038032765374052355
+      ],
+      "poisson_probabilities": [
+        0.8381437499576636,
+        0.10701107549625631,
+        0.054845174546080025
+      ],
+      "home_rate": 3.0917290661152927,
+      "away_rate": 0.7156450743880969,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.10937837238601773
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.10613320576966002
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.08454207327755833
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07827609344264062
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.07595370593807554
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8060182704753446,
+        "under_1.5": 0.19398172952465542,
+        "over_2.5": 0.6054037865180297,
+        "under_2.5": 0.39459621348197027,
+        "over_3.5": 0.3830079503853715,
+        "under_3.5": 0.6169920496146285,
+        "btts_yes": 0.518303508473473,
+        "btts_no": 0.48169649152652705
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1850,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-18"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "insufficient_recent_history"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-it-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-it-2",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2025-05-13",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8092719596506689,
+        0.12834706632231146,
+        0.06238097402701963
+      ],
+      "poisson_probabilities": [
+        0.8036082298288316,
+        0.1393600377412683,
+        0.057031732429899916
+      ],
+      "home_rate": 2.7900746359637703,
+      "away_rate": 0.677738560136585,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.12138066459956566
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.11288703786522455
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.08226435685413137
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.07964677531018073
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07874081526921119
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.7916449381618726,
+        "under_1.5": 0.20835506183812735,
+        "over_2.5": 0.567864407021771,
+        "under_2.5": 0.432135592978229,
+        "over_3.5": 0.3523806441221531,
+        "under_3.5": 0.6476193558778469,
+        "btts_yes": 0.5198836316506109,
+        "btts_no": 0.4801163683493891
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 379,
+      "venue_matches": [
+        19,
+        19
+      ],
+      "last_result_dates": [
+        "2025-05-13",
+        "2025-05-13"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "insufficient_recent_history",
+        "old_known_league_history",
+        "league_not_supported_by_validation_sample"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-it-2:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-nl-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.9129115126156423,
+        0.06565816656589132,
+        0.02143032081846635
+      ],
+      "poisson_probabilities": [
+        0.9050972115739967,
+        0.06596053047554064,
+        0.02894225795046272
+      ],
+      "home_rate": 4.103506857139731,
+      "away_rate": 0.8096006238357185,
+      "scorelines": [
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.08683082837235635
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08464060755378397
+        },
+        {
+          "home": 5,
+          "away": 0,
+          "probability": 0.07126217992741748
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.07029829281843192
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.06852508867737774
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9117984044135794,
+        "under_1.5": 0.0882015955864206,
+        "over_2.5": 0.7463464490256522,
+        "under_2.5": 0.25365355097434783,
+        "over_3.5": 0.5656445311856149,
+        "under_3.5": 0.43435546881438514,
+        "btts_yes": 0.5697497444549798,
+        "btts_no": 0.43025025554502017
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1504,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-20",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": false,
+      "research_rejection_reasons": [
+        "insufficient_recent_history"
+      ],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-nl-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-pt-1",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7920402443285169,
+        0.13927609157805082,
+        0.06868366409343223
+      ],
+      "poisson_probabilities": [
+        0.7419435850404418,
+        0.17303870221319573,
+        0.0850177127463627
+      ],
+      "home_rate": 2.104713353367372,
+      "away_rate": 0.5411970320868315,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.15712729615300902
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.15173410734309403
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.11023597279724927
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.08503682633783709
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.07838190546539885
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.7469541509040538,
+        "under_1.5": 0.2530458490959462,
+        "over_2.5": 0.5187014523047572,
+        "under_2.5": 0.48129854769524283,
+        "over_3.5": 0.29259248402633875,
+        "under_3.5": 0.7074075159736612,
+        "btts_yes": 0.4633643198532653,
+        "btts_no": 0.5366356801467347
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1513,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-20",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": true,
+      "research_rejection_reasons": [],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-pt-1:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-boundary-before",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8732711294669967,
+        0.09062048807177032,
+        0.036108382461232824
+      ],
+      "poisson_probabilities": [
+        0.8711927238641526,
+        0.08407600587605832,
+        0.04473127025978905
+      ],
+      "home_rate": 3.8397340015456822,
+      "away_rate": 0.9301111253536725,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08002667080398741
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.0768202822291434
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07443369683980462
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0714513991541353
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.06252516771091908
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8895726052891141,
+        "under_1.5": 0.11042739471088592,
+        "over_2.5": 0.7482532792941734,
+        "under_2.5": 0.2517467207058266,
+        "over_3.5": 0.5708011401875701,
+        "under_3.5": 0.4291988598124299,
+        "btts_yes": 0.5867456151214945,
+        "btts_no": 0.4132543848785055
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": true,
+      "research_rejection_reasons": [],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-boundary-before:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-boundary-at",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8732711294669967,
+        0.09062048807177032,
+        0.036108382461232824
+      ],
+      "poisson_probabilities": [
+        0.8711927238641526,
+        0.08407600587605832,
+        0.04473127025978905
+      ],
+      "home_rate": 3.8397340015456822,
+      "away_rate": 0.9301111253536725,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08002667080398741
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.0768202822291434
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07443369683980462
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0714513991541353
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.06252516771091908
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8895726052891141,
+        "under_1.5": 0.11042739471088592,
+        "over_2.5": 0.7482532792941734,
+        "under_2.5": 0.2517467207058266,
+        "over_3.5": 0.5708011401875701,
+        "under_3.5": 0.4291988598124299,
+        "btts_yes": 0.5867456151214945,
+        "btts_no": 0.4132543848785055
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": true,
+      "research_rejection_reasons": [],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-boundary-at:precision-v3-9f46ca6392a2:72adb690"
+    },
+    {
+      "fixture_id": "centre-postponed",
+      "model_version": "precision-v3-9f46ca6392a2:enhanced-logistic-dc-equal:raw",
+      "model_name": "enhanced-logistic-dc-equal",
+      "goal_model": "Dixon-Coles / ปรับตามคู่แข่ง",
+      "generated_at": "2026-10-25T18:36:19.970Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8732363263350574,
+        0.09067405038982151,
+        0.03608962327512118
+      ],
+      "poisson_probabilities": [
+        0.8711927238641526,
+        0.08407600587605832,
+        0.04473127025978905
+      ],
+      "home_rate": 3.8397340015456822,
+      "away_rate": 0.9301111253536725,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08002667080398741
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.0768202822291434
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07443369683980462
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0714513991541353
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.06252516771091908
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8895726052891141,
+        "under_1.5": 0.11042739471088592,
+        "over_2.5": 0.7482532792941734,
+        "under_2.5": 0.2517467207058266,
+        "over_3.5": 0.5708011401875701,
+        "under_3.5": 0.4291988598124299,
+        "btts_yes": 0.5867456151214945,
+        "btts_no": 0.4132543848785055
+      },
+      "market_models": {
+        "over_1.5": "dc365-r4-w50:raw",
+        "over_2.5": "dc365-r4-w50:raw",
+        "over_3.5": "dc365-r4-w50:raw",
+        "btts_yes": "dc365-r4-w75:previous-oof-platt"
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "feature_schema": "features-v3",
+      "calibration_method": "raw",
+      "selection_policy": {
+        "id": "standard_history-p75",
+        "threshold": 0.75,
+        "tier": "target80",
+        "supported_leagues": [
+          "de.1",
+          "en.1",
+          "es.1",
+          "it.1",
+          "nl.1",
+          "pt.1"
+        ]
+      },
+      "research_eligible": true,
+      "research_rejection_reasons": [],
+      "live_approved": false,
+      "record_created_at": "2026-10-25T18:36:19.970Z",
+      "timestamp_basis": "actual_generation_clock",
+      "snapshot_id": "centre-postponed:precision-v3-9f46ca6392a2:72adb690"
+    }
+  ],
+  "mode": "mock_research",
+  "production_model_promoted": false
+}

@@ -1,0 +1,136 @@
+{
+  "checked_at": "2026-10-27T17:39:42.274382+00:00",
+  "timezone": "Asia/Bangkok",
+  "scope": "User-approved editorial league order before pagination; display/read queries only",
+  "ordering": {
+    "policy": "packages/football/competition-order.ts",
+    "configured_competitions": 34,
+    "groups": 7,
+    "major_order": [
+      39,
+      140,
+      135,
+      78,
+      61
+    ],
+    "fallback": [
+      "country",
+      "competition_name",
+      "provider_competition_id"
+    ],
+    "within_competition": [
+      "kickoff_utc",
+      "fixture_id"
+    ],
+    "applied_before_limit_offset": true,
+    "single_authority": "API supplies both sorted metadata and fixtures; frontend preserves their order"
+  },
+  "tests": {
+    "python": {
+      "passed": 78,
+      "seconds": 83.11
+    },
+    "typescript_api": {
+      "passed": 59,
+      "seconds": 41.54
+    },
+    "browser": {
+      "passed": 17,
+      "seconds": 39.2
+    },
+    "total_passed": 154,
+    "focused_programme_api": {
+      "passed": 7
+    },
+    "eslint": "passed",
+    "ruff": "passed",
+    "typecheck": "passed",
+    "vite_build": "passed",
+    "worker_bundle": "dry-run passed",
+    "local_d1_migrations": "no pending migrations"
+  },
+  "cached_round_reads": {
+    "2026-10-25": {
+      "fixtures": 1203,
+      "competitions": 327,
+      "first_competition_ids": [
+        39,
+        140,
+        135,
+        78,
+        61,
+        88,
+        94,
+        203
+      ],
+      "first_fixture_competition_id": 39,
+      "source_captured_at": "2026-10-25T20:26:49.218Z",
+      "coverage": "two_source_dates_recorded"
+    },
+    "2026-10-27": {
+      "fixtures": 332,
+      "competitions": 112,
+      "first_competition_ids": [
+        135,
+        48,
+        143,
+        81,
+        71,
+        128,
+        307,
+        136
+      ],
+      "first_fixture_competition_id": 135,
+      "source_captured_at": "2026-10-27T08:09:36.318Z",
+      "coverage": "two_source_dates_recorded"
+    },
+    "2026-10-28": {
+      "fixtures": 266,
+      "competitions": 75,
+      "first_competition_ids": [
+        311,
+        310,
+        397,
+        709,
+        420,
+        116,
+        314,
+        617
+      ],
+      "first_fixture_competition_id": 311,
+      "source_captured_at": "2026-10-27T08:09:50.051Z",
+      "coverage": "partial_source_dates"
+    }
+  },
+  "model_integrity": {
+    "version": "precision-v3-9f46ca6392a2",
+    "checksum_entries_verified": 23,
+    "registry": {
+      "active_version": null,
+      "candidate": "precision-v3-9f46ca6392a2",
+      "auto_promote": false
+    }
+  },
+  "known_secret_scan": {
+    "files_scanned": 14,
+    "matching_paths": [],
+    "secret_values_omitted": true
+  },
+  "evidence": [
+    "reports/league-order/desktop.png",
+    "reports/league-order/mobile.png"
+  ],
+  "limits": {
+    "fixtures_are_recorded_cache": true,
+    "unlisted_competitions_use_country_name_id_fallback": true,
+    "future_id_configuration_does_not_assert_provider_account_access": true
+  },
+  "boundaries": {
+    "api_football_v3_requests": 0,
+    "production_deployed": false,
+    "remote_d1_written": false,
+    "model_promoted": false,
+    "new_training_labels": 0,
+    "old_project_modified": false
+  }
+}

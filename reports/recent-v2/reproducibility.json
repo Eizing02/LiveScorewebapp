@@ -1,0 +1,16 @@
+{
+  "dataset_identical": true,
+  "candidate_version_identical": true,
+  "model_file_checksums_identical": true,
+  "version": "recent-v2-88aa9869efd8",
+  "files_verified": [
+    "baseline-state.json",
+    "config.json",
+    "feature-schema.json",
+    "logistic.json",
+    "metrics.json",
+    "xgboost.json"
+  ],
+  "scope": "Full importer and repeated model training on this same recorded runtime; no claim of byte equality across operating systems/BLAS builds",
+  "subprocess_completed": true
+}

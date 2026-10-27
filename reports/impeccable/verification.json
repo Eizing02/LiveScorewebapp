@@ -1,0 +1,73 @@
+{
+  "verified_at": "2026-10-27T11:48:57.406155+00:00",
+  "timezone": "Asia/Bangkok",
+  "skill": {
+    "package": "impeccable",
+    "version": "4.8.0",
+    "scope": "project",
+    "provider": "codex",
+    "workflows_studied": 24,
+    "telemetry": false,
+    "host_hook_trust_observed": false
+  },
+  "tests": {
+    "python": {
+      "passed": 75
+    },
+    "typescript_api": {
+      "passed": 50,
+      "files": 10
+    },
+    "browser": {
+      "passed": 13,
+      "workers": 1
+    },
+    "total_passed": 138,
+    "lint": "passed",
+    "ruff": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "worker_dry_run": "passed",
+    "production_deployed": false
+  },
+  "detector": {
+    "primary": 0,
+    "advisory": 0,
+    "target": "apps/web/src"
+  },
+  "integrity": {
+    "frozen_checksums_verified": 23,
+    "mismatches": [],
+    "active_model": null,
+    "auto_promote": false,
+    "source_text_files_scanned": 91,
+    "secret_value_hits": []
+  },
+  "assets": {
+    "branding_pngs": 47,
+    "cached_asset_bytes": 2303560,
+    "font_format": "woff2",
+    "old_ttf_files_remaining": 0
+  },
+  "bundle": {
+    "previous_existing_entry_bytes": 310245,
+    "current_entry_bytes": 259094,
+    "current_entry_gzip_bytes": 77738,
+    "research_is_lazy_loaded": true
+  },
+  "source_refresh": {
+    "generated_at": "2026-10-27T08:09:50.206Z",
+    "latest_fixtures": 22,
+    "reviewed_mapping_fixtures": 18,
+    "quarantined_fixtures": 4,
+    "future_fixtures": 3,
+    "new_predictions_before_kickoff": 0
+  },
+  "limitations": [
+    "Chromium local verification, not a production or full WCAG certification",
+    "Some concurrent verification attempts were interrupted; successful suite results above came from separate runs",
+    "Local Wrangler emitted Network connection lost messages even in a passing browser run; cause not established",
+    "No prospective accuracy claim; new unreviewed identities remain quarantined",
+    "Codex must discover the project skill after restart; host hook trust remains a separate app setting"
+  ]
+}

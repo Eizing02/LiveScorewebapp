@@ -1,0 +1,25 @@
+{
+  "version": "recent-v2-8a168c3fb579",
+  "selected": "logistic",
+  "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+  "training_last_date": "2026-10-24",
+  "training_cutoff_exclusive": "2026-10-25",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "source_manifest_sha256": "dfafa0d4d1546dda784bf1b23307350632f4e1af09ffe846fac3ddb0d57e0925",
+  "checksums": {
+    "baseline-state.json": "c46ee7e2812aaebd5f753aa20e68ad450114630f5c27faaef4df937e08979b7f",
+    "config.json": "3072dd1a58e80eb6da0c10b2d984d2016bd852dd2a1cb46463a1d99a55f5042b",
+    "feature-schema.json": "73ddc66b3678a0e08a14e6ccb2d30a30770dfe0b229dbe18d38165e848aab036",
+    "logistic.json": "da50e0f99285621dfc47bff00cb4f2cd1ccee64faa74eaa015ad2b555b320104",
+    "metrics.json": "9002e9e82e2c6e867a0b07b2c29e496177c3bf4974e5904ef3de2c401c7d87e8",
+    "xgboost.json": "a9950c80a56564926e5ced36e274d03966541b62167a6fbecf3285693e80f367"
+  },
+  "feature_schema": "features-v1",
+  "python": "3.12.14",
+  "status": "research_candidate_not_promoted",
+  "license_notice": {
+    "openfootball": "CC0-1.0",
+    "openligadb": "ODbL-1.0; attribution and share-alike for adapted database"
+  },
+  "validation_test_interpretation": "previously inspected dates; exploratory comparison, not a fresh confirmatory holdout"
+}

@@ -1,0 +1,51 @@
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+.worker-build/
+dist/
+data/source/
+data/processed/
+playwright-report/
+test-results/
+*.log
+db/seed-provider-preview.sql
+db/seed-live-research.sql
+db/seed-provider-quota.sql
+.impeccable/config.local.json
+.impeccable/cache/
+.impeccable/.hook-dedup*
+
+# Installed local agent tooling (reinstall using the documented command).
+.agents/skills/
+.codex/
+
+# Private provider observations, research exports and real-data UI captures.
+reports/api-football/
+reports/live-research/
+reports/precision-v3/*prospective*
+reports/one-page/*.png
+reports/league-order/*.png
+reports/impeccable/*.png
+.impeccable/review/
+
+# Generated archives are rebuilt from the committed sources/model artifacts.
+reports/**/*.zip
+
+# Local database files, credentials and key material never belong in Git.
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
+.dev.vars.*

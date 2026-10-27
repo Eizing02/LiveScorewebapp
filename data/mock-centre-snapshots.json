@@ -1,0 +1,1072 @@
+{
+  "fixtures": 15,
+  "snapshots": [
+    {
+      "fixture_id": "centre-de-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8820962108943504,
+        0.08795920240500428,
+        0.029944586700645252
+      ],
+      "poisson_probabilities": [
+        0.8739569633357809,
+        0.07897427328425896,
+        0.04706876337996037
+      ],
+      "home_rate": 3.85488625545744,
+      "away_rate": 0.9360102721873189,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.07929093304352729
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07641438199297237
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07421712782005846
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.07152464648826784
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0617068269637841
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9519065558466558,
+        "under_1.5": 0.048093444153344156,
+        "over_2.5": 0.856595416438109,
+        "under_2.5": 0.143404583561891,
+        "over_3.5": 0.7043868141586849,
+        "under_3.5": 0.29561318584131513,
+        "btts_yes": 0.5949395493154425,
+        "btts_no": 0.40506045068455754
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-de-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-de-2",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.6006904815960117,
+        0.24848012200170036,
+        0.15082939640228796
+      ],
+      "poisson_probabilities": [
+        0.465872543199928,
+        0.26746389302782075,
+        0.266663563772252
+      ],
+      "home_rate": 1.4213530093958633,
+      "away_rate": 1.0055567475097693,
+      "scorelines": [
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.12621617725134848
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.1255187015192519
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.08969887168532292
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0892031920699249
+        },
+        {
+          "home": 0,
+          "away": 1,
+          "probability": 0.08880002111860714
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.6973719687741198,
+        "under_1.5": 0.3026280312258802,
+        "over_2.5": 0.4373058692454337,
+        "under_2.5": 0.5626941307545663,
+        "over_3.5": 0.2269202177832471,
+        "under_3.5": 0.7730797822167529,
+        "btts_yes": 0.4810812147960864,
+        "btts_no": 0.5189187852039137
+      },
+      "history_matches": 1489,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-24",
+        "2026-10-17"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-de-2:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-en-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7821223983090371,
+        0.15536982623600581,
+        0.06250777545495724
+      ],
+      "poisson_probabilities": [
+        0.7259064996997793,
+        0.1663927519887627,
+        0.10770074831145786
+      ],
+      "home_rate": 2.3976708057412526,
+      "away_rate": 0.808799151372639,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.11641177364382564
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.09710405061868894
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09415374373290993
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.09303903703678659
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.0785376737352414
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8296408036234555,
+        "under_1.5": 0.1703591963765445,
+        "over_2.5": 0.6214449164671384,
+        "under_2.5": 0.3785550835328616,
+        "over_3.5": 0.3989202973466701,
+        "under_3.5": 0.6010797026533299,
+        "btts_yes": 0.5041772319935557,
+        "btts_no": 0.4958227680064443
+      },
+      "history_matches": 1860,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-en-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-en-2",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.739314308678747,
+        0.17013813906434752,
+        0.09054755225690547
+      ],
+      "poisson_probabilities": [
+        0.6772827747737,
+        0.18686792102258576,
+        0.135849304203714
+      ],
+      "home_rate": 2.2181285908327784,
+      "away_rate": 0.8818400034177537,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.11082664577391124
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.09992806208976573
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09773136968804406
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.08812056261476853
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08194258387240308
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8152938842474694,
+        "under_1.5": 0.1847061157525306,
+        "over_2.5": 0.5988300545144412,
+        "under_2.5": 0.40116994548555884,
+        "over_3.5": 0.37515302985991383,
+        "under_3.5": 0.6248469701400862,
+        "btts_yes": 0.5222176545871546,
+        "btts_no": 0.47778234541284537
+      },
+      "history_matches": 2687,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-en-2:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-es-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8444915402570836,
+        0.11388879793184505,
+        0.04161966181107122
+      ],
+      "poisson_probabilities": [
+        0.7505049526256142,
+        0.15073149707940542,
+        0.09876355029498074
+      ],
+      "home_rate": 2.6117984693877547,
+      "away_rate": 0.8511014898366155,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.10688850103275328
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.09305707446416549
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09097296247537894
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.08185049672520067
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07920101471628813
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8601382982726756,
+        "under_1.5": 0.13986170172732437,
+        "over_2.5": 0.6722362340216081,
+        "under_2.5": 0.32776376597839185,
+        "over_3.5": 0.4553408838105426,
+        "under_3.5": 0.5446591161894574,
+        "btts_yes": 0.5309919380945521,
+        "btts_no": 0.46900806190544786
+      },
+      "history_matches": 1864,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-18"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-es-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-es-2",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2025-05-31",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7463046898782525,
+        0.1788128919902114,
+        0.0748824181315361
+      ],
+      "poisson_probabilities": [
+        0.7387456843014362,
+        0.1520995250521041,
+        0.10915479064645958
+      ],
+      "home_rate": 2.666448672965121,
+      "away_rate": 0.9457238936414045,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.09595991343533153
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09075158296755387
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08529072794582922
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.08066147932443936
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.071975818929695
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8755029860906982,
+        "under_1.5": 0.12449701390930179,
+        "over_2.5": 0.6994025745495585,
+        "under_2.5": 0.30059742545044155,
+        "over_3.5": 0.48736754937055027,
+        "under_3.5": 0.5126324506294497,
+        "btts_yes": 0.5690962288497622,
+        "btts_no": 0.4309037711502378
+      },
+      "history_matches": 453,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2025-05-25",
+        "2025-05-25"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-es-2:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-fr-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7725081285620284,
+        0.1579324238306975,
+        0.06955944760727398
+      ],
+      "poisson_probabilities": [
+        0.6760664798720499,
+        0.19331026764438627,
+        0.13062325248356352
+      ],
+      "home_rate": 2.1112631064677365,
+      "away_rate": 0.8020326836323161,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.12101144191416062
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.11463416524775981
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09705513150863038
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.09194034718961118
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08516233092461027
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.7875217944691786,
+        "under_1.5": 0.21247820553082142,
+        "over_2.5": 0.557106723985489,
+        "under_2.5": 0.442893276014511,
+        "over_3.5": 0.33335097238024236,
+        "under_3.5": 0.6666490276197576,
+        "btts_yes": 0.48479501006326153,
+        "btts_no": 0.5152049899367385
+      },
+      "history_matches": 1612,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-20",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-fr-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-fr-2",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2025-05-10",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7927238252008221,
+        0.14565375454219157,
+        0.061622420256986284
+      ],
+      "poisson_probabilities": [
+        0.820070134708276,
+        0.11590645440651809,
+        0.06402341088520619
+      ],
+      "home_rate": 2.9866522115565597,
+      "away_rate": 0.752902564102564,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.10599156543899553
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.10551998110823928
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.07980132139226444
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07944626434044746
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07878787123508231
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.887365990821793,
+        "under_1.5": 0.11263400917820698,
+        "over_2.5": 0.7212001312534531,
+        "under_2.5": 0.27879986874654694,
+        "over_3.5": 0.5140713533533566,
+        "under_3.5": 0.48592864664664337,
+        "btts_yes": 0.502311144416751,
+        "btts_no": 0.49768885558324905
+      },
+      "history_matches": 306,
+      "venue_matches": [
+        17,
+        17
+      ],
+      "last_result_dates": [
+        "2025-05-10",
+        "2025-05-10"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-fr-2:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-it-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8765549573844896,
+        0.09674503550889493,
+        0.026700007106615246
+      ],
+      "poisson_probabilities": [
+        0.8489320036892867,
+        0.09421030733338516,
+        0.056857688977328624
+      ],
+      "home_rate": 3.505760608626495,
+      "away_rate": 0.9010803425402019,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.08756464929562159
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07890278418171134
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07674517455219598
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0749320838509234
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.06915356817380033
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9340709395419018,
+        "under_1.5": 0.06592906045809821,
+        "over_2.5": 0.8156692090978048,
+        "under_2.5": 0.18433079090219517,
+        "over_3.5": 0.641743344294456,
+        "under_3.5": 0.358256655705544,
+        "btts_yes": 0.5760390472311568,
+        "btts_no": 0.42396095276884316
+      },
+      "history_matches": 1850,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-19",
+        "2026-09-18"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-it-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-it-2",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2025-05-13",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.7449064130605513,
+        0.17098862064367618,
+        0.08410496629577255
+      ],
+      "poisson_probabilities": [
+        0.7310155846699151,
+        0.15895244957555663,
+        0.11003196575452837
+      ],
+      "home_rate": 2.540586100488301,
+      "away_rate": 0.8903468539927535,
+      "scorelines": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.1044245445857862
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.09297406475158075
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0884331821748231
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.08220508217825469
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.0787362055379218
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.8566294574391933,
+        "under_1.5": 0.14337054256080672,
+        "over_2.5": 0.6661889994718138,
+        "under_2.5": 0.33381100052818624,
+        "over_3.5": 0.4483928517695649,
+        "under_3.5": 0.5516071482304351,
+        "btts_yes": 0.5430232097588934,
+        "btts_no": 0.4569767902411066
+      },
+      "history_matches": 379,
+      "venue_matches": [
+        19,
+        19
+      ],
+      "last_result_dates": [
+        "2025-05-13",
+        "2025-05-13"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-it-2:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-nl-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8593737148576481,
+        0.10534718025969778,
+        0.035279104882654067
+      ],
+      "poisson_probabilities": [
+        0.7917054478250861,
+        0.12097964929481983,
+        0.08731490288009372
+      ],
+      "home_rate": 3.194939582819142,
+      "away_rate": 1.0424909749978917,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.08184954973634376
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.078513437237679
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.07685549064197475
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.07372293140679724
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.06537609157214218
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9243471019866254,
+        "under_1.5": 0.0756528980133746,
+        "over_2.5": 0.794664270619764,
+        "under_2.5": 0.20533572938023603,
+        "over_3.5": 0.6114902731337066,
+        "under_3.5": 0.38850972686629337,
+        "btts_yes": 0.6209003275263525,
+        "btts_no": 0.3790996724736475
+      },
+      "history_matches": 1504,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-20",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-nl-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-pt-1",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-09-20",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8351546338212876,
+        0.12708503899302298,
+        0.03776032718568948
+      ],
+      "poisson_probabilities": [
+        0.6755228328381219,
+        0.2255705245487282,
+        0.09890664261315017
+      ],
+      "home_rate": 1.7015347944136068,
+      "away_rate": 0.4781923574988251,
+      "scorelines": [
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.19239658547796523
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.16368474225856475
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "probability": 0.11307237801403297
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0928384280891904
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.09200257678443241
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.6404606894974731,
+        "under_1.5": 0.35953931050252685,
+        "over_2.5": 0.37184535710060385,
+        "under_2.5": 0.6281546428993962,
+        "over_3.5": 0.17667597928545753,
+        "under_3.5": 0.8233240207145425,
+        "btts_yes": 0.3107660780263331,
+        "btts_no": 0.689233921973667
+      },
+      "history_matches": 1513,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-09-20",
+        "2026-09-19"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-pt-1:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-boundary-before",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8820962108943504,
+        0.08795920240500428,
+        0.029944586700645252
+      ],
+      "poisson_probabilities": [
+        0.8739569633357809,
+        0.07897427328425896,
+        0.04706876337996037
+      ],
+      "home_rate": 3.85488625545744,
+      "away_rate": 0.9360102721873189,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.07929093304352729
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07641438199297237
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07421712782005846
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.07152464648826784
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0617068269637841
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9519065558466558,
+        "under_1.5": 0.048093444153344156,
+        "over_2.5": 0.856595416438109,
+        "under_2.5": 0.143404583561891,
+        "over_3.5": 0.7043868141586849,
+        "under_3.5": 0.29561318584131513,
+        "btts_yes": 0.5949395493154425,
+        "btts_no": 0.40506045068455754
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-boundary-before:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-boundary-at",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8820962108943504,
+        0.08795920240500428,
+        0.029944586700645252
+      ],
+      "poisson_probabilities": [
+        0.8739569633357809,
+        0.07897427328425896,
+        0.04706876337996037
+      ],
+      "home_rate": 3.85488625545744,
+      "away_rate": 0.9360102721873189,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.07929093304352729
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07641438199297237
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07421712782005846
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.07152464648826784
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0617068269637841
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9519065558466558,
+        "under_1.5": 0.048093444153344156,
+        "over_2.5": 0.856595416438109,
+        "under_2.5": 0.143404583561891,
+        "over_3.5": 0.7043868141586849,
+        "under_3.5": 0.29561318584131513,
+        "btts_yes": 0.5949395493154425,
+        "btts_no": 0.40506045068455754
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-boundary-at:recent-v2-88aa9869efd8"
+    },
+    {
+      "fixture_id": "centre-postponed",
+      "model_version": "recent-v2-88aa9869efd8:logistic",
+      "goal_model": "independent-poisson-v1",
+      "generated_at": "2026-10-25T00:00:00.000Z",
+      "cutoff_date": "2026-10-24",
+      "training_cutoff": "2026-10-25",
+      "dataset_version": "5e415c968c86eda662d30db72040e9e6680e89831104b78c1dd4e1e4535a91b1",
+      "probabilities": [
+        0.8820962108943504,
+        0.08795920240500428,
+        0.029944586700645252
+      ],
+      "poisson_probabilities": [
+        0.8739569633357809,
+        0.07897427328425896,
+        0.04706876337996037
+      ],
+      "home_rate": 3.85488625545744,
+      "away_rate": 0.9360102721873189,
+      "scorelines": [
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.07929093304352729
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.07641438199297237
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.07421712782005846
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.07152464648826784
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0617068269637841
+        }
+      ],
+      "markets": {
+        "over_1.5": 0.9519065558466558,
+        "under_1.5": 0.048093444153344156,
+        "over_2.5": 0.856595416438109,
+        "under_2.5": 0.143404583561891,
+        "over_3.5": 0.7043868141586849,
+        "under_3.5": 0.29561318584131513,
+        "btts_yes": 0.5949395493154425,
+        "btts_no": 0.40506045068455754
+      },
+      "history_matches": 1510,
+      "venue_matches": [
+        20,
+        20
+      ],
+      "last_result_dates": [
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "cold_start": false,
+      "mode": "mock_research",
+      "locked": true,
+      "snapshot_id": "centre-postponed:recent-v2-88aa9869efd8"
+    }
+  ],
+  "mode": "mock_research",
+  "all_schedules_fictitious": true
+}

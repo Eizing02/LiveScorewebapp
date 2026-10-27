@@ -1,0 +1,57 @@
+[
+  {
+    "path": "packages/football/competition-order.ts",
+    "bytes": 899,
+    "sha256": "2fb4ffaed3b9c290fd6cece56e33c854aeb95abc964315b21086a9c2789ba794"
+  },
+  {
+    "path": "apps/api/program.ts",
+    "bytes": 12494,
+    "sha256": "422674d93310166e6105b0799ad1914f1e25706dc85e442d2a77018ab817c49d"
+  },
+  {
+    "path": "apps/web/src/ProviderPreview.tsx",
+    "bytes": 18486,
+    "sha256": "eecb6fef5e09352c3d3a44837c59f291396bb37addeac8f656341886a127bc1b"
+  },
+  {
+    "path": "tests/program-order.test.ts",
+    "bytes": 6095,
+    "sha256": "701039d1208f57695a79b833ba7061ea28b74120c62fa9d6ee653d4d77a02e39"
+  },
+  {
+    "path": "tests/ui/one-page.spec.ts",
+    "bytes": 4291,
+    "sha256": "96754a50ed5f722e97498eaa25e6ef6859eb5cce098106f90d5e17a768fc66c3"
+  },
+  {
+    "path": "PRODUCT.md",
+    "bytes": 3534,
+    "sha256": "4042642a99302125147b6a6a4ba167cabe3ff3970ddb5c0b151df7e301ed2e2b"
+  },
+  {
+    "path": "README.md",
+    "bytes": 14334,
+    "sha256": "8856041c5fda1517990820d1ce65e4f31a81204ad856bcae834ed56559632cc3"
+  },
+  {
+    "path": "docs/LEAGUE_ORDER_TH.md",
+    "bytes": 7711,
+    "sha256": "33d4ec463aa427e0ff6d9daf3568231a84f7038ecf4be4c78340e39186cd7f34"
+  },
+  {
+    "path": "reports/league-order/desktop.png",
+    "bytes": 109351,
+    "sha256": "3227293dbfc26f16c676c2aeb06744f897dcc7fe773e6b293ae523e04466b650"
+  },
+  {
+    "path": "reports/league-order/mobile.png",
+    "bytes": 54291,
+    "sha256": "3bbc24c8cea710a46d17c8be9b676c61681c1a5f3145cdebaaaec6d2a319157f"
+  },
+  {
+    "path": "reports/league-order/verification.json",
+    "bytes": 3329,
+    "sha256": "94ce0964c6a1edf9c4e6337e4c8989d22245ce5a2a6c0b5fe03f0c1a95d5d648"
+  }
+]

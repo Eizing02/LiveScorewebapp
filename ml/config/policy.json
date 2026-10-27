@@ -1,0 +1,18 @@
+{
+  "version": "protocol-1-frozen-before-evaluation",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "asof_date_exclusive": "2026-10-25",
+  "leagues": {"en.1": {"id": "eng-premier", "country": "England", "expected_matches": 380}, "es.1": {"id": "esp-laliga", "country": "Spain", "expected_matches": 380}, "de.1": {"id": "de-bundesliga", "country": "Germany", "expected_matches": 306}},
+  "minimum_season_completeness": 0.95,
+  "exclude_seasons": {"en.1/2019-20": "entire season withheld until the 66 misdated results have evidence-backed corrections"},
+  "validation_folds": [["2022-07-01", "2023-07-01"], ["2023-07-01", "2024-07-01"]],
+  "final_holdout": ["2024-07-01", "2025-07-01"],
+  "deployment_cutoff_exclusive": "2026-07-01",
+  "promotion": {"min_samples_per_league": 300, "min_log_loss_improvement": 0.005, "max_brier_regression": 0.002, "max_ece_regression": 0.02, "min_winning_folds": 2, "require_paired_date_bootstrap_upper_below_zero": true, "manual_approval_required": true},
+  "parameters": {"seed": 20261025, "elo_k": 20, "home_advantage": 60, "elo_draw_nu": 0.65, "season_elo_retention": 0.75, "team_prior_matches": 8, "venue_window": 20, "league_window": 380, "league_prior_matches": 30, "prior_home_goals": 1.5, "prior_away_goals": 1.2, "score_grid_max": 20, "min_history_matches": 40},
+  "challengers": {"logistic_C": 1.0, "xgb_n_estimators": 100, "xgb_max_depth": 2, "xgb_learning_rate": 0.05},
+  "bootstrap_repeats": 500,
+  "brier_definition": "sum of squared errors across three classes; no division by 3",
+  "calibration_definition": "10 equal-width bins, top-label ECE plus one-vs-rest reliability per class",
+  "temporal_protocol": "expanding walk-forward features; whole date predicted before any same-date result update; challenger weights frozen at each fold start; final model selected on validation only"
+}

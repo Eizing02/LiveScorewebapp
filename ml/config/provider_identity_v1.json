@@ -1,0 +1,583 @@
+{
+  "version": "provider-identity-reviewed-v1",
+  "teams": [
+    {
+      "provider_id": 487,
+      "provider_name": "Lazio",
+      "canonical_name": "SS Lazio",
+      "canonical_id": "team-fd815d78b654d079",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550162,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 523,
+      "provider_name": "Parma",
+      "canonical_name": "Parma Calcio 1913",
+      "canonical_id": "team-ed23b588144aff2b",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550162,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 530,
+      "provider_name": "Atletico Madrid",
+      "canonical_name": "Atlético Madrid",
+      "canonical_id": "team-3de2b6e5b0aaaa5c",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570425,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 544,
+      "provider_name": "Deportivo La Coruna",
+      "canonical_name": "Deportivo La Coruña",
+      "canonical_id": "team-fa26cd0ea60cc328",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570425,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 505,
+      "provider_name": "Inter",
+      "canonical_name": "FC Internazionale Milano",
+      "canonical_id": "team-68401f6c7d376ae0",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550161,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 502,
+      "provider_name": "Fiorentina",
+      "canonical_name": "ACF Fiorentina",
+      "canonical_id": "team-56efb0cd4804798c",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550161,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 531,
+      "provider_name": "Athletic Club",
+      "canonical_name": "Athletic Club",
+      "canonical_id": "team-f88ed23c7ec2ef60",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570424,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 546,
+      "provider_name": "Getafe",
+      "canonical_name": "Getafe CF",
+      "canonical_id": "team-2af2cfa10c18668b",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570424,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 499,
+      "provider_name": "Atalanta",
+      "canonical_name": "Atalanta BC",
+      "canonical_id": "team-4b779035a18bde52",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550157,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 512,
+      "provider_name": "Frosinone",
+      "canonical_name": "Frosinone Calcio",
+      "canonical_id": "team-f9d99d085d57dbb7",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550157,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 495,
+      "provider_name": "Genoa",
+      "canonical_name": "Genoa CFC",
+      "canonical_id": "team-df52b5e48fc795e1",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550160,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 517,
+      "provider_name": "Venezia",
+      "canonical_name": "Venezia FC",
+      "canonical_id": "team-784f73bce8f83cdd",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550160,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 52,
+      "provider_name": "Crystal Palace",
+      "canonical_name": "Crystal Palace",
+      "canonical_id": "team-368b265f34346b9f",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557441,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 34,
+      "provider_name": "Newcastle",
+      "canonical_name": "Newcastle United",
+      "canonical_id": "team-f2c4508f4fa339a6",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557441,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 64,
+      "provider_name": "Hull City",
+      "canonical_name": "Hull City",
+      "canonical_id": "team-f3408b2857786100",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557442,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 55,
+      "provider_name": "Brentford",
+      "canonical_name": "Brentford FC",
+      "canonical_id": "team-3fa3d423eb2b2a81",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557442,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 40,
+      "provider_name": "Liverpool",
+      "canonical_name": "Liverpool FC",
+      "canonical_id": "team-912212547759bbba",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557444,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 51,
+      "provider_name": "Brighton",
+      "canonical_name": "Brighton & Hove Albion",
+      "canonical_id": "team-b0ec36cabc55b438",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557444,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 33,
+      "provider_name": "Manchester United",
+      "canonical_name": "Manchester United",
+      "canonical_id": "team-20e876bedbeb75f0",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557445,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 35,
+      "provider_name": "Bournemouth",
+      "canonical_name": "AFC Bournemouth",
+      "canonical_id": "team-2818d0bb6218032c",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557445,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 167,
+      "provider_name": "1899 Hoffenheim",
+      "canonical_name": "TSG 1899 Hoffenheim",
+      "canonical_id": "team-a5d7fced51632f29",
+      "league": "de.1",
+      "country": "Germany",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1575197,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 168,
+      "provider_name": "Bayer Leverkusen",
+      "canonical_name": "Bayer 04 Leverkusen",
+      "canonical_id": "team-6a2913adae48c7a5",
+      "league": "de.1",
+      "country": "Germany",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1575197,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 538,
+      "provider_name": "Celta Vigo",
+      "canonical_name": "RC Celta",
+      "canonical_id": "team-88aa7792769273a6",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570427,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 543,
+      "provider_name": "Real Betis",
+      "canonical_name": "Real Betis",
+      "canonical_id": "team-58354991dd55daa8",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570427,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 746,
+      "provider_name": "Sunderland",
+      "canonical_name": "Sunderland AFC",
+      "canonical_id": "team-a8f246e9b061ccad",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557446,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 63,
+      "provider_name": "Leeds",
+      "canonical_name": "Leeds United FC",
+      "canonical_id": "team-c51dea45f739ba4d",
+      "league": "en.1",
+      "country": "England",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1557446,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 160,
+      "provider_name": "SC Freiburg",
+      "canonical_name": "SC Freiburg",
+      "canonical_id": "team-4f2c88e3e2836ace",
+      "league": "de.1",
+      "country": "Germany",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1575198,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 157,
+      "provider_name": "Bayern München",
+      "canonical_name": "FC Bayern München",
+      "canonical_id": "team-f22a1edf60933e61",
+      "league": "de.1",
+      "country": "Germany",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1575198,
+        "provider_response_sha256": "8fc336fc0bfdedd18825410819dd290412841ffb57ca42e8cbc6e5f86eae559a",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 867,
+      "provider_name": "Lecce",
+      "canonical_name": "US Lecce",
+      "canonical_id": "team-c174c81ee6c7092f",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550163,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 496,
+      "provider_name": "Juventus",
+      "canonical_name": "Juventus FC",
+      "canonical_id": "team-2f8893a068727966",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550163,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 548,
+      "provider_name": "Real Sociedad",
+      "canonical_name": "Real Sociedad",
+      "canonical_id": "team-909183a07cf516b0",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570430,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 539,
+      "provider_name": "Levante",
+      "canonical_name": "Levante UD",
+      "canonical_id": "team-e3972ea5552be41d",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570430,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 494,
+      "provider_name": "Udinese",
+      "canonical_name": "Udinese Calcio",
+      "canonical_id": "team-14bcc33ad042d34c",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550166,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 489,
+      "provider_name": "AC Milan",
+      "canonical_name": "AC Milan",
+      "canonical_id": "team-719a3f8b5bbbfb5b",
+      "league": "it.1",
+      "country": "Italy",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1550166,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 529,
+      "provider_name": "Barcelona",
+      "canonical_name": "FC Barcelona",
+      "canonical_id": "team-d7eb1c92d666dcfd",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570426,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    },
+    {
+      "provider_id": 541,
+      "provider_name": "Real Madrid",
+      "canonical_name": "Real Madrid",
+      "canonical_id": "team-8de8bdc8ff2954d5",
+      "league": "es.1",
+      "country": "Spain",
+      "status": "reviewed",
+      "review_scope": "explicit local source-name/context review, not independent official provider identity certification",
+      "evidence": {
+        "historical_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+        "provider_fixture_id": 1570426,
+        "provider_response_sha256": "5c87cb832ce074f298f16d7c0d506067bd8a2f36804b5c8a78a0422fd1d71107",
+        "country_and_competition_match": true
+      }
+    }
+  ],
+  "auto_fuzzy_promotion": false,
+  "production_approved": false
+}

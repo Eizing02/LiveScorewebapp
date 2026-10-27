@@ -1,0 +1,25 @@
+{
+  "version": "direct-free-observed-v1",
+  "account_plan": "Free",
+  "daily_limit": 100,
+  "normal_soft_cap": 65,
+  "result_hard_cap": 85,
+  "reserved_unused": 15,
+  "reset_utc_hour": 0,
+  "proof": "reports/live-research/optional-batch-proof.json",
+  "automatic_query_fallback": false,
+  "queries": {
+    "/status": {"required": [], "allowed": []},
+    "/leagues": {"required": ["id"], "allowed": ["id"]},
+    "/fixtures": {"required": ["date"], "allowed": ["date", "timezone"]},
+    "/fixtures/statistics": {"required": ["fixture"], "allowed": ["fixture"]},
+    "/fixtures/players": {"required": ["fixture"], "allowed": ["fixture"]},
+    "/fixtures/lineups": {"required": ["fixture"], "allowed": ["fixture"]},
+    "/injuries": {"required": ["fixture"], "allowed": ["fixture"]},
+    "/predictions": {"required": ["fixture"], "allowed": ["fixture"]},
+    "/fixtures/headtohead": {"required": ["h2h"], "allowed": ["h2h"]}
+  },
+  "denied_observed": ["fixtures.ids", "injuries.ids", "fixtures.season=2026"],
+  "date_window": "Provider dependent; query rejection is recorded as partial coverage, never retried automatically.",
+  "auto_promote": false
+}

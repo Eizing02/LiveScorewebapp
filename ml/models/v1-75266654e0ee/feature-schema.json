@@ -1,0 +1,22 @@
+{
+  "version": "features-v1",
+  "columns": [
+    "elo_difference",
+    "home_attack",
+    "home_defence",
+    "away_attack",
+    "away_defence",
+    "league_home_goals",
+    "league_away_goals",
+    "home_matches",
+    "away_matches",
+    "home_form",
+    "away_form"
+  ],
+  "class_order": [
+    "home",
+    "draw",
+    "away"
+  ],
+  "cutoff": "strictly prior source dates; date-batched updates"
+}

@@ -1,0 +1,5724 @@
+{
+  "selected_decisions": [
+    {
+      "away": "FC Arouca",
+      "context": {
+        "gaps": [
+          9,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          1,
+          1
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-08-17",
+      "goal_training_last_date": "2025-05-17",
+      "goals": [
+        6,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-5511d697cbcf25a2cdfa196b",
+      "information_cutoff_date": "2025-08-16",
+      "league": "pt.1",
+      "probabilities": [
+        0.8079374962124031,
+        0.1245208430812226,
+        0.06754166070637425
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8079374962124031,
+      "correct": true
+    },
+    {
+      "away": "FC Groningen",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          2,
+          2
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-08-23",
+      "goal_training_last_date": "2025-05-18",
+      "goals": [
+        4,
+        2
+      ],
+      "home": "PSV",
+      "id": "recent-bb435b4f90bab5fc41dcd5da",
+      "information_cutoff_date": "2025-08-17",
+      "league": "nl.1",
+      "probabilities": [
+        0.8719300087627093,
+        0.09420133653747122,
+        0.033868654699819464
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8719300087627093,
+      "correct": true
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          6,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          2,
+          2
+        ],
+        "venue": [
+          18,
+          20
+        ]
+      },
+      "date": "2025-08-23",
+      "goal_training_last_date": "2025-05-17",
+      "goals": [
+        1,
+        4
+      ],
+      "home": "CD Nacional",
+      "id": "recent-e9147c923957be8302633d1a",
+      "information_cutoff_date": "2025-08-18",
+      "league": "pt.1",
+      "probabilities": [
+        0.0927120190416961,
+        0.14151450980249503,
+        0.7657734711558088
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7657734711558088,
+      "correct": true
+    },
+    {
+      "away": "Heracles Almelo",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          2,
+          2
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-08-24",
+      "goal_training_last_date": "2025-05-18",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "AFC Ajax",
+      "id": "recent-bbd34ae1ee91a6d742208bb2",
+      "information_cutoff_date": "2025-08-23",
+      "league": "nl.1",
+      "probabilities": [
+        0.7769617009316822,
+        0.14927750747261276,
+        0.0737607915957052
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7769617009316822,
+      "correct": true
+    },
+    {
+      "away": "AVS",
+      "context": {
+        "gaps": [
+          7,
+          9
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          2,
+          2
+        ],
+        "venue": [
+          20,
+          18
+        ]
+      },
+      "date": "2025-08-24",
+      "goal_training_last_date": "2025-05-17",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Sporting Clube de Braga",
+      "id": "recent-604c99b7892e2b8c3b010f16",
+      "information_cutoff_date": "2025-08-23",
+      "league": "pt.1",
+      "probabilities": [
+        0.7915080173747902,
+        0.14151726844551613,
+        0.0669747141796939
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7915080173747902,
+      "correct": false
+    },
+    {
+      "away": "CD Santa Clara",
+      "context": {
+        "gaps": [
+          12,
+          6
+        ],
+        "last365": [
+          33,
+          34
+        ],
+        "season_matches": [
+          3,
+          4
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-12",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-38a659932b573bba144ec8a0",
+      "information_cutoff_date": "2025-09-06",
+      "league": "pt.1",
+      "probabilities": [
+        0.7670553641008246,
+        0.15436578044241905,
+        0.07857885545675634
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7670553641008246,
+      "correct": false
+    },
+    {
+      "away": "SC Heerenveen",
+      "context": {
+        "gaps": [
+          13,
+          14
+        ],
+        "last365": [
+          34,
+          35
+        ],
+        "season_matches": [
+          3,
+          4
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-13",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "Feyenoord Rotterdam",
+      "id": "recent-127082cae6d7722443c588a1",
+      "information_cutoff_date": "2025-08-31",
+      "league": "nl.1",
+      "probabilities": [
+        0.8021816497189717,
+        0.1336581166977192,
+        0.06416023358330913
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8021816497189717,
+      "correct": true
+    },
+    {
+      "away": "CD Nacional",
+      "context": {
+        "gaps": [
+          14,
+          14
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          4,
+          4
+        ],
+        "venue": [
+          20,
+          19
+        ]
+      },
+      "date": "2025-09-13",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-ae6ab99c70acb8e1aac9d7ac",
+      "information_cutoff_date": "2025-09-12",
+      "league": "pt.1",
+      "probabilities": [
+        0.8005027459743435,
+        0.13513865232064964,
+        0.06435860170500701
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8005027459743435,
+      "correct": true
+    },
+    {
+      "away": "Valencia CF",
+      "context": {
+        "gaps": [
+          14,
+          16
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          3,
+          3
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-14",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        6,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-bbf1bf3f976ed3ca7f4a6dfb",
+      "information_cutoff_date": "2025-09-13",
+      "league": "es.1",
+      "probabilities": [
+        0.7516179792308748,
+        0.15485869633900018,
+        0.09352332443012501
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7516179792308748,
+      "correct": true
+    },
+    {
+      "away": "Fortuna Sittard",
+      "context": {
+        "gaps": [
+          4,
+          3
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          4,
+          4
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-17",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "Feyenoord Rotterdam",
+      "id": "recent-7e3c65d16a2315f3d01b0641",
+      "information_cutoff_date": "2025-09-14",
+      "league": "nl.1",
+      "probabilities": [
+        0.7872320388655777,
+        0.14712244596083535,
+        0.06564551517358697
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7872320388655777,
+      "correct": true
+    },
+    {
+      "away": "Sport Lisboa e Benfica",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          5,
+          4
+        ],
+        "venue": [
+          19,
+          20
+        ]
+      },
+      "date": "2025-09-20",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        0,
+        3
+      ],
+      "home": "AVS",
+      "id": "recent-7dd41e8229353609872ab6ad",
+      "information_cutoff_date": "2025-09-19",
+      "league": "pt.1",
+      "probabilities": [
+        0.07558543143822984,
+        0.14118612909774933,
+        0.7832284394640208
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7832284394640208,
+      "correct": true
+    },
+    {
+      "away": "Getafe CF",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          4,
+          4
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-21",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-002677f08ce9a218d651567e",
+      "information_cutoff_date": "2025-09-20",
+      "league": "es.1",
+      "probabilities": [
+        0.7563465494035578,
+        0.15682655003987767,
+        0.0868269005565646
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7563465494035578,
+      "correct": true
+    },
+    {
+      "away": "Moreirense FC",
+      "context": {
+        "gaps": [
+          9,
+          9
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          5,
+          5
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-22",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-e29fd0278303c203c523b1ef",
+      "information_cutoff_date": "2025-09-21",
+      "league": "pt.1",
+      "probabilities": [
+        0.8091772956066997,
+        0.12647475892258558,
+        0.06434794547071455
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8091772956066997,
+      "correct": true
+    },
+    {
+      "away": "Rio Ave FC",
+      "context": {
+        "gaps": [
+          3,
+          4
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          5,
+          5
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-23",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-81a2b3950b126ae7bbb567f9",
+      "information_cutoff_date": "2025-09-22",
+      "league": "pt.1",
+      "probabilities": [
+        0.8267987741326335,
+        0.11449897935560954,
+        0.05870224651175714
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8267987741326335,
+      "correct": false
+    },
+    {
+      "away": "SV Werder Bremen",
+      "context": {
+        "gaps": [
+          6,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          4,
+          4
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-26",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        4,
+        0
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-cea64f8e1b139d359c294229",
+      "information_cutoff_date": "2025-09-21",
+      "league": "de.1",
+      "probabilities": [
+        0.8188097261878389,
+        0.1180324927523921,
+        0.0631577810597691
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8188097261878389,
+      "correct": true
+    },
+    {
+      "away": "Gil Vicente FC",
+      "context": {
+        "gaps": [
+          3,
+          5
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          6,
+          6
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-26",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-1600956c99c8e5eb8f783c8a",
+      "information_cutoff_date": "2025-09-23",
+      "league": "pt.1",
+      "probabilities": [
+        0.7839078845048122,
+        0.14068715937418136,
+        0.0754049561210064
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7839078845048122,
+      "correct": true
+    },
+    {
+      "away": "NAC Breda",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          36,
+          34
+        ],
+        "season_matches": [
+          6,
+          6
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-27",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "AFC Ajax",
+      "id": "recent-4033724cf70106663678ca17",
+      "information_cutoff_date": "2025-09-26",
+      "league": "nl.1",
+      "probabilities": [
+        0.7594764653776105,
+        0.1666435284392838,
+        0.07388000618310575
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7594764653776105,
+      "correct": true
+    },
+    {
+      "away": "Real Sociedad",
+      "context": {
+        "gaps": [
+          3,
+          4
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          6,
+          6
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-28",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-957c8d076120124c10a94efe",
+      "information_cutoff_date": "2025-09-27",
+      "league": "es.1",
+      "probabilities": [
+        0.7529990614197578,
+        0.1591977804256975,
+        0.08780315815454481
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7529990614197578,
+      "correct": true
+    },
+    {
+      "away": "West Ham United",
+      "context": {
+        "gaps": [
+          6,
+          5
+        ],
+        "last365": [
+          38,
+          38
+        ],
+        "season_matches": [
+          6,
+          6
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-10-04",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "Arsenal FC",
+      "id": "recent-8aef9189476dce96b634875e",
+      "information_cutoff_date": "2025-10-03",
+      "league": "en.1",
+      "probabilities": [
+        0.7772509763818878,
+        0.1399989291234551,
+        0.0827500944946572
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7772509763818878,
+      "correct": true
+    },
+    {
+      "away": "Girona FC",
+      "context": {
+        "gaps": [
+          13,
+          14
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          8,
+          8
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-10-18",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-8fadc02d1994daf7a79dee65",
+      "information_cutoff_date": "2025-10-17",
+      "league": "es.1",
+      "probabilities": [
+        0.8003974021764955,
+        0.12622151550826344,
+        0.07338108231524114
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8003974021764955,
+      "correct": true
+    },
+    {
+      "away": "Go Ahead Eagles",
+      "context": {
+        "gaps": [
+          14,
+          13
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          8,
+          8
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-10-18",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "PSV",
+      "id": "recent-f4bbf76b15767ce48083de67",
+      "information_cutoff_date": "2025-10-05",
+      "league": "nl.1",
+      "probabilities": [
+        0.8148558006926141,
+        0.11961273297743424,
+        0.06553146632995172
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8148558006926141,
+      "correct": true
+    },
+    {
+      "away": "FC Arouca",
+      "context": {
+        "gaps": [
+          20,
+          20
+        ],
+        "last365": [
+          35,
+          34
+        ],
+        "season_matches": [
+          8,
+          8
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-10-25",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        5,
+        0
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-fa9a90646eda1368a1dd783f",
+      "information_cutoff_date": "2025-10-24",
+      "league": "pt.1",
+      "probabilities": [
+        0.8151403209851256,
+        0.11965065533420613,
+        0.06520902368066848
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8151403209851256,
+      "correct": true
+    },
+    {
+      "away": "Fortuna Sittard",
+      "context": {
+        "gaps": [
+          5,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          10,
+          10
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-10-31",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        5,
+        2
+      ],
+      "home": "PSV",
+      "id": "recent-6a97a8b5af800639fb124e2a",
+      "information_cutoff_date": "2025-10-26",
+      "league": "nl.1",
+      "probabilities": [
+        0.856307352399905,
+        0.10425647590200654,
+        0.03943617169808854
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.856307352399905,
+      "correct": true
+    },
+    {
+      "away": "Valencia CF",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          10,
+          10
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-01",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        4,
+        0
+      ],
+      "home": "Real Madrid",
+      "id": "recent-9c950d45045e509d725fc52b",
+      "information_cutoff_date": "2025-10-31",
+      "league": "es.1",
+      "probabilities": [
+        0.750583861316374,
+        0.16476102843546023,
+        0.08465511024816572
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.750583861316374,
+      "correct": true
+    },
+    {
+      "away": "Casa Pia AC",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          35,
+          34
+        ],
+        "season_matches": [
+          10,
+          10
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-09",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-d099eb23400ddeab0bb24c24",
+      "information_cutoff_date": "2025-11-08",
+      "league": "pt.1",
+      "probabilities": [
+        0.8352048222920457,
+        0.1099346746373902,
+        0.05486050307056409
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8352048222920457,
+      "correct": false
+    },
+    {
+      "away": "SC Freiburg",
+      "context": {
+        "gaps": [
+          14,
+          13
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          10,
+          10
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-22",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        6,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-4bbadc3d74cd9e25b11b6e37",
+      "information_cutoff_date": "2025-11-21",
+      "league": "de.1",
+      "probabilities": [
+        0.8065532901242829,
+        0.13501726323011276,
+        0.05842944664560426
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8065532901242829,
+      "correct": true
+    },
+    {
+      "away": "PSV",
+      "context": {
+        "gaps": [
+          14,
+          13
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          12,
+          12
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-22",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        0,
+        1
+      ],
+      "home": "NAC Breda",
+      "id": "recent-2f3ac80bd99425d8d956af4e",
+      "information_cutoff_date": "2025-11-09",
+      "league": "nl.1",
+      "probabilities": [
+        0.08528587841785837,
+        0.15017868151096558,
+        0.7645354400711761
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7645354400711761,
+      "correct": true
+    },
+    {
+      "away": "FC St. Pauli 1910",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          11,
+          11
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-29",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-7e53ca5377a9f7ac65175257",
+      "information_cutoff_date": "2025-11-28",
+      "league": "de.1",
+      "probabilities": [
+        0.8506749029169762,
+        0.11067900642717535,
+        0.03864609065584837
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8506749029169762,
+      "correct": true
+    },
+    {
+      "away": "Deportivo Alavés",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          13,
+          13
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-29",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-1552c322c1be65bbc99e79de",
+      "information_cutoff_date": "2025-11-28",
+      "league": "es.1",
+      "probabilities": [
+        0.7646998873425894,
+        0.1519159796375792,
+        0.08338413301983137
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7646998873425894,
+      "correct": true
+    },
+    {
+      "away": "GD Estoril Praia",
+      "context": {
+        "gaps": [
+          21,
+          23
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          11,
+          11
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-30",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-67c51367be754e43b20568b1",
+      "information_cutoff_date": "2025-11-29",
+      "league": "pt.1",
+      "probabilities": [
+        0.7680373270225562,
+        0.14325994509551304,
+        0.08870272788193087
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7680373270225562,
+      "correct": true
+    },
+    {
+      "away": "CF Estrela da Amadora",
+      "context": {
+        "gaps": [
+          22,
+          21
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          11,
+          11
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-30",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        4,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-9ac4418601822d8aa7bbe96b",
+      "information_cutoff_date": "2025-11-29",
+      "league": "pt.1",
+      "probabilities": [
+        0.8732297151372104,
+        0.09229241791424056,
+        0.03447786694854921
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8732297151372104,
+      "correct": true
+    },
+    {
+      "away": "PEC Zwolle",
+      "context": {
+        "gaps": [
+          6,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          14,
+          14
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-06",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        6,
+        1
+      ],
+      "home": "Feyenoord Rotterdam",
+      "id": "recent-a3eeade070b77bf38fe0a3ad",
+      "information_cutoff_date": "2025-12-05",
+      "league": "nl.1",
+      "probabilities": [
+        0.7978759364488773,
+        0.12934929532776712,
+        0.07277476822335553
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7978759364488773,
+      "correct": true
+    },
+    {
+      "away": "RC Celta",
+      "context": {
+        "gaps": [
+          4,
+          7
+        ],
+        "last365": [
+          37,
+          35
+        ],
+        "season_matches": [
+          15,
+          14
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-07",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        0,
+        2
+      ],
+      "home": "Real Madrid",
+      "id": "recent-8c1f60274e6757796db255fd",
+      "information_cutoff_date": "2025-12-06",
+      "league": "es.1",
+      "probabilities": [
+        0.7578945418121084,
+        0.15248672595325474,
+        0.08961873223463694
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 0,
+      "probability": 0.7578945418121084,
+      "correct": false
+    },
+    {
+      "away": "Wolverhampton Wanderers",
+      "context": {
+        "gaps": [
+          7,
+          5
+        ],
+        "last365": [
+          38,
+          38
+        ],
+        "season_matches": [
+          15,
+          15
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-13",
+      "goal_training_last_date": "2025-10-26",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Arsenal FC",
+      "id": "recent-ee819d933c2476b5c4698c04",
+      "information_cutoff_date": "2025-12-08",
+      "league": "en.1",
+      "probabilities": [
+        0.8139028309512589,
+        0.12765126434963991,
+        0.058445904699101256
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8139028309512589,
+      "correct": true
+    },
+    {
+      "away": "CA Osasuna",
+      "context": {
+        "gaps": [
+          7,
+          5
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          16,
+          15
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-13",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-003afd342773cc42893b91ce",
+      "information_cutoff_date": "2025-12-12",
+      "league": "es.1",
+      "probabilities": [
+        0.7787768051441861,
+        0.14498735697965343,
+        0.07623583787616037
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7787768051441861,
+      "correct": true
+    },
+    {
+      "away": "Heracles Almelo",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          15,
+          15
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-13",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        4,
+        3
+      ],
+      "home": "PSV",
+      "id": "recent-17abe8f034ad23ed86a2a1bc",
+      "information_cutoff_date": "2025-12-07",
+      "league": "nl.1",
+      "probabilities": [
+        0.8955509935905858,
+        0.08094001247164798,
+        0.023508993937766204
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8955509935905858,
+      "correct": true
+    },
+    {
+      "away": "AVS",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          13,
+          13
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-13",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        6,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-739b566e8fdeaa57ad277e54",
+      "information_cutoff_date": "2025-12-08",
+      "league": "pt.1",
+      "probabilities": [
+        0.9341852998837993,
+        0.0533309277784988,
+        0.012483772337701909
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.9341852998837993,
+      "correct": true
+    },
+    {
+      "away": "1. FSV Mainz 05",
+      "context": {
+        "gaps": [
+          8,
+          9
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          13,
+          13
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-14",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-3d856073344a3346b4728a1a",
+      "information_cutoff_date": "2025-12-13",
+      "league": "de.1",
+      "probabilities": [
+        0.8230703226603713,
+        0.12018960418656277,
+        0.05674007315306617
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8230703226603713,
+      "correct": false
+    },
+    {
+      "away": "CF Estrela da Amadora",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          13,
+          13
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-15",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "FC Porto",
+      "id": "recent-ed186b710afd87b72827536d",
+      "information_cutoff_date": "2025-12-14",
+      "league": "pt.1",
+      "probabilities": [
+        0.8196287571855347,
+        0.13051344328774717,
+        0.04985779952671825
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8196287571855347,
+      "correct": true
+    },
+    {
+      "away": "West Ham United",
+      "context": {
+        "gaps": [
+          6,
+          6
+        ],
+        "last365": [
+          38,
+          38
+        ],
+        "season_matches": [
+          16,
+          16
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-20",
+      "goal_training_last_date": "2025-10-26",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Manchester City",
+      "id": "recent-019280dc2b891fbd0ddcaa63",
+      "information_cutoff_date": "2025-12-15",
+      "league": "en.1",
+      "probabilities": [
+        0.783277988590539,
+        0.14387521248794333,
+        0.07284679892151778
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.783277988590539,
+      "correct": true
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          14,
+          14
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-21",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        0,
+        4
+      ],
+      "home": "1. FC Heidenheim 1846",
+      "id": "recent-1cd152cc84ceb49e3f11cb51",
+      "information_cutoff_date": "2025-12-20",
+      "league": "de.1",
+      "probabilities": [
+        0.06046549707198549,
+        0.13013140798531808,
+        0.8094030949426965
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.8094030949426965,
+      "correct": true
+    },
+    {
+      "away": "Wolverhampton Wanderers",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          38,
+          37
+        ],
+        "season_matches": [
+          17,
+          17
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-27",
+      "goal_training_last_date": "2025-10-26",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Liverpool FC",
+      "id": "recent-69a4bcfd3712037b9d00222e",
+      "information_cutoff_date": "2025-12-26",
+      "league": "en.1",
+      "probabilities": [
+        0.7660859164735929,
+        0.1572866829914294,
+        0.0766274005349776
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7660859164735929,
+      "correct": true
+    },
+    {
+      "away": "Rio Ave FC",
+      "context": {
+        "gaps": [
+          5,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          15,
+          15
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-28",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        4,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-fb95a345de45ab2426de94b2",
+      "information_cutoff_date": "2025-12-27",
+      "league": "pt.1",
+      "probabilities": [
+        0.8580505067549185,
+        0.09436259978479668,
+        0.04758689346028494
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8580505067549185,
+      "correct": true
+    },
+    {
+      "away": "AVS",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          33,
+          33
+        ],
+        "season_matches": [
+          15,
+          15
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-29",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-173ab0f850b621e5a7c0c322",
+      "information_cutoff_date": "2025-12-28",
+      "league": "pt.1",
+      "probabilities": [
+        0.9049150265878364,
+        0.07424927626905492,
+        0.020835697143108685
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.9049150265878364,
+      "correct": true
+    },
+    {
+      "away": "GD Estoril Praia",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          16,
+          16
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-03",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-742309f8c989b858ba0f035d",
+      "information_cutoff_date": "2026-01-02",
+      "league": "pt.1",
+      "probabilities": [
+        0.7967136364818854,
+        0.1270136546109828,
+        0.07627270890713181
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7967136364818854,
+      "correct": true
+    },
+    {
+      "away": "FC Volendam",
+      "context": {
+        "gaps": [
+          20,
+          20
+        ],
+        "last365": [
+          33,
+          17
+        ],
+        "season_matches": [
+          16,
+          17
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-10",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "AZ",
+      "id": "recent-26fa5c207653a4fa64b79534",
+      "information_cutoff_date": "2025-12-21",
+      "league": "nl.1",
+      "probabilities": [
+        0.7530102937557654,
+        0.1504338498059143,
+        0.09655585643832035
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7530102937557654,
+      "correct": true
+    },
+    {
+      "away": "SBV Excelsior",
+      "context": {
+        "gaps": [
+          20,
+          21
+        ],
+        "last365": [
+          34,
+          16
+        ],
+        "season_matches": [
+          17,
+          16
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-10",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        5,
+        1
+      ],
+      "home": "PSV",
+      "id": "recent-aefd769ccb137a4a1401bed1",
+      "information_cutoff_date": "2025-12-21",
+      "league": "nl.1",
+      "probabilities": [
+        0.8984248811963479,
+        0.0742641826146759,
+        0.027310936188976273
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8984248811963479,
+      "correct": true
+    },
+    {
+      "away": "VfL Wolfsburg",
+      "context": {
+        "gaps": [
+          21,
+          22
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          15,
+          15
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-11",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        8,
+        1
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-0aa2e0fb3cab91bd55f080e7",
+      "information_cutoff_date": "2026-01-10",
+      "league": "de.1",
+      "probabilities": [
+        0.8591406549640428,
+        0.09671224986286539,
+        0.04414709517309187
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8591406549640428,
+      "correct": true
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          4,
+          3
+        ],
+        "last365": [
+          16,
+          34
+        ],
+        "season_matches": [
+          16,
+          16
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-14",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        1,
+        3
+      ],
+      "home": "1. FC Köln",
+      "id": "recent-a4043dace4e18fea977c8cc4",
+      "information_cutoff_date": "2026-01-13",
+      "league": "de.1",
+      "probabilities": [
+        0.08189354858982532,
+        0.14346100270273587,
+        0.7746454487074389
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7746454487074389,
+      "correct": true
+    },
+    {
+      "away": "US Lecce",
+      "context": {
+        "gaps": [
+          3,
+          3
+        ],
+        "last365": [
+          38,
+          36
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-14",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-300804745e8c44d442381bac",
+      "information_cutoff_date": "2026-01-12",
+      "league": "it.1",
+      "probabilities": [
+        0.821412644506532,
+        0.13147717811524628,
+        0.047110177378221874
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.821412644506532,
+      "correct": true
+    },
+    {
+      "away": "Casa Pia AC",
+      "context": {
+        "gaps": [
+          14,
+          12
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          17,
+          17
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-16",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-65904b43f11fa1e4a307ce45",
+      "information_cutoff_date": "2026-01-11",
+      "league": "pt.1",
+      "probabilities": [
+        0.8790260023805552,
+        0.08462795385037039,
+        0.0363460437690745
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8790260023805552,
+      "correct": true
+    },
+    {
+      "away": "Burnley FC",
+      "context": {
+        "gaps": [
+          9,
+          10
+        ],
+        "last365": [
+          39,
+          21
+        ],
+        "season_matches": [
+          21,
+          21
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-17",
+      "goal_training_last_date": "2025-12-30",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Liverpool FC",
+      "id": "recent-4fd77773559786ea825cd54b",
+      "information_cutoff_date": "2026-01-08",
+      "league": "en.1",
+      "probabilities": [
+        0.7836123994905168,
+        0.13917868299936115,
+        0.07720891751012197
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7836123994905168,
+      "correct": false
+    },
+    {
+      "away": "Levante UD",
+      "context": {
+        "gaps": [
+          13,
+          6
+        ],
+        "last365": [
+          37,
+          18
+        ],
+        "season_matches": [
+          19,
+          18
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-17",
+      "goal_training_last_date": "2025-12-22",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "Real Madrid",
+      "id": "recent-24d4acc15f5173335ae5b118",
+      "information_cutoff_date": "2026-01-16",
+      "league": "es.1",
+      "probabilities": [
+        0.8442911190614311,
+        0.10844545035136116,
+        0.04726343058720765
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8442911190614311,
+      "correct": true
+    },
+    {
+      "away": "AC Pisa 1909",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          38,
+          21
+        ],
+        "season_matches": [
+          21,
+          21
+        ],
+        "venue": [
+          20,
+          10
+        ]
+      },
+      "date": "2026-01-23",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        6,
+        2
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-e23e3002110d68684c12fe31",
+      "information_cutoff_date": "2026-01-19",
+      "league": "it.1",
+      "probabilities": [
+        0.7920092935943354,
+        0.15109692658771434,
+        0.056893779817950255
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7920092935943354,
+      "correct": true
+    },
+    {
+      "away": "FC Augsburg",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          18,
+          18
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        1,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-0261dfad767e3fcfc6d0402f",
+      "information_cutoff_date": "2026-01-23",
+      "league": "de.1",
+      "probabilities": [
+        0.8813120262447257,
+        0.08775720178231185,
+        0.030930771972962446
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 0,
+      "probability": 0.8813120262447257,
+      "correct": false
+    },
+    {
+      "away": "Wolverhampton Wanderers",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          38,
+          38
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-30",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "Manchester City",
+      "id": "recent-9b05f063e48b105009ac44b2",
+      "information_cutoff_date": "2026-01-19",
+      "league": "en.1",
+      "probabilities": [
+        0.8141784783485463,
+        0.12555410102940923,
+        0.06026742062204446
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8141784783485463,
+      "correct": true
+    },
+    {
+      "away": "FC Volendam",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          19
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "AFC Ajax",
+      "id": "recent-24067e21cc57abbd3a707858",
+      "information_cutoff_date": "2026-01-21",
+      "league": "nl.1",
+      "probabilities": [
+        0.8087197362877364,
+        0.12762105044921357,
+        0.06365921326305007
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8087197362877364,
+      "correct": true
+    },
+    {
+      "away": "NAC Breda",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "PSV",
+      "id": "recent-5f59eb937ca2c448119e04c5",
+      "information_cutoff_date": "2026-01-21",
+      "league": "nl.1",
+      "probabilities": [
+        0.879363425179909,
+        0.08586797453284295,
+        0.03476860028724804
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.879363425179909,
+      "correct": false
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          18,
+          18
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        1,
+        2
+      ],
+      "home": "FC Arouca",
+      "id": "recent-49332fbb9f02b9ec98b3ee8a",
+      "information_cutoff_date": "2026-01-23",
+      "league": "pt.1",
+      "probabilities": [
+        0.0670068799056833,
+        0.11808818592075468,
+        0.814904934173562
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.814904934173562,
+      "correct": true
+    },
+    {
+      "away": "Real Oviedo",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          37,
+          20
+        ],
+        "season_matches": [
+          20,
+          20
+        ],
+        "venue": [
+          20,
+          10
+        ]
+      },
+      "date": "2026-01-25",
+      "goal_training_last_date": "2025-12-22",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-9483471d1b3315d495d36465",
+      "information_cutoff_date": "2026-01-24",
+      "league": "es.1",
+      "probabilities": [
+        0.8778184895203204,
+        0.09536695755802746,
+        0.026814552921652236
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8778184895203204,
+      "correct": true
+    },
+    {
+      "away": "Heracles Almelo",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-25",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        4,
+        2
+      ],
+      "home": "Feyenoord Rotterdam",
+      "id": "recent-9f0d573c477c2c02c83fe7ba",
+      "information_cutoff_date": "2026-01-24",
+      "league": "nl.1",
+      "probabilities": [
+        0.8470943229554337,
+        0.10055710958014957,
+        0.05234856746441682
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8470943229554337,
+      "correct": true
+    },
+    {
+      "away": "CF Estrela da Amadora",
+      "context": {
+        "gaps": [
+          8,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          18,
+          18
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-25",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        4,
+        0
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-5ecfffcc96c289740d9afc33",
+      "information_cutoff_date": "2026-01-24",
+      "league": "pt.1",
+      "probabilities": [
+        0.846367979566789,
+        0.10883392261378642,
+        0.044798097819424496
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.846367979566789,
+      "correct": true
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          18,
+          34
+        ],
+        "season_matches": [
+          18,
+          19
+        ],
+        "venue": [
+          9,
+          20
+        ]
+      },
+      "date": "2026-01-31",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Hamburger SV",
+      "id": "recent-f042fa9d84edfb8be9e0d5f4",
+      "information_cutoff_date": "2026-01-30",
+      "league": "de.1",
+      "probabilities": [
+        0.07033811579607857,
+        0.13316703350651685,
+        0.7964948506974046
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 2,
+      "probability": 0.7964948506974046,
+      "correct": false
+    },
+    {
+      "away": "1. FC Heidenheim 1846",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-01",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        3,
+        2
+      ],
+      "home": "Borussia Dortmund",
+      "id": "recent-7870f395fb622ef2e419415c",
+      "information_cutoff_date": "2026-01-31",
+      "league": "de.1",
+      "probabilities": [
+        0.7833924061139448,
+        0.15298685981951915,
+        0.06362073406653614
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7833924061139448,
+      "correct": true
+    },
+    {
+      "away": "Rayo Vallecano",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          37,
+          36
+        ],
+        "season_matches": [
+          21,
+          21
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-01",
+      "goal_training_last_date": "2025-12-22",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Real Madrid",
+      "id": "recent-be776a394a3e09269bfb5130",
+      "information_cutoff_date": "2026-01-31",
+      "league": "es.1",
+      "probabilities": [
+        0.7735940412315689,
+        0.15764169444235043,
+        0.06876426432608082
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7735940412315689,
+      "correct": true
+    },
+    {
+      "away": "CD Nacional",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-01",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-31e710b07282e784bfdf8d19",
+      "information_cutoff_date": "2026-01-31",
+      "league": "pt.1",
+      "probabilities": [
+        0.8712081234722081,
+        0.08920466339955627,
+        0.0395872131282356
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8712081234722081,
+      "correct": true
+    },
+    {
+      "away": "Sport Lisboa e Benfica",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          19,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-01",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        0,
+        0
+      ],
+      "home": "CD Tondela",
+      "id": "recent-ef58ac2ca3477d2d26ee709f",
+      "information_cutoff_date": "2026-01-31",
+      "league": "pt.1",
+      "probabilities": [
+        0.0706178674142362,
+        0.12384595694672126,
+        0.8055361756390426
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 2,
+      "probability": 0.8055361756390426,
+      "correct": false
+    },
+    {
+      "away": "Sporting Clube de Braga",
+      "context": {
+        "gaps": [
+          10,
+          8
+        ],
+        "last365": [
+          33,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-02",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        0,
+        4
+      ],
+      "home": "AVS",
+      "id": "recent-df44341cc291b6c6a0b177d4",
+      "information_cutoff_date": "2026-02-01",
+      "league": "pt.1",
+      "probabilities": [
+        0.09144843754576024,
+        0.15236915618654287,
+        0.756182406267697
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.756182406267697,
+      "correct": true
+    },
+    {
+      "away": "RCD Mallorca",
+      "context": {
+        "gaps": [
+          7,
+          5
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-07",
+      "goal_training_last_date": "2025-12-22",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-51b9138a4cb7d1a22e345ca7",
+      "information_cutoff_date": "2026-02-06",
+      "league": "es.1",
+      "probabilities": [
+        0.8025110712447849,
+        0.13369186835456845,
+        0.06379706040064655
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8025110712447849,
+      "correct": true
+    },
+    {
+      "away": "TSG 1899 Hoffenheim",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          33,
+          34
+        ],
+        "season_matches": [
+          20,
+          20
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-08",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        5,
+        1
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-bd0d53aa82a55787a8f5f5ee",
+      "information_cutoff_date": "2026-02-07",
+      "league": "de.1",
+      "probabilities": [
+        0.8271195898570781,
+        0.10925590317626771,
+        0.0636245069666543
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8271195898570781,
+      "correct": true
+    },
+    {
+      "away": "FC Alverca",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          34,
+          20
+        ],
+        "season_matches": [
+          20,
+          20
+        ],
+        "venue": [
+          20,
+          9
+        ]
+      },
+      "date": "2026-02-08",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-425161f37023085cf535dcd9",
+      "information_cutoff_date": "2026-02-07",
+      "league": "pt.1",
+      "probabilities": [
+        0.8502735594893991,
+        0.10536776931648402,
+        0.04435867119411696
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8502735594893991,
+      "correct": true
+    },
+    {
+      "away": "PSV",
+      "context": {
+        "gaps": [
+          6,
+          5
+        ],
+        "last365": [
+          22,
+          34
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-13",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "FC Volendam",
+      "id": "recent-09e2ffd01c762f39fccd261b",
+      "information_cutoff_date": "2026-02-11",
+      "league": "nl.1",
+      "probabilities": [
+        0.0655967598240067,
+        0.11094325858136703,
+        0.8234599815946264
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 2,
+      "probability": 0.8234599815946264,
+      "correct": false
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          21,
+          21
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-14",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        0,
+        3
+      ],
+      "home": "SV Werder Bremen",
+      "id": "recent-72f4e452c54018de98f3c830",
+      "information_cutoff_date": "2026-02-13",
+      "league": "de.1",
+      "probabilities": [
+        0.09406978790569005,
+        0.14853896726832558,
+        0.7573912448259843
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7573912448259843,
+      "correct": true
+    },
+    {
+      "away": "FC Famalicão",
+      "context": {
+        "gaps": [
+          6,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          21,
+          21
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-15",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-3fce60df7979798595b875e9",
+      "information_cutoff_date": "2026-02-14",
+      "league": "pt.1",
+      "probabilities": [
+        0.7952169754697653,
+        0.13200431105191407,
+        0.07277871347832053
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7952169754697653,
+      "correct": true
+    },
+    {
+      "away": "Eintracht Frankfurt",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-21",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        3,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-0606b1a4bf190ffb1f6bb2e7",
+      "information_cutoff_date": "2026-02-20",
+      "league": "de.1",
+      "probabilities": [
+        0.8039486925365245,
+        0.12570484615880562,
+        0.0703464613046699
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8039486925365245,
+      "correct": true
+    },
+    {
+      "away": "SC Heerenveen",
+      "context": {
+        "gaps": [
+          8,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          23,
+          23
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-21",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "PSV",
+      "id": "recent-755114c10411ef630efa757b",
+      "information_cutoff_date": "2026-02-20",
+      "league": "nl.1",
+      "probabilities": [
+        0.8410398340613532,
+        0.09706215750494832,
+        0.061898008433698457
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8410398340613532,
+      "correct": true
+    },
+    {
+      "away": "AVS",
+      "context": {
+        "gaps": [
+          8,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-21",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-351d4656b50e5d6d70b223d0",
+      "information_cutoff_date": "2026-02-20",
+      "league": "pt.1",
+      "probabilities": [
+        0.9125457692710759,
+        0.06987626790315146,
+        0.01757796282577262
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.9125457692710759,
+      "correct": true
+    },
+    {
+      "away": "Levante UD",
+      "context": {
+        "gaps": [
+          6,
+          4
+        ],
+        "last365": [
+          37,
+          24
+        ],
+        "season_matches": [
+          24,
+          24
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-22",
+      "goal_training_last_date": "2025-12-22",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-8b1e5e2f86fdcef7e52d8307",
+      "information_cutoff_date": "2026-02-21",
+      "league": "es.1",
+      "probabilities": [
+        0.8798946071522402,
+        0.08436660006910038,
+        0.0357387927786593
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8798946071522402,
+      "correct": true
+    },
+    {
+      "away": "Rio Ave FC",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-22",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-46c7e940217aaa0d59daa8c1",
+      "information_cutoff_date": "2026-02-21",
+      "league": "pt.1",
+      "probabilities": [
+        0.8148509053149333,
+        0.12482864723274512,
+        0.06032044745232162
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8148509053149333,
+      "correct": true
+    },
+    {
+      "away": "GD Estoril Praia",
+      "context": {
+        "gaps": [
+          6,
+          5
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          23,
+          23
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-27",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-46b450b14929113039e3da66",
+      "information_cutoff_date": "2026-02-23",
+      "league": "pt.1",
+      "probabilities": [
+        0.8439713342950212,
+        0.10141906464434872,
+        0.054609601060629925
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8439713342950212,
+      "correct": true
+    },
+    {
+      "away": "FC Arouca",
+      "context": {
+        "gaps": [
+          5,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          23,
+          23
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-27",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "FC Porto",
+      "id": "recent-d577c51cc00947ad0516c778",
+      "information_cutoff_date": "2026-02-23",
+      "league": "pt.1",
+      "probabilities": [
+        0.8007148891623845,
+        0.13385649992938878,
+        0.0654286109082267
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8007148891623845,
+      "correct": true
+    },
+    {
+      "away": "Genoa CFC",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          26,
+          26
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-28",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-29d5984edc650815ebee8164",
+      "information_cutoff_date": "2026-02-27",
+      "league": "it.1",
+      "probabilities": [
+        0.7759933862126178,
+        0.15197465424178236,
+        0.07203195954559985
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7759933862126178,
+      "correct": true
+    },
+    {
+      "away": "PSV",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          35,
+          35
+        ],
+        "season_matches": [
+          24,
+          24
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-28",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        1,
+        3
+      ],
+      "home": "Heracles Almelo",
+      "id": "recent-68e24ec89c1ef15c7a0e7710",
+      "information_cutoff_date": "2026-02-27",
+      "league": "nl.1",
+      "probabilities": [
+        0.06963416789590879,
+        0.10753162976818384,
+        0.8228342023359074
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.8228342023359074,
+      "correct": true
+    },
+    {
+      "away": "Borussia Mönchengladbach",
+      "context": {
+        "gaps": [
+          6,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          24,
+          24
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-06",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        1
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-539c0d9e8e47c8c50ffb7556",
+      "information_cutoff_date": "2026-03-04",
+      "league": "de.1",
+      "probabilities": [
+        0.867579177368637,
+        0.09316942698284075,
+        0.039251395648522175
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.867579177368637,
+      "correct": true
+    },
+    {
+      "away": "Elche CF",
+      "context": {
+        "gaps": [
+          8,
+          6
+        ],
+        "last365": [
+          37,
+          27
+        ],
+        "season_matches": [
+          27,
+          27
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-14",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        1
+      ],
+      "home": "Real Madrid",
+      "id": "recent-3f848ee338ede755162e082f",
+      "information_cutoff_date": "2026-03-13",
+      "league": "es.1",
+      "probabilities": [
+        0.8036463596377939,
+        0.13413532473368914,
+        0.06221831562851711
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8036463596377939,
+      "correct": true
+    },
+    {
+      "away": "Sevilla FC",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          38,
+          37
+        ],
+        "season_matches": [
+          27,
+          27
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-15",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        5,
+        2
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-d5484653d1872b5f42a0d24b",
+      "information_cutoff_date": "2026-03-14",
+      "league": "es.1",
+      "probabilities": [
+        0.8159547689629463,
+        0.12708573682855773,
+        0.05695949420849601
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8159547689629463,
+      "correct": true
+    },
+    {
+      "away": "SBV Excelsior",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          36,
+          26
+        ],
+        "season_matches": [
+          26,
+          26
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-15",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Feyenoord Rotterdam",
+      "id": "recent-e6cc5219e2cc9e01d952eb5f",
+      "information_cutoff_date": "2026-03-14",
+      "league": "nl.1",
+      "probabilities": [
+        0.7721533032596903,
+        0.14906593831592968,
+        0.0787807584243799
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7721533032596903,
+      "correct": true
+    },
+    {
+      "away": "Moreirense FC",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          25,
+          25
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-15",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-ae754405bd2569d9844da91e",
+      "information_cutoff_date": "2026-03-14",
+      "league": "pt.1",
+      "probabilities": [
+        0.7589400860670295,
+        0.1588654148787205,
+        0.08219449905424997
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7589400860670295,
+      "correct": true
+    },
+    {
+      "away": "1. FC Union Berlin",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          26,
+          26
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-21",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        0
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-9e474a57c4ef5049d7233cbc",
+      "information_cutoff_date": "2026-03-20",
+      "league": "de.1",
+      "probabilities": [
+        0.8583291482985869,
+        0.1025022538693462,
+        0.03916859783206687
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8583291482985869,
+      "correct": true
+    },
+    {
+      "away": "Vitória Guimarães",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          35,
+          34
+        ],
+        "season_matches": [
+          26,
+          26
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-21",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-8313039dc3dd3dd335baa882",
+      "information_cutoff_date": "2026-03-20",
+      "league": "pt.1",
+      "probabilities": [
+        0.7588285419621296,
+        0.15598140808485816,
+        0.08519004995301224
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7588285419621296,
+      "correct": true
+    },
+    {
+      "away": "Rayo Vallecano",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          38,
+          37
+        ],
+        "season_matches": [
+          28,
+          28
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-22",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-b2a8274a2e3cb8a19fe04670",
+      "information_cutoff_date": "2026-03-21",
+      "league": "es.1",
+      "probabilities": [
+        0.7844084145588524,
+        0.14990969757256373,
+        0.06568188786858391
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7844084145588524,
+      "correct": true
+    },
+    {
+      "away": "Hellas Verona FC",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          29,
+          29
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-03-22",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "Atalanta BC",
+      "id": "recent-0d65078829d8f2fc2ca726a4",
+      "information_cutoff_date": "2026-03-21",
+      "league": "it.1",
+      "probabilities": [
+        0.7624672087851524,
+        0.16681071582844922,
+        0.07072207538639844
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7624672087851524,
+      "correct": true
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          8,
+          15
+        ],
+        "last365": [
+          26,
+          33
+        ],
+        "season_matches": [
+          26,
+          25
+        ],
+        "venue": [
+          13,
+          20
+        ]
+      },
+      "date": "2026-03-22",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        1,
+        4
+      ],
+      "home": "FC Alverca",
+      "id": "recent-82755ce796afe0daabfff937",
+      "information_cutoff_date": "2026-03-21",
+      "league": "pt.1",
+      "probabilities": [
+        0.07740268796816449,
+        0.12791747262348555,
+        0.79467983940835
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.79467983940835,
+      "correct": true
+    },
+    {
+      "away": "CD Santa Clara",
+      "context": {
+        "gaps": [
+          12,
+          13
+        ],
+        "last365": [
+          33,
+          34
+        ],
+        "season_matches": [
+          26,
+          27
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-03",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        2
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-bfd13ec276012da5c5e82381",
+      "information_cutoff_date": "2026-03-22",
+      "league": "pt.1",
+      "probabilities": [
+        0.8284653774009199,
+        0.12411120189450217,
+        0.04742342070457797
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8284653774009199,
+      "correct": true
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          28,
+          28
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-11",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        0,
+        5
+      ],
+      "home": "FC St. Pauli 1910",
+      "id": "recent-647c5de6cf51d4130f155535",
+      "information_cutoff_date": "2026-04-10",
+      "league": "de.1",
+      "probabilities": [
+        0.07693387312545706,
+        0.15488956842140783,
+        0.7681765584531353
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7681765584531353,
+      "correct": true
+    },
+    {
+      "away": "Espanyol Barcelona",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          37,
+          38
+        ],
+        "season_matches": [
+          30,
+          30
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-11",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        1
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-d4c8961a84d1e4181d8f56c1",
+      "information_cutoff_date": "2026-04-10",
+      "league": "es.1",
+      "probabilities": [
+        0.8177305114060565,
+        0.12872854173037854,
+        0.05354094686356508
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8177305114060565,
+      "correct": true
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          28,
+          27
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-11",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        0,
+        1
+      ],
+      "home": "CF Estrela da Amadora",
+      "id": "recent-6454b6186d0b70fe000e0d2b",
+      "information_cutoff_date": "2026-04-10",
+      "league": "pt.1",
+      "probabilities": [
+        0.06272666943529784,
+        0.11655724611729404,
+        0.8207160844474081
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.8207160844474081,
+      "correct": true
+    },
+    {
+      "away": "CD Nacional",
+      "context": {
+        "gaps": [
+          6,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          28,
+          28
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-12",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-8c7b4b2355213aff5fcca20c",
+      "information_cutoff_date": "2026-04-11",
+      "league": "pt.1",
+      "probabilities": [
+        0.8159727264691616,
+        0.1256790991405092,
+        0.058348174390329174
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8159727264691616,
+      "correct": true
+    },
+    {
+      "away": "Cagliari Calcio",
+      "context": {
+        "gaps": [
+          5,
+          6
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          32,
+          32
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-17",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-16668e84321d9276191747c7",
+      "information_cutoff_date": "2026-04-13",
+      "league": "it.1",
+      "probabilities": [
+        0.8026537281681876,
+        0.13731615652942353,
+        0.06003011530238887
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8026537281681876,
+      "correct": true
+    },
+    {
+      "away": "VfB Stuttgart",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          29,
+          29
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-19",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-1ddaf7c7462a8aed9a735b20",
+      "information_cutoff_date": "2026-04-18",
+      "league": "de.1",
+      "probabilities": [
+        0.7739865587689805,
+        0.13530812044741397,
+        0.09070532078360563
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7739865587689805,
+      "correct": true
+    },
+    {
+      "away": "CD Tondela",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          33,
+          28
+        ],
+        "season_matches": [
+          29,
+          28
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-19",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-fc130e92630c119231db1aa4",
+      "information_cutoff_date": "2026-04-18",
+      "league": "pt.1",
+      "probabilities": [
+        0.8374171480533852,
+        0.11961298812724452,
+        0.042969863819370235
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8374171480533852,
+      "correct": true
+    },
+    {
+      "away": "Deportivo Alavés",
+      "context": {
+        "gaps": [
+          11,
+          10
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          31,
+          31
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-21",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "Real Madrid",
+      "id": "recent-e491ba84e23a7d0aca2efbc1",
+      "information_cutoff_date": "2026-04-13",
+      "league": "es.1",
+      "probabilities": [
+        0.767126305173573,
+        0.16207225769818018,
+        0.07080143712824671
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.767126305173573,
+      "correct": true
+    },
+    {
+      "away": "Manchester City",
+      "context": {
+        "gaps": [
+          3,
+          3
+        ],
+        "last365": [
+          33,
+          37
+        ],
+        "season_matches": [
+          33,
+          32
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-22",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        0,
+        1
+      ],
+      "home": "Burnley FC",
+      "id": "recent-c03505408ecca0c49b6d7231",
+      "information_cutoff_date": "2026-04-21",
+      "league": "en.1",
+      "probabilities": [
+        0.09834953933199472,
+        0.14598387413027278,
+        0.7556665865377323
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7556665865377323,
+      "correct": true
+    },
+    {
+      "away": "RC Celta",
+      "context": {
+        "gaps": [
+          11,
+          10
+        ],
+        "last365": [
+          36,
+          36
+        ],
+        "season_matches": [
+          31,
+          31
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-22",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Barcelona",
+      "id": "recent-cd27b782d8f9d6a95abc8759",
+      "information_cutoff_date": "2026-04-21",
+      "league": "es.1",
+      "probabilities": [
+        0.7758905842313787,
+        0.14076634990768552,
+        0.08334306586093579
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7758905842313787,
+      "correct": true
+    },
+    {
+      "away": "PEC Zwolle",
+      "context": {
+        "gaps": [
+          12,
+          11
+        ],
+        "last365": [
+          35,
+          35
+        ],
+        "season_matches": [
+          30,
+          30
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-23",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        6,
+        1
+      ],
+      "home": "PSV",
+      "id": "recent-a1272370b1248bf7d6fa5f37",
+      "information_cutoff_date": "2026-04-22",
+      "league": "nl.1",
+      "probabilities": [
+        0.8583378603959322,
+        0.09285485772041274,
+        0.0488072818836551
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8583378603959322,
+      "correct": true
+    },
+    {
+      "away": "Moreirense FC",
+      "context": {
+        "gaps": [
+          6,
+          5
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          30,
+          30
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-25",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        4,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-3c75c896d96962cf574e10e8",
+      "information_cutoff_date": "2026-04-24",
+      "league": "pt.1",
+      "probabilities": [
+        0.7825787754162836,
+        0.14896988570367564,
+        0.06845133888004074
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7825787754162836,
+      "correct": true
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          9,
+          7
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          30,
+          29
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-26",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "AVS",
+      "id": "recent-4610d3792c930da938d38117",
+      "information_cutoff_date": "2026-04-25",
+      "league": "pt.1",
+      "probabilities": [
+        0.03262417664643039,
+        0.0789171946187418,
+        0.8884586287348277
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 2,
+      "probability": 0.8884586287348277,
+      "correct": false
+    },
+    {
+      "away": "CD Tondela",
+      "context": {
+        "gaps": [
+          3,
+          4
+        ],
+        "last365": [
+          33,
+          30
+        ],
+        "season_matches": [
+          30,
+          30
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-29",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-6be77dfc079f5574291bbd72",
+      "information_cutoff_date": "2026-04-27",
+      "league": "pt.1",
+      "probabilities": [
+        0.9034104486104999,
+        0.07256417915032495,
+        0.024025372239175204
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.9034104486104999,
+      "correct": false
+    },
+    {
+      "away": "1. FC Heidenheim 1846",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          31,
+          31
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-02",
+      "goal_training_last_date": "2026-04-26",
+      "goals": [
+        3,
+        3
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-dede4e548bf04dab10b3375d",
+      "information_cutoff_date": "2026-04-26",
+      "league": "de.1",
+      "probabilities": [
+        0.9168711453039843,
+        0.06310128308574336,
+        0.020027571610272406
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.9168711453039843,
+      "correct": false
+    },
+    {
+      "away": "FC Alverca",
+      "context": {
+        "gaps": [
+          6,
+          8
+        ],
+        "last365": [
+          34,
+          31
+        ],
+        "season_matches": [
+          31,
+          31
+        ],
+        "venue": [
+          20,
+          15
+        ]
+      },
+      "date": "2026-05-02",
+      "goal_training_last_date": "2026-04-29",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "FC Porto",
+      "id": "recent-6e6415a3477dd666158a8f33",
+      "information_cutoff_date": "2026-04-29",
+      "league": "pt.1",
+      "probabilities": [
+        0.803716058625936,
+        0.13580840321710902,
+        0.0604755381569549
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.803716058625936,
+      "correct": true
+    },
+    {
+      "away": "Hellas Verona FC",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          34,
+          34
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-03",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Juventus FC",
+      "id": "recent-2ddee047872e7e24c1760711",
+      "information_cutoff_date": "2026-05-02",
+      "league": "it.1",
+      "probabilities": [
+        0.7516021115843154,
+        0.18729482115018858,
+        0.061103067265495956
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7516021115843154,
+      "correct": false
+    },
+    {
+      "away": "Parma Calcio 1913",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          34,
+          34
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-03",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-7185e516acd9472c5b82fff2",
+      "information_cutoff_date": "2026-05-02",
+      "league": "it.1",
+      "probabilities": [
+        0.7787040902402397,
+        0.1584426376636625,
+        0.06285327209609787
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7787040902402397,
+      "correct": true
+    },
+    {
+      "away": "Vitória Guimarães",
+      "context": {
+        "gaps": [
+          5,
+          9
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          31,
+          31
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-04",
+      "goal_training_last_date": "2026-04-29",
+      "goals": [
+        5,
+        1
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-7d7a2c5d78257cf52b2e88d1",
+      "information_cutoff_date": "2026-05-03",
+      "league": "pt.1",
+      "probabilities": [
+        0.7813178132300611,
+        0.14006918919505362,
+        0.07861299757488527
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7813178132300611,
+      "correct": true
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          6,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          32,
+          32
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-09",
+      "goal_training_last_date": "2026-04-26",
+      "goals": [
+        0,
+        1
+      ],
+      "home": "VfL Wolfsburg",
+      "id": "recent-066d149aa1bf21fb414da13d",
+      "information_cutoff_date": "2026-05-08",
+      "league": "de.1",
+      "probabilities": [
+        0.06981913072949106,
+        0.11560772831331509,
+        0.8145731409571938
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.8145731409571938,
+      "correct": true
+    },
+    {
+      "away": "FC Porto",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          32,
+          32
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-10",
+      "goal_training_last_date": "2026-04-29",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "AVS",
+      "id": "recent-03df7a3c31bbcebae3cfd3ac",
+      "information_cutoff_date": "2026-05-04",
+      "league": "pt.1",
+      "probabilities": [
+        0.06000823590266767,
+        0.13632983930378198,
+        0.8036619247935504
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 2,
+      "probability": 0.8036619247935504,
+      "correct": false
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          33,
+          33
+        ],
+        "season_matches": [
+          32,
+          32
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-11",
+      "goal_training_last_date": "2026-04-29",
+      "goals": [
+        1,
+        4
+      ],
+      "home": "Rio Ave FC",
+      "id": "recent-52bd136f971c202b3bacc3ce",
+      "information_cutoff_date": "2026-05-10",
+      "league": "pt.1",
+      "probabilities": [
+        0.09216060744357163,
+        0.13527086605944977,
+        0.7725685264969786
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 2,
+      "probability": 0.7725685264969786,
+      "correct": true
+    },
+    {
+      "away": "Real Oviedo",
+      "context": {
+        "gaps": [
+          4,
+          4
+        ],
+        "last365": [
+          37,
+          35
+        ],
+        "season_matches": [
+          35,
+          35
+        ],
+        "venue": [
+          20,
+          17
+        ]
+      },
+      "date": "2026-05-14",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        2,
+        0
+      ],
+      "home": "Real Madrid",
+      "id": "recent-c10311763ed797a2b709d16e",
+      "information_cutoff_date": "2026-05-13",
+      "league": "es.1",
+      "probabilities": [
+        0.7899174561510942,
+        0.15241163032326538,
+        0.05767091352564034
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.7899174561510942,
+      "correct": true
+    },
+    {
+      "away": "1. FC Köln",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          33,
+          33
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-16",
+      "goal_training_last_date": "2026-04-26",
+      "goals": [
+        5,
+        1
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-e6b237a82dd303162621d7ba",
+      "information_cutoff_date": "2026-05-10",
+      "league": "de.1",
+      "probabilities": [
+        0.8820087604073739,
+        0.0832460670615042,
+        0.03474517253112212
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8820087604073739,
+      "correct": true
+    },
+    {
+      "away": "Gil Vicente FC",
+      "context": {
+        "gaps": [
+          5,
+          5
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          33,
+          33
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-16",
+      "goal_training_last_date": "2026-04-29",
+      "goals": [
+        3,
+        0
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-afa7537d0884e0d8471dd50b",
+      "information_cutoff_date": "2026-05-11",
+      "league": "pt.1",
+      "probabilities": [
+        0.806587033769095,
+        0.12168899221136223,
+        0.07172397401954288
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.806587033769095,
+      "correct": true
+    },
+    {
+      "away": "Hellas Verona FC",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          36,
+          36
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-17",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-e1118b04d9350f5c4dbc6697",
+      "information_cutoff_date": "2026-05-11",
+      "league": "it.1",
+      "probabilities": [
+        0.8469309970997819,
+        0.1204454228305982,
+        0.032623580069619844
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8469309970997819,
+      "correct": false
+    },
+    {
+      "away": "Burnley FC",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          38,
+          36
+        ],
+        "season_matches": [
+          36,
+          36
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-18",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        1,
+        0
+      ],
+      "home": "Arsenal FC",
+      "id": "recent-33b0510d2899b882115c9009",
+      "information_cutoff_date": "2026-05-17",
+      "league": "en.1",
+      "probabilities": [
+        0.8491112832070773,
+        0.10493228767583059,
+        0.045956429117092155
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 0,
+      "probability": 0.8491112832070773,
+      "correct": true
+    }
+  ],
+  "mistakes": [
+    {
+      "away": "AVS",
+      "context": {
+        "gaps": [
+          7,
+          9
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          2,
+          2
+        ],
+        "venue": [
+          20,
+          18
+        ]
+      },
+      "date": "2025-08-24",
+      "goal_training_last_date": "2025-05-17",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Sporting Clube de Braga",
+      "id": "recent-604c99b7892e2b8c3b010f16",
+      "information_cutoff_date": "2025-08-23",
+      "league": "pt.1",
+      "probabilities": [
+        0.7915080173747902,
+        0.14151726844551613,
+        0.0669747141796939
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7915080173747902,
+      "correct": false
+    },
+    {
+      "away": "CD Santa Clara",
+      "context": {
+        "gaps": [
+          12,
+          6
+        ],
+        "last365": [
+          33,
+          34
+        ],
+        "season_matches": [
+          3,
+          4
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-12",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-38a659932b573bba144ec8a0",
+      "information_cutoff_date": "2025-09-06",
+      "league": "pt.1",
+      "probabilities": [
+        0.7670553641008246,
+        0.15436578044241905,
+        0.07857885545675634
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7670553641008246,
+      "correct": false
+    },
+    {
+      "away": "Rio Ave FC",
+      "context": {
+        "gaps": [
+          3,
+          4
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          5,
+          5
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-09-23",
+      "goal_training_last_date": "2025-08-31",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-81a2b3950b126ae7bbb567f9",
+      "information_cutoff_date": "2025-09-22",
+      "league": "pt.1",
+      "probabilities": [
+        0.8267987741326335,
+        0.11449897935560954,
+        0.05870224651175714
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8267987741326335,
+      "correct": false
+    },
+    {
+      "away": "Casa Pia AC",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          35,
+          34
+        ],
+        "season_matches": [
+          10,
+          10
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-11-09",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Sport Lisboa e Benfica",
+      "id": "recent-d099eb23400ddeab0bb24c24",
+      "information_cutoff_date": "2025-11-08",
+      "league": "pt.1",
+      "probabilities": [
+        0.8352048222920457,
+        0.1099346746373902,
+        0.05486050307056409
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8352048222920457,
+      "correct": false
+    },
+    {
+      "away": "RC Celta",
+      "context": {
+        "gaps": [
+          4,
+          7
+        ],
+        "last365": [
+          37,
+          35
+        ],
+        "season_matches": [
+          15,
+          14
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-07",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        0,
+        2
+      ],
+      "home": "Real Madrid",
+      "id": "recent-8c1f60274e6757796db255fd",
+      "information_cutoff_date": "2025-12-06",
+      "league": "es.1",
+      "probabilities": [
+        0.7578945418121084,
+        0.15248672595325474,
+        0.08961873223463694
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 0,
+      "probability": 0.7578945418121084,
+      "correct": false
+    },
+    {
+      "away": "1. FSV Mainz 05",
+      "context": {
+        "gaps": [
+          8,
+          9
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          13,
+          13
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2025-12-14",
+      "goal_training_last_date": "2025-10-31",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-3d856073344a3346b4728a1a",
+      "information_cutoff_date": "2025-12-13",
+      "league": "de.1",
+      "probabilities": [
+        0.8230703226603713,
+        0.12018960418656277,
+        0.05674007315306617
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8230703226603713,
+      "correct": false
+    },
+    {
+      "away": "Burnley FC",
+      "context": {
+        "gaps": [
+          9,
+          10
+        ],
+        "last365": [
+          39,
+          21
+        ],
+        "season_matches": [
+          21,
+          21
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-17",
+      "goal_training_last_date": "2025-12-30",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Liverpool FC",
+      "id": "recent-4fd77773559786ea825cd54b",
+      "information_cutoff_date": "2026-01-08",
+      "league": "en.1",
+      "probabilities": [
+        0.7836123994905168,
+        0.13917868299936115,
+        0.07720891751012197
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7836123994905168,
+      "correct": false
+    },
+    {
+      "away": "FC Augsburg",
+      "context": {
+        "gaps": [
+          7,
+          6
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          18,
+          18
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        1,
+        2
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-0261dfad767e3fcfc6d0402f",
+      "information_cutoff_date": "2026-01-23",
+      "league": "de.1",
+      "probabilities": [
+        0.8813120262447257,
+        0.08775720178231185,
+        0.030930771972962446
+      ],
+      "selected": true,
+      "target": 2,
+      "choice": 0,
+      "probability": 0.8813120262447257,
+      "correct": false
+    },
+    {
+      "away": "NAC Breda",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-01-24",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "PSV",
+      "id": "recent-5f59eb937ca2c448119e04c5",
+      "information_cutoff_date": "2026-01-21",
+      "league": "nl.1",
+      "probabilities": [
+        0.879363425179909,
+        0.08586797453284295,
+        0.03476860028724804
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.879363425179909,
+      "correct": false
+    },
+    {
+      "away": "FC Bayern München",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          18,
+          34
+        ],
+        "season_matches": [
+          18,
+          19
+        ],
+        "venue": [
+          9,
+          20
+        ]
+      },
+      "date": "2026-01-31",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Hamburger SV",
+      "id": "recent-f042fa9d84edfb8be9e0d5f4",
+      "information_cutoff_date": "2026-01-30",
+      "league": "de.1",
+      "probabilities": [
+        0.07033811579607857,
+        0.13316703350651685,
+        0.7964948506974046
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 2,
+      "probability": 0.7964948506974046,
+      "correct": false
+    },
+    {
+      "away": "Sport Lisboa e Benfica",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          19,
+          34
+        ],
+        "season_matches": [
+          19,
+          19
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-01",
+      "goal_training_last_date": "2025-12-29",
+      "goals": [
+        0,
+        0
+      ],
+      "home": "CD Tondela",
+      "id": "recent-ef58ac2ca3477d2d26ee709f",
+      "information_cutoff_date": "2026-01-31",
+      "league": "pt.1",
+      "probabilities": [
+        0.0706178674142362,
+        0.12384595694672126,
+        0.8055361756390426
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 2,
+      "probability": 0.8055361756390426,
+      "correct": false
+    },
+    {
+      "away": "PSV",
+      "context": {
+        "gaps": [
+          6,
+          5
+        ],
+        "last365": [
+          22,
+          34
+        ],
+        "season_matches": [
+          22,
+          22
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-02-13",
+      "goal_training_last_date": "2025-12-21",
+      "goals": [
+        2,
+        1
+      ],
+      "home": "FC Volendam",
+      "id": "recent-09e2ffd01c762f39fccd261b",
+      "information_cutoff_date": "2026-02-11",
+      "league": "nl.1",
+      "probabilities": [
+        0.0655967598240067,
+        0.11094325858136703,
+        0.8234599815946264
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 2,
+      "probability": 0.8234599815946264,
+      "correct": false
+    },
+    {
+      "away": "Sporting Clube de Portugal",
+      "context": {
+        "gaps": [
+          9,
+          7
+        ],
+        "last365": [
+          34,
+          33
+        ],
+        "season_matches": [
+          30,
+          29
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-26",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "AVS",
+      "id": "recent-4610d3792c930da938d38117",
+      "information_cutoff_date": "2026-04-25",
+      "league": "pt.1",
+      "probabilities": [
+        0.03262417664643039,
+        0.0789171946187418,
+        0.8884586287348277
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 2,
+      "probability": 0.8884586287348277,
+      "correct": false
+    },
+    {
+      "away": "CD Tondela",
+      "context": {
+        "gaps": [
+          3,
+          4
+        ],
+        "last365": [
+          33,
+          30
+        ],
+        "season_matches": [
+          30,
+          30
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-04-29",
+      "goal_training_last_date": "2026-02-28",
+      "goals": [
+        2,
+        2
+      ],
+      "home": "Sporting Clube de Portugal",
+      "id": "recent-6be77dfc079f5574291bbd72",
+      "information_cutoff_date": "2026-04-27",
+      "league": "pt.1",
+      "probabilities": [
+        0.9034104486104999,
+        0.07256417915032495,
+        0.024025372239175204
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.9034104486104999,
+      "correct": false
+    },
+    {
+      "away": "1. FC Heidenheim 1846",
+      "context": {
+        "gaps": [
+          7,
+          7
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          31,
+          31
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-02",
+      "goal_training_last_date": "2026-04-26",
+      "goals": [
+        3,
+        3
+      ],
+      "home": "FC Bayern München",
+      "id": "recent-dede4e548bf04dab10b3375d",
+      "information_cutoff_date": "2026-04-26",
+      "league": "de.1",
+      "probabilities": [
+        0.9168711453039843,
+        0.06310128308574336,
+        0.020027571610272406
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.9168711453039843,
+      "correct": false
+    },
+    {
+      "away": "Hellas Verona FC",
+      "context": {
+        "gaps": [
+          7,
+          8
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          34,
+          34
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-03",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "Juventus FC",
+      "id": "recent-2ddee047872e7e24c1760711",
+      "information_cutoff_date": "2026-05-02",
+      "league": "it.1",
+      "probabilities": [
+        0.7516021115843154,
+        0.18729482115018858,
+        0.061103067265495956
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.7516021115843154,
+      "correct": false
+    },
+    {
+      "away": "FC Porto",
+      "context": {
+        "gaps": [
+          8,
+          8
+        ],
+        "last365": [
+          34,
+          34
+        ],
+        "season_matches": [
+          32,
+          32
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-10",
+      "goal_training_last_date": "2026-04-29",
+      "goals": [
+        3,
+        1
+      ],
+      "home": "AVS",
+      "id": "recent-03df7a3c31bbcebae3cfd3ac",
+      "information_cutoff_date": "2026-05-04",
+      "league": "pt.1",
+      "probabilities": [
+        0.06000823590266767,
+        0.13632983930378198,
+        0.8036619247935504
+      ],
+      "selected": true,
+      "target": 0,
+      "choice": 2,
+      "probability": 0.8036619247935504,
+      "correct": false
+    },
+    {
+      "away": "Hellas Verona FC",
+      "context": {
+        "gaps": [
+          8,
+          7
+        ],
+        "last365": [
+          37,
+          37
+        ],
+        "season_matches": [
+          36,
+          36
+        ],
+        "venue": [
+          20,
+          20
+        ]
+      },
+      "date": "2026-05-17",
+      "goal_training_last_date": "2026-04-27",
+      "goals": [
+        1,
+        1
+      ],
+      "home": "FC Internazionale Milano",
+      "id": "recent-e1118b04d9350f5c4dbc6697",
+      "information_cutoff_date": "2026-05-11",
+      "league": "it.1",
+      "probabilities": [
+        0.8469309970997819,
+        0.1204454228305982,
+        0.032623580069619844
+      ],
+      "selected": true,
+      "target": 1,
+      "choice": 0,
+      "probability": 0.8469309970997819,
+      "correct": false
+    }
+  ],
+  "mistake_outcomes": {
+    "draw": 14,
+    "away": 2,
+    "home": 2
+  },
+  "predicted_outcomes": {
+    "home": 101,
+    "away": 20
+  },
+  "capacity": {
+    "selected_matches": 121,
+    "calendar_dates_with_any_pick": 80,
+    "calendar_dates_with_at_least3": 8,
+    "calendar_dates_with_at_least5": 1,
+    "maximum_on_calendar_date": 5,
+    "matches_per_365days": 0.3315068493150685,
+    "warning": "Calendar-date grouping is a capacity diagnostic, not verified 06:00 Bangkok report backtesting; source kickoff times remain unverified."
+  },
+  "interpretation": "All failed picks retained. Causes such as injuries/red cards are unknown and are not invented. The rule/model remains unchanged after test."
+}

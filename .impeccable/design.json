@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T17:08:37.067Z",
+  "title": "Design System: สนามข้อมูล",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Cool Field",
+        "tonalRamp": [
+          "oklch(15.0% 0.0017 255.47)",
+          "oklch(26.4% 0.0036 255.47)",
+          "oklch(37.9% 0.0051 255.47)",
+          "oklch(49.3% 0.0060 255.47)",
+          "oklch(60.7% 0.0062 255.47)",
+          "oklch(72.1% 0.0057 255.47)",
+          "oklch(83.6% 0.0045 255.47)",
+          "oklch(95.0% 0.0027 255.47)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Pane",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 0.00)",
+          "oklch(26.4% 0.0000 0.00)",
+          "oklch(37.9% 0.0000 0.00)",
+          "oklch(49.3% 0.0000 0.00)",
+          "oklch(60.7% 0.0000 0.00)",
+          "oklch(72.1% 0.0000 0.00)",
+          "oklch(83.6% 0.0000 0.00)",
+          "oklch(95.0% 0.0000 0.00)"
+        ]
+      },
+      "surface-raised": {
+        "role": "primary",
+        "displayName": "Selection Wash",
+        "tonalRamp": [
+          "oklch(15.0% 0.0038 254.60)",
+          "oklch(26.4% 0.0082 254.60)",
+          "oklch(37.9% 0.0116 254.60)",
+          "oklch(49.3% 0.0137 254.60)",
+          "oklch(60.7% 0.0141 254.60)",
+          "oklch(72.1% 0.0129 254.60)",
+          "oklch(83.6% 0.0101 254.60)",
+          "oklch(95.0% 0.0062 254.60)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Control Stroke",
+        "tonalRamp": [
+          "oklch(15.0% 0.0093 255.65)",
+          "oklch(26.4% 0.0201 255.65)",
+          "oklch(37.9% 0.0286 255.65)",
+          "oklch(49.3% 0.0336 255.65)",
+          "oklch(60.7% 0.0347 255.65)",
+          "oklch(72.1% 0.0317 255.65)",
+          "oklch(83.6% 0.0249 255.65)",
+          "oklch(95.0% 0.0152 255.65)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Pane Divider",
+        "tonalRamp": [
+          "oklch(15.0% 0.0050 258.35)",
+          "oklch(26.4% 0.0107 258.35)",
+          "oklch(37.9% 0.0152 258.35)",
+          "oklch(49.3% 0.0179 258.35)",
+          "oklch(60.7% 0.0185 258.35)",
+          "oklch(72.1% 0.0169 258.35)",
+          "oklch(83.6% 0.0133 258.35)",
+          "oklch(95.0% 0.0081 258.35)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Pitch Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0092 263.44)",
+          "oklch(26.4% 0.0197 263.44)",
+          "oklch(37.9% 0.0280 263.44)",
+          "oklch(49.3% 0.0330 263.44)",
+          "oklch(60.7% 0.0340 263.44)",
+          "oklch(72.1% 0.0311 263.44)",
+          "oklch(83.6% 0.0244 263.44)",
+          "oklch(95.0% 0.0149 263.44)"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Supporting Slate",
+        "tonalRamp": [
+          "oklch(15.0% 0.0095 257.79)",
+          "oklch(26.4% 0.0205 257.79)",
+          "oklch(37.9% 0.0291 257.79)",
+          "oklch(49.3% 0.0343 257.79)",
+          "oklch(60.7% 0.0354 257.79)",
+          "oklch(72.1% 0.0323 257.79)",
+          "oklch(83.6% 0.0254 257.79)",
+          "oklch(95.0% 0.0155 257.79)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Programme Blue",
+        "tonalRamp": [
+          "oklch(15.0% 0.0583 264.38)",
+          "oklch(26.4% 0.1255 264.38)",
+          "oklch(37.9% 0.1784 264.38)",
+          "oklch(49.3% 0.2097 264.38)",
+          "oklch(60.7% 0.2164 264.38)",
+          "oklch(72.1% 0.1978 264.38)",
+          "oklch(83.6% 0.1554 264.38)",
+          "oklch(95.0% 0.0951 264.38)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "Recorded Red — Warning",
+        "tonalRamp": [
+          "oklch(15.0% 0.0489 29.51)",
+          "oklch(26.4% 0.1052 29.51)",
+          "oklch(37.9% 0.1495 29.51)",
+          "oklch(49.3% 0.1758 29.51)",
+          "oklch(60.7% 0.1814 29.51)",
+          "oklch(72.1% 0.1658 29.51)",
+          "oklch(83.6% 0.1303 29.51)",
+          "oklch(95.0% 0.0797 29.51)"
+        ]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Recorded Red — Error",
+        "tonalRamp": [
+          "oklch(15.0% 0.0489 29.51)",
+          "oklch(26.4% 0.1052 29.51)",
+          "oklch(37.9% 0.1495 29.51)",
+          "oklch(49.3% 0.1758 29.51)",
+          "oklch(60.7% 0.1814 29.51)",
+          "oklch(72.1% 0.1658 29.51)",
+          "oklch(83.6% 0.1303 29.51)",
+          "oklch(95.0% 0.0797 29.51)"
+        ]
+      },
+      "info": {
+        "role": "primary",
+        "displayName": "Programme Blue — Information",
+        "tonalRamp": [
+          "oklch(15.0% 0.0583 264.38)",
+          "oklch(26.4% 0.1255 264.38)",
+          "oklch(37.9% 0.1784 264.38)",
+          "oklch(49.3% 0.2097 264.38)",
+          "oklch(60.7% 0.2164 264.38)",
+          "oklch(72.1% 0.1978 264.38)",
+          "oklch(83.6% 0.1554 264.38)",
+          "oklch(95.0% 0.0951 264.38)"
+        ]
+      },
+      "win-surface": {
+        "role": "primary",
+        "displayName": "Selection Wash — Win",
+        "tonalRamp": [
+          "oklch(15.0% 0.0038 254.60)",
+          "oklch(26.4% 0.0082 254.60)",
+          "oklch(37.9% 0.0116 254.60)",
+          "oklch(49.3% 0.0137 254.60)",
+          "oklch(60.7% 0.0141 254.60)",
+          "oklch(72.1% 0.0129 254.60)",
+          "oklch(83.6% 0.0101 254.60)",
+          "oklch(95.0% 0.0062 254.60)"
+        ]
+      },
+      "loss-surface": {
+        "role": "secondary",
+        "displayName": "Loss Wash",
+        "tonalRamp": [
+          "oklch(15.0% 0.0032 23.70)",
+          "oklch(26.4% 0.0069 23.70)",
+          "oklch(37.9% 0.0098 23.70)",
+          "oklch(49.3% 0.0115 23.70)",
+          "oklch(60.7% 0.0119 23.70)",
+          "oklch(72.1% 0.0109 23.70)",
+          "oklch(83.6% 0.0085 23.70)",
+          "oklch(95.0% 0.0052 23.70)"
+        ]
+      },
+      "scrim": {
+        "role": "neutral",
+        "displayName": "Research Scrim",
+        "tonalRamp": [
+          "oklch(15.0% 0.0092 263.44)",
+          "oklch(26.4% 0.0197 263.44)",
+          "oklch(37.9% 0.0280 263.44)",
+          "oklch(49.3% 0.0330 263.44)",
+          "oklch(60.7% 0.0340 263.44)",
+          "oklch(72.1% 0.0311 263.44)",
+          "oklch(83.6% 0.0244 263.44)",
+          "oklch(95.0% 0.0149 263.44)"
+        ]
+      },
+      "header-hover": {
+        "role": "primary",
+        "displayName": "Masthead Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 0.00)",
+          "oklch(26.4% 0.0000 0.00)",
+          "oklch(37.9% 0.0000 0.00)",
+          "oklch(49.3% 0.0000 0.00)",
+          "oklch(60.7% 0.0000 0.00)",
+          "oklch(72.1% 0.0000 0.00)",
+          "oklch(83.6% 0.0000 0.00)",
+          "oklch(95.0% 0.0000 0.00)"
+        ]
+      },
+      "header-border": {
+        "role": "primary",
+        "displayName": "Masthead Border",
+        "tonalRamp": [
+          "oklch(15.0% 0.0153 254.13)",
+          "oklch(26.4% 0.0330 254.13)",
+          "oklch(37.9% 0.0469 254.13)",
+          "oklch(49.3% 0.0551 254.13)",
+          "oklch(60.7% 0.0569 254.13)",
+          "oklch(72.1% 0.0520 254.13)",
+          "oklch(83.6% 0.0408 254.13)",
+          "oklch(95.0% 0.0250 254.13)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Research headline",
+        "purpose": "Research page headings; 28px at the research narrow breakpoint."
+      },
+      "title": {
+        "displayName": "Desk title",
+        "purpose": "Programme and selected-match headings; mobile programme title uses the section size."
+      },
+      "section": {
+        "displayName": "Analysis section",
+        "purpose": "Compact analysis section headings; general research h2 remains 20px."
+      },
+      "body": {
+        "displayName": "Programme body",
+        "purpose": "Root text; fixture team identities use 1.45 line height without shrinking."
+      },
+      "analysis-body": {
+        "displayName": "Analysis body",
+        "purpose": "Compact task-panel prose."
+      },
+      "label": {
+        "displayName": "Control label",
+        "purpose": "Buttons, inputs and kickoff time."
+      },
+      "supporting": {
+        "displayName": "Supporting data",
+        "purpose": "Recorded status, countries, source notes and task tabs."
+      },
+      "probability": {
+        "displayName": "Compact probability",
+        "purpose": "Selected-match percentages and expected goals; tabular figures."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background-color 160ms ease-out, border-color 160ms ease-out",
+        "purpose": "Button hover and selection communicate state without decorative movement."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "prefers-reduced-motion: reduce sets animation/transition duration and scroll-behavior:auto."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desk-two-pane-max-width",
+        "value": "1279px"
+      },
+      {
+        "name": "desk-one-pane-max-width",
+        "value": "767px"
+      },
+      {
+        "name": "short-window-max-height",
+        "value": "450px"
+      },
+      {
+        "name": "legacy-research-max-width",
+        "value": "800px"
+      },
+      {
+        "name": "research-narrow-max-width",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button-default",
+      "description": "Bordered control for date, retry and secondary actions.",
+      "html": "<button class=\"ds-button\">อ่านแคช</button>",
+      "css": ".ds-button{font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:.875rem;line-height:1.65;min-height:44px;padding:9px 13px;border:1px solid var(--border,#7e8da1);border-radius:8px;background:var(--surface,#ffffff);color:var(--text,#101828);cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-button:hover{background:var(--raised,#eff6ff);border-color:var(--accent,#1d4ed8)}.ds-button:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}.ds-button:disabled{cursor:default;color:var(--muted,#475467);opacity:.6}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Selected Button",
+      "kind": "button",
+      "refersTo": "button-selected",
+      "description": "Generic pressed control; programme rows and scope/date filters have their own pale variants.",
+      "html": "<button class=\"ds-button ds-selected\" aria-pressed=\"true\">เลือกแล้ว</button>",
+      "css": ".ds-button{font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:.875rem;line-height:1.65;min-height:44px;padding:9px 13px;border:1px solid var(--border,#7e8da1);border-radius:8px;background:var(--surface,#ffffff);color:var(--text,#101828);cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-button:hover{background:var(--raised,#eff6ff);border-color:var(--accent,#1d4ed8)}.ds-button:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}.ds-button:disabled{cursor:default;color:var(--muted,#475467);opacity:.6}.ds-selected,.ds-selected:hover{background:var(--accent,#1d4ed8);border-color:var(--accent,#1d4ed8);color:var(--bg,#f4f7fb)}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Text Action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Blue inline action to open a fixture or move to H2H.",
+      "html": "<button class=\"ds-text\">ดูฟอร์มและ H2H</button>",
+      "css": ".ds-text{font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:inherit;line-height:1.65;min-height:44px;padding:8px 0;border:0;border-radius:8px;background:transparent;color:var(--accent,#1d4ed8);text-align:left;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-text:hover{background:transparent;text-decoration:underline;text-underline-offset:4px}.ds-text:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-text{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Team Search",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Search input uses the cool field background, a visible stroke and a blue focus outline.",
+      "html": "<label class=\"ds-field\"><span>ค้นหาทีม</span><input type=\"search\" placeholder=\"ค้นหาทีม…\"/></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:5px;font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:.875rem;line-height:1.65;color:var(--muted,#475467)}.ds-field input{font:inherit;min-height:44px;min-width:0;padding:9px 13px;border:1px solid var(--border,#7e8da1);border-radius:8px;background:var(--bg,#f4f7fb);color:var(--text,#101828);caret-color:var(--accent,#1d4ed8)}.ds-field input::placeholder{color:var(--muted,#475467);opacity:1}.ds-field input:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}"
+    },
+    {
+      "name": "Masthead Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "White current task on the blue masthead; mobile uses equal square tabs.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"หน้าข้อมูล\"><button aria-current=\"page\">โปรแกรม</button><button>คู่เด่น</button><button>ผลการทำนาย</button></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:4px;padding:6px;background:var(--accent,#1d4ed8);font-family:'IBM Plex Sans Thai',system-ui,sans-serif}.ds-nav button{font:inherit;font-size:.875rem;line-height:1.65;min-height:44px;padding:8px 16px;border:0;border-radius:6px;background:transparent;color:var(--surface,#ffffff);cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-nav button:hover{background:#ffffff24}.ds-nav button[aria-current=page]{background:var(--surface,#ffffff);color:var(--accent,#1d4ed8)}.ds-nav button:focus-visible{outline:2px solid var(--surface,#ffffff);outline-offset:4px}@media(max-width:767px){.ds-nav{gap:0}.ds-nav button{flex:1;min-width:0;padding:8px 6px;border-radius:0}}@media(prefers-reduced-motion:reduce){.ds-nav button{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Recorded Source Tag",
+      "kind": "chip",
+      "refersTo": "source-tag",
+      "description": "Static supporting label for recorded or experimental evidence.",
+      "html": "<span class=\"ds-source\">ข้อมูลที่บันทึก</span>",
+      "css": ".ds-source{display:inline-block;font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:.8125rem;line-height:1.65;padding:6px 10px;border-radius:6px;background:var(--raised,#eff6ff);color:var(--accent,#1d4ed8);white-space:nowrap}"
+    },
+    {
+      "name": "Truthful Empty State",
+      "kind": "card",
+      "refersTo": "empty-state",
+      "description": "An explanatory container with a concrete retry action when data cannot be read.",
+      "html": "<section class=\"ds-empty\"><h2>ยังเปิดโปรแกรมไม่ได้</h2><p>อ่านโปรแกรมที่บันทึกไว้ไม่สำเร็จ</p><button class=\"ds-button\">ลองอีกครั้ง</button></section>",
+      "css": ".ds-empty{font-family:'IBM Plex Sans Thai',system-ui,sans-serif;padding:20px 24px;border:1px solid var(--border,#7e8da1);border-radius:12px;background:var(--surface,#ffffff);color:var(--muted,#475467)}.ds-empty h2{margin:0 0 12px;color:var(--text,#101828);font-size:1rem;font-weight:600;line-height:1.5}.ds-empty p{margin:10px 0;font-size:.875rem;line-height:1.8;overflow-wrap:anywhere}.ds-empty button{margin-top:8px}.ds-button{font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:.875rem;line-height:1.65;min-height:44px;padding:9px 13px;border:1px solid var(--border,#7e8da1);border-radius:8px;background:var(--surface,#ffffff);color:var(--text,#101828);cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-button:hover{background:var(--raised,#eff6ff);border-color:var(--accent,#1d4ed8)}.ds-button:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}.ds-button:disabled{cursor:default;color:var(--muted,#475467);opacity:.6}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Fixture Row",
+      "kind": "custom",
+      "refersTo": "fixture-row",
+      "description": "Selected recorded fixture with readable identities, an unknown score dash and explicit recorded state.",
+      "html": "<button class=\"ds-fixture\" aria-pressed=\"true\" aria-label=\"วิเคราะห์ Cuarte – Girona\"><span class=\"ds-time\">00:30<small>+1 วัน</small></span><span class=\"ds-home\">Cuarte</span><span class=\"ds-score\" aria-label=\"ยังไม่มีสกอร์ยืนยัน\">–</span><span class=\"ds-away\">Girona</span><span class=\"ds-state\">รอแข่งขัน ณ เวลาบันทึก</span><span class=\"ds-arrow\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"m9 5 7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button>",
+      "css": ".ds-fixture{display:grid;grid-template-columns:2.875rem minmax(0,1fr) 2.5rem minmax(0,1fr) 1.125rem;gap:2px 8px;align-items:center;width:100%;min-height:60px;padding:8px 12px;border:0;border-bottom:1px solid var(--divider,#d7dfeb);border-radius:0;background:var(--surface,#ffffff);color:var(--text,#101828);font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:1rem;line-height:1.65;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-fixture:hover,.ds-fixture[aria-pressed=true]{background:var(--raised,#eff6ff);color:var(--text,#101828)}.ds-fixture:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}.ds-time{grid-column:1;grid-row:1/3;font-size:.875rem;font-weight:500;text-align:left;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-time small{display:block;font-size:.8125rem;font-weight:400;color:var(--muted,#475467)}.ds-home,.ds-away{min-width:0;font-size:1rem;line-height:1.45;overflow-wrap:anywhere}.ds-home{grid-column:2;grid-row:1;text-align:right}.ds-away{grid-column:4;grid-row:1;text-align:left}.ds-score{grid-column:3;grid-row:1;min-height:28px;border-radius:5px;background:var(--bg,#f4f7fb);text-align:center;font-variant-numeric:tabular-nums}.ds-state{grid-column:2/5;grid-row:2;font-size:.8125rem;line-height:1.35;color:var(--muted,#475467);text-align:center}.ds-arrow{grid-column:5;grid-row:1/3;display:flex;justify-content:center;color:var(--accent,#1d4ed8)}@media(max-width:767px){.ds-fixture{grid-template-columns:2.75rem minmax(0,1fr) 2.125rem minmax(0,1fr) 1rem;column-gap:5px;padding:8px}.ds-home{text-align:left}}@media(prefers-reduced-motion:reduce){.ds-fixture{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Analysis Task Tabs",
+      "kind": "nav",
+      "refersTo": "analysis-tab",
+      "description": "Four compact task tabs with a pale selected surface, blue type and bottom indicator.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"ส่วนวิเคราะห์\"><button role=\"tab\" aria-selected=\"true\" tabindex=\"0\">สรุป</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">ฟอร์ม–H2H</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">ประตู</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">ข้อมูลทีม</button></div>",
+      "css": ".ds-tabs{display:flex;padding:0 8px;border-block:1px solid var(--divider,#d7dfeb);font-family:'IBM Plex Sans Thai',system-ui,sans-serif}.ds-tabs button{position:relative;flex:1;min-width:0;min-height:44px;padding:8px 4px;border:0;border-radius:0;background:transparent;color:var(--muted,#475467);font:inherit;font-size:.8125rem;line-height:1.65;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-tabs button:hover{background:var(--raised,#eff6ff)}.ds-tabs button[aria-selected=true]{background:var(--raised,#eff6ff);color:var(--accent,#1d4ed8)}.ds-tabs button[aria-selected=true]::after{content:'';position:absolute;bottom:0;left:8px;right:8px;height:2px;background:var(--accent,#1d4ed8)}.ds-tabs button:focus-visible{outline:2px solid var(--accent,#1d4ed8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-tabs button{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Neutral Crest Fallback",
+      "kind": "custom",
+      "description": "Stable neutral initials substitute for missing media; this is not an official logo.",
+      "html": "<span class=\"ds-logo\" aria-hidden=\"true\"><span class=\"ds-initials\">AT</span></span>",
+      "css": ".ds-logo{width:24px;height:24px;flex:0 0 24px;display:inline-flex;align-items:center;justify-content:center}.ds-initials{display:grid;place-items:center;width:22px;height:22px;border-radius:6px;background:var(--raised,#eff6ff);color:var(--muted,#475467);font-family:'IBM Plex Sans Thai',system-ui,sans-serif;font-size:.8125rem;line-height:1.65;overflow:hidden}@media(max-width:767px){.ds-logo{width:22px;height:22px;flex-basis:22px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Football programme desk",
+    "overview": "Compact, ordered and calm: white panes sit below a blue masthead, with red qualifying significant recorded states and the pitch mark. Thai text, full team identities, aligned scores and fine dividers carry the interface. Research shares the same materials and remains a secondary task.\r\n\r\nThis is the finished system extracted from the application, refreshing the incumbent document under the user's approved white/blue/red direction. It preserves the product name, local Thai type, provider identities and explicit distinction between recorded facts, estimates and unknown data. A competition being visible never implies that the model can analyse it. A recorded status never implies a current live guarantee. The approved written plan and the named FORM contract establish the direction; no generated seed or raster comp exists.",
+    "keyCharacteristics": [
+      "White content, cool blue-grey structure, blue navigation and restrained red state.",
+      "Readable Thai text and full team names, with tabular scores and times.",
+      "Flat, divider-led panes and small curved controls.",
+      "Context-preserving selection, task tabs and truthful unavailable states."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Selection Rule",
+        "body": "A selected fixture keeps Pitch Ink on Selection Wash, including time, team names and score. The generic blue pressed-button foreground must not leak into the pale programme row.",
+        "section": "colors"
+      },
+      {
+        "name": "The Named State Rule",
+        "body": "Red qualifies an explicit recorded state or problem; it never supplies the meaning alone. W/D/L form badges retain their letters.",
+        "section": "colors"
+      },
+      {
+        "name": "The Full Identity Rule",
+        "body": "Team names remain (16px) and wrap, including at narrow widths; do not shrink them to preserve a one-line row. Scores, times and probability values use tabular numerals. Dates and recorded times use the Thai locale with the Asia/Bangkok timezone; the shared date helpers explicitly use the Gregorian calendar.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Desk Rule",
+        "body": "Establish groups with dividers and tonal surfaces. Reserve overlays for existing filter and research tasks; do not add ornamental depth to fixture rows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** show the actual recorded timestamp and distinguish unavailable data from an empty schedule.",
+      "**Do** keep the selected fixture's text dark, team names readable and complete, and target heights at least 44px.",
+      "**Do** preserve list context on selection/Back and allow necessary scrolling for enlarged text or short windows.",
+      "**Do** distinguish programme coverage, model eligibility and provider forecasts with explicit text.",
+      "**Do** retain evidence and sample size in research views, with technical provenance behind useful disclosures.",
+      "**Do** use genuine provider crests or the stable neutral initials fallback."
+    ],
+    "donts": [
+      "**Don't** put a marketing hero, large research metrics or repeated warnings before the working programme.",
+      "**Don't** manufacture probabilities, scores, availability, official logos or live accuracy claims to fill a state.",
+      "**Don't** expose setup commands as the standard user recovery.",
+      "**Don't** add decorative gradients, glow, blur, hard offset shadows, invented eyebrow/kicker labels or glyph/emoji UI icons.",
+      "**Don't** use a decorative system display face or motion that competes with reading."
+    ]
+  }
+}

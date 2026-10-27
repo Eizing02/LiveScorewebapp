@@ -1,0 +1,13 @@
+﻿rule,selected,coverage,accuracy,mean_probability,wilson_lower,date_cluster_lower,qualified,rejection_reasons
+probability-p70,211,0.09896810506566604,0.8009478672985783,0.7585702035693157,0.7419045052112383,0.7420055821371611,True,
+probability-p75,106,0.04971857410881801,0.8584905660377359,0.7912301704561219,0.7795766972144925,0.7904761904761904,False,too_few_validation_samples;coverage_too_low;league_support_too_small
+probability-p80,35,0.016416510318949345,0.8571428571428571,0.8277009678556307,0.7062444591340484,0.7396992481203007,False,too_few_validation_samples;coverage_too_low;league_support_too_small;fold_support_too_small
+history-p70,162,0.07598499061913697,0.8024691358024691,0.758553969525295,0.7344647106403248,0.7372519413287316,True,
+history-p75,80,0.0375234521575985,0.8625,0.7917205699059755,0.7703289993301339,0.7855769230769231,False,too_few_validation_samples;coverage_too_low;league_support_too_small;fold_support_too_small
+history-p80,29,0.013602251407129456,0.8275862068965517,0.8263903272003376,0.6545156010980476,0.6875,False,too_few_validation_samples;coverage_too_low;wilson_lower_bound_too_low;date_cluster_lower_bound_too_low;league_support_too_small;fold_support_too_small
+consensus-p70,162,0.07598499061913697,0.8024691358024691,0.758553969525295,0.7344647106403248,0.7372519413287316,True,
+consensus-p75,80,0.0375234521575985,0.8625,0.7917205699059755,0.7703289993301339,0.7855769230769231,False,too_few_validation_samples;coverage_too_low;league_support_too_small;fold_support_too_small
+consensus-p80,29,0.013602251407129456,0.8275862068965517,0.8263903272003376,0.6545156010980476,0.6875,False,too_few_validation_samples;coverage_too_low;wilson_lower_bound_too_low;date_cluster_lower_bound_too_low;league_support_too_small;fold_support_too_small
+robust-p70,162,0.07598499061913697,0.8024691358024691,0.758553969525295,0.7344647106403248,0.7372519413287316,True,
+robust-p75,80,0.0375234521575985,0.8625,0.7917205699059755,0.7703289993301339,0.7855769230769231,False,too_few_validation_samples;coverage_too_low;league_support_too_small;fold_support_too_small
+robust-p80,29,0.013602251407129456,0.8275862068965517,0.8263903272003376,0.6545156010980476,0.6875,False,too_few_validation_samples;coverage_too_low;wilson_lower_bound_too_low;date_cluster_lower_bound_too_low;league_support_too_small;fold_support_too_small

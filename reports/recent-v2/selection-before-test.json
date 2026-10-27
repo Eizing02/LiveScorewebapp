@@ -1,0 +1,12 @@
+{
+  "selected": "logistic",
+  "validation_log_loss": {
+    "league": 1.0759219401176023,
+    "elo": 1.0202243513537972,
+    "poisson": 1.0161951544789702,
+    "logistic": 1.008154845951787,
+    "xgboost": 1.010762015563363
+  },
+  "auto_promoted": false,
+  "status": "retrospective_exploratory_previously_seen_dates"
+}

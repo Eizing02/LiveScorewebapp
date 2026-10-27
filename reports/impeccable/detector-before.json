@@ -1,0 +1,15 @@
+[
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "D:\\Football Prediction AI\\apps\\web\\src\\style.css",
+    "line": 3,
+    "snippet": "border-left:2px solid #a0b878",
+    "importedBy": [
+      "main.tsx"
+    ]
+  }
+]

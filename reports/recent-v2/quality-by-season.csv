@@ -1,0 +1,61 @@
+﻿league,name,season,accepted,quarantined,excluded,cross_source_agreement
+de.1,Bundesliga,2021-22,225,0,81,225
+de.1,Bundesliga,2022-23,306,0,0,306
+de.1,Bundesliga,2023-24,306,0,0,306
+de.1,Bundesliga,2024-25,306,1,0,305
+de.1,Bundesliga,2025-26,306,0,0,306
+de.1,Bundesliga,2026-27,61,515,0,36
+de.2,2. Bundesliga,2021-22,207,0,99,207
+de.2,2. Bundesliga,2022-23,306,0,0,306
+de.2,2. Bundesliga,2023-24,306,0,0,306
+de.2,2. Bundesliga,2024-25,303,6,0,303
+de.2,2. Bundesliga,2025-26,306,207,0,99
+de.2,2. Bundesliga,2026-27,61,242,3,0
+en.1,Premier League,2021-22,290,0,90,0
+en.1,Premier League,2022-23,380,0,0,0
+en.1,Premier League,2023-24,380,0,0,0
+en.1,Premier League,2024-25,380,0,0,0
+en.1,Premier League,2025-26,380,0,0,0
+en.1,Premier League,2026-27,50,330,0,0
+en.2,Championship,2021-22,384,5,168,0
+en.2,Championship,2022-23,552,5,0,0
+en.2,Championship,2023-24,552,5,0,0
+en.2,Championship,2024-25,552,5,0,0
+en.2,Championship,2025-26,552,5,0,0
+en.2,Championship,2026-27,95,457,0,0
+es.1,La Liga,2021-22,285,0,95,0
+es.1,La Liga,2022-23,380,0,0,0
+es.1,La Liga,2023-24,380,0,0,0
+es.1,La Liga,2024-25,370,10,0,0
+es.1,La Liga,2025-26,380,0,0,0
+es.1,La Liga,2026-27,69,311,0,0
+es.2,Segunda División,2024-25,453,9,0,0
+es.2,Segunda División,2025-26,0,462,0,0
+fr.1,Ligue 1,2021-22,271,0,109,0
+fr.1,Ligue 1,2022-23,380,0,0,0
+fr.1,Ligue 1,2023-24,306,0,0,0
+fr.1,Ligue 1,2024-25,305,1,0,0
+fr.1,Ligue 1,2025-26,305,1,0,0
+fr.1,Ligue 1,2026-27,45,261,0,0
+fr.2,Ligue 2,2024-25,306,0,0,0
+fr.2,Ligue 2,2025-26,0,306,0,0
+it.1,Serie A,2021-22,290,0,90,0
+it.1,Serie A,2022-23,380,0,0,0
+it.1,Serie A,2023-24,380,0,0,0
+it.1,Serie A,2024-25,370,10,0,0
+it.1,Serie A,2025-26,380,0,0,0
+it.1,Serie A,2026-27,50,330,0,0
+it.2,Serie B,2024-25,379,11,0,0
+it.2,Serie B,2025-26,0,380,0,0
+nl.1,Eredivisie,2021-22,218,0,88,0
+nl.1,Eredivisie,2022-23,306,0,0,0
+nl.1,Eredivisie,2023-24,306,0,0,0
+nl.1,Eredivisie,2024-25,306,0,0,0
+nl.1,Eredivisie,2025-26,305,1,0,0
+nl.1,Eredivisie,2026-27,63,243,0,0
+pt.1,Primeira Liga,2021-22,227,0,79,0
+pt.1,Primeira Liga,2022-23,306,0,0,0
+pt.1,Primeira Liga,2023-24,306,0,0,0
+pt.1,Primeira Liga,2024-25,306,0,0,0
+pt.1,Primeira Liga,2025-26,306,0,0,0
+pt.1,Primeira Liga,2026-27,62,244,0,0

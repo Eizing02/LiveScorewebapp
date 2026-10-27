@@ -1,0 +1,497 @@
+[
+  {
+    "path": "apps\\web\\public\\media\\leagues\\39.png",
+    "source": "https://media.api-sports.io/football/leagues/39.png",
+    "sha256": "cf1bca93c5378001ba036b9a3140014b02a61f728719a9eed586cb30c6f3fde6",
+    "bytes": 90507,
+    "download_sha256": "ee162444b9ce8a00de813ed38152f88590a17fe92e22296fd86d132083c212df",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\leagues\\78.png",
+    "source": "https://media.api-sports.io/football/leagues/78.png",
+    "sha256": "85031f9125c5cbde76c306c423537760194cd55bf71fea88d1a2e6f9a355a64f",
+    "bytes": 90507,
+    "download_sha256": "41008525e75e6a6206c4469b2947ff3579e46b86ed7991dbe6ec452e522518d0",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\leagues\\135.png",
+    "source": "https://media.api-sports.io/football/leagues/135.png",
+    "sha256": "f201231dc4232ec0738ae03a0887dde09b42126336c36b350552e2296af93220",
+    "bytes": 90508,
+    "download_sha256": "59a0fece857f60d23f4b7571777f35a3894564740b4a4056c7ebd2b25e48e6a6",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\leagues\\140.png",
+    "source": "https://media.api-sports.io/football/leagues/140.png",
+    "sha256": "e1316f3d14ff99e1c690f6fbd64166b6f1fc90a48a1051fb4c889a291f2eae08",
+    "bytes": 118749,
+    "download_sha256": "320106f929dc5984cae891d5312ea5be69de45db17d6e6d805505d3d99d84400",
+    "download_bytes": 118622,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\33.png",
+    "source": "https://media.api-sports.io/football/teams/33.png",
+    "sha256": "20a915f427e8bb1045fce58b78cdc5a5fd91464439522ff7d721eeeccd452a3a",
+    "bytes": 90505,
+    "download_sha256": "6dff7e1a3d7d7a3748edf8ca55fefa00aa169a47f1933b62eb42d2f9cfcf3b2e",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\34.png",
+    "source": "https://media.api-sports.io/football/teams/34.png",
+    "sha256": "bd1245d4c49ae09ed0c81175b046531ce655c020b0e59b692ce5e444f063e60a",
+    "bytes": 89893,
+    "download_sha256": "2cdfd5d4d0e6d97f3b452a10e648a1bbdc6d3ca34c8609457d25ef732eb029b1",
+    "download_bytes": 89769,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\35.png",
+    "source": "https://media.api-sports.io/football/teams/35.png",
+    "sha256": "17e903bc2c8c3a84c1dd699519fd4fa2900db4cd226007a9b54d6c47eaa47609",
+    "bytes": 15321,
+    "download_sha256": "e668d998ce23dc34648ce4c7f19d289d0fbb567383bf06b0263761c7c16afb6d",
+    "download_bytes": 15197,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\40.png",
+    "source": "https://media.api-sports.io/football/teams/40.png",
+    "sha256": "740082bbefaf6760958660170d59f9be7c777df62d8c29c16c0d38170b771f94",
+    "bytes": 47228,
+    "download_sha256": "c3b13021c1abfb8231f1feb277501dfcf6649047e84e16c98e4b50cd77350330",
+    "download_bytes": 47104,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\51.png",
+    "source": "https://media.api-sports.io/football/teams/51.png",
+    "sha256": "4cac1eb7de6b0578a1715ab643d16bb91e63f64da67c6322c880cb2b3fd661d8",
+    "bytes": 16016,
+    "download_sha256": "d9b536ef13f9edd1cb77b0fa716738a7f375df733544ce872be8a7478ef19aa0",
+    "download_bytes": 15892,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\52.png",
+    "source": "https://media.api-sports.io/football/teams/52.png",
+    "sha256": "3714243f6e31b7e112a6dba716df14e48391aac82469026733250a18babd2ef2",
+    "bytes": 90505,
+    "download_sha256": "3a5b60eb010b7050d5b622165ff70468e9ddf5a5af48e1141d239b81e7570149",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\55.png",
+    "source": "https://media.api-sports.io/football/teams/55.png",
+    "sha256": "99f90cc52d2184e09658dcb746a131e6ea21a6fe422eda7529b909cf58198913",
+    "bytes": 90505,
+    "download_sha256": "69278a7461b24c3b245ee99477a81ab5f6b979e3dc82d39ba4770d3f53ec18d5",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\63.png",
+    "source": "https://media.api-sports.io/football/teams/63.png",
+    "sha256": "95b9a1b7dac694fed83ccb1c5e39e83b1d6d47ecb5500a9bd494287695206fae",
+    "bytes": 14029,
+    "download_sha256": "9f58f9f706d4adab425001292d9d0554fed85a3263dc4c1c667985c106c5a571",
+    "download_bytes": 13905,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\64.png",
+    "source": "https://media.api-sports.io/football/teams/64.png",
+    "sha256": "912f93a07a66b6c1dfa4361ad92213a5f9c9f2e9cf6131cd7f7564bdc08101f7",
+    "bytes": 37542,
+    "download_sha256": "e5825be5ee171e9a84fccec0b64e5f49b7a7ad3f188b880eb915500ea463667b",
+    "download_bytes": 37418,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\157.png",
+    "source": "https://media.api-sports.io/football/teams/157.png",
+    "sha256": "dc55c5af2ba63e434d7ac7b6912add5f5ff3313fd366d2c22ae45d7cb0119303",
+    "bytes": 90506,
+    "download_sha256": "909d7704e49a2d04e57695a9f1030f8b30f01fb82e632b773d897ce2bf5a8d4b",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\160.png",
+    "source": "https://media.api-sports.io/football/teams/160.png",
+    "sha256": "d54b1b832667387c1ac06f07d22d93bf5f0a37eeb8679e92507558f98630e2f6",
+    "bytes": 10580,
+    "download_sha256": "54f643a63e5109e0fb57fe9ff803a0b22cd9958a28b367958d27d07383121e9e",
+    "download_bytes": 10455,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\167.png",
+    "source": "https://media.api-sports.io/football/teams/167.png",
+    "sha256": "0e85842b057b921a2f73fc1c49ef5bb555efd56474315579a3329e26fd46b63a",
+    "bytes": 20619,
+    "download_sha256": "d3563d9ffa1efd6b26c8fe4587990ff94c961297899133f6519f6b307b741d56",
+    "download_bytes": 20494,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\168.png",
+    "source": "https://media.api-sports.io/football/teams/168.png",
+    "sha256": "f1f587472a11d40596ae5aa936127895985745e2c7e5e8f7d83450bb19c3e88d",
+    "bytes": 21116,
+    "download_sha256": "780bfce19ea9a74d61dd90f780ecdda7ab4dcb9ef19f95fd12f13f490aa10acd",
+    "download_bytes": 20991,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\487.png",
+    "source": "https://media.api-sports.io/football/teams/487.png",
+    "sha256": "53b8e06b4258d5b2aaf91716843af8ab3539674f39fc13de4d0b89bfe05421ae",
+    "bytes": 8866,
+    "download_sha256": "9e8fc4c8e13a101ff6dc68c7e9e595e8315aa37cde1fb9d5d515a8fd1247d03f",
+    "download_bytes": 8741,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\488.png",
+    "source": "https://media.api-sports.io/football/teams/488.png",
+    "sha256": "87e9e45ff5f83b2109ba2942f1855c7f3c9e5b6376ca7a6f22ee5fe17ba57551",
+    "bytes": 90506,
+    "download_sha256": "97f4783a55b8b7e0d1ad0ad205abc42539c8b86adff3218f1e8ee9adf443567c",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\489.png",
+    "source": "https://media.api-sports.io/football/teams/489.png",
+    "sha256": "c34a725d80cb6eaf7aa3e0aa57997aa6875bac6e0d7566004e6b5990d2c0493f",
+    "bytes": 12760,
+    "download_sha256": "dcceb506e62c750ec2bcd05e867bfb452f95f8b6bdbbcf2def1a852316070e5d",
+    "download_bytes": 12635,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\490.png",
+    "source": "https://media.api-sports.io/football/teams/490.png",
+    "sha256": "cb985ad61561e8975587b4b41319c952f43968465e8992a211b4ec7ef668734d",
+    "bytes": 74882,
+    "download_sha256": "1f684e4e1897abafc6871fa40669a0b95fd552c73d1cf487af217a7ed23095b8",
+    "download_bytes": 74757,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\494.png",
+    "source": "https://media.api-sports.io/football/teams/494.png",
+    "sha256": "98dd857d61faebc7f0961930388c0c4cc44d79f39659ec2cbda2930164ca7f7d",
+    "bytes": 19769,
+    "download_sha256": "d19dd6366ce5343e47f1e7e4dd93cf463e0fb0e8b7c6b48b0cc42d92d6b9d1e6",
+    "download_bytes": 19644,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\495.png",
+    "source": "https://media.api-sports.io/football/teams/495.png",
+    "sha256": "6fbe8a924d4a27c705b13e23a6b815aee2fecd1f5329a2c7d37664e8e71bad09",
+    "bytes": 68270,
+    "download_sha256": "0fe8ee77bbc28d1285d1404fd6e97fc6d58cc0eb6c255844e1c4bc2936b22803",
+    "download_bytes": 68145,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\496.png",
+    "source": "https://media.api-sports.io/football/teams/496.png",
+    "sha256": "1f2a79ea48afa45285750096e5cf2b9065ef8a7450e39def22cb4181c843cdc8",
+    "bytes": 90506,
+    "download_sha256": "ea0cc895369765e9c4a166a54389ffd9ba7d5eca9c50345dc98a2c9db33b3cd8",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\497.png",
+    "source": "https://media.api-sports.io/football/teams/497.png",
+    "sha256": "1244fa45f5fc7300d97fb3bcc178e5900cbfd3536d4ba62f42f604a1a9d97a51",
+    "bytes": 15233,
+    "download_sha256": "12e06f1d23fe8f22ded1744d57ad7bac5fa202359cfc6a641474adfb1e304634",
+    "download_bytes": 15108,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\499.png",
+    "source": "https://media.api-sports.io/football/teams/499.png",
+    "sha256": "bea04390101783af8ff5ec52477f1572e1dd62392de1cfdc00d9748efff3036e",
+    "bytes": 90506,
+    "download_sha256": "1e2d08bb42f330935126cf1ec753d7508cf1ef2154eb26c80ba450bb3fa99098",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\502.png",
+    "source": "https://media.api-sports.io/football/teams/502.png",
+    "sha256": "c52b7c00d40161a84884b73d74b7b3d48c130abf914e0eb28ea009c6ce950200",
+    "bytes": 90506,
+    "download_sha256": "de560c790fa7294b068db7a8238ec2b37c1f8225264981d2aa3bc9f30d04977f",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\503.png",
+    "source": "https://media.api-sports.io/football/teams/503.png",
+    "sha256": "4e4559756566f753052231647434f43d6a7d3105108e9611f4d7260b4359267e",
+    "bytes": 15473,
+    "download_sha256": "aafec1fd4d09904cb19fc84027c376ed875e9aeb79b479a05f48b22efe236dde",
+    "download_bytes": 15348,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\505.png",
+    "source": "https://media.api-sports.io/football/teams/505.png",
+    "sha256": "b66362ebafe4f3516b649bd3cf8017387f7dfe2a09c88def6d46d6a8aba892c9",
+    "bytes": 8184,
+    "download_sha256": "14c915ad4d305d8387e13cadd7f8cef7af99a1b31976ee8c5a1a753a21982cd2",
+    "download_bytes": 8059,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\512.png",
+    "source": "https://media.api-sports.io/football/teams/512.png",
+    "sha256": "690da379a776b54caa340be33dca2330eb8e92b0ac4689cb33cfa6914b0b6109",
+    "bytes": 16691,
+    "download_sha256": "2c58ddc213c3e7351986a71557527c1c5c40ce816f42fe17838ccb960af7e757",
+    "download_bytes": 16566,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\517.png",
+    "source": "https://media.api-sports.io/football/teams/517.png",
+    "sha256": "0c7a6e4520b47aafc3e592042410b9788f33dd314eece4f9eed213c340c2c514",
+    "bytes": 90506,
+    "download_sha256": "728d64e5fa071fcae4f9b909e71cfb981b79ad01cf25246b2038cb8446bce589",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\523.png",
+    "source": "https://media.api-sports.io/football/teams/523.png",
+    "sha256": "b7439e8236c9a2fe424577719c2d94d420778c32bd52ce8d934746ecfa7cf4c9",
+    "bytes": 6467,
+    "download_sha256": "8a506f33a854713a2c2e944a42016cd960bde258cab7572d8364410dc2830702",
+    "download_bytes": 6342,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\529.png",
+    "source": "https://media.api-sports.io/football/teams/529.png",
+    "sha256": "b6c3b5af1d963107a25d85a6dce30569eaf146ac9c3b6aea86f8722b432897d4",
+    "bytes": 12482,
+    "download_sha256": "921329187f251f77c4eeaf04ff2f3189cff526837179ccad6b898304fe14e52e",
+    "download_bytes": 12357,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\530.png",
+    "source": "https://media.api-sports.io/football/teams/530.png",
+    "sha256": "d4e2be0264404dfc9e5a3c6430b76f982191489771ad52b7b589fe9030716b77",
+    "bytes": 90506,
+    "download_sha256": "bcedafe53cf38d360df9d4c405cde5aca45f902c8ea798ebfa14585c9223a4d7",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\531.png",
+    "source": "https://media.api-sports.io/football/teams/531.png",
+    "sha256": "85b1021154dd21baf43c38989d4b37b98f9c23b0f758c172239774d9d6e8902d",
+    "bytes": 14856,
+    "download_sha256": "e607f942cb5b76c25809fc871b2bce34056b09c13c12f3af363fe255c928fb91",
+    "download_bytes": 14731,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\536.png",
+    "source": "https://media.api-sports.io/football/teams/536.png",
+    "sha256": "6e1edf007d3d82146a0eddf5e092e32b68e58828aae98197f72d2253c40999b1",
+    "bytes": 17283,
+    "download_sha256": "bcacccf3efb28091badcf1ea86a406f4b047c6974bcfe887cfe3bd98db97f2de",
+    "download_bytes": 17158,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\538.png",
+    "source": "https://media.api-sports.io/football/teams/538.png",
+    "sha256": "9c23d3bdde4ad3f0ff9ad23340dae53b22272c1f452a3ddcfc28c4bfd1c33fbd",
+    "bytes": 7565,
+    "download_sha256": "eb9360f593e8960798e4c3de7844b3fd3179eef0f3666ac3b3ce98a84d899cf5",
+    "download_bytes": 7440,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\539.png",
+    "source": "https://media.api-sports.io/football/teams/539.png",
+    "sha256": "92efe840178c4323b063e54ceb8d9b375ab71d439cb7134c5b3dd1bf6c0f7879",
+    "bytes": 18090,
+    "download_sha256": "3fac6cfda22c20d0fe1e8494cc5b5fc153e67d49b18da07d9175d91274298abb",
+    "download_bytes": 17965,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\541.png",
+    "source": "https://media.api-sports.io/football/teams/541.png",
+    "sha256": "f928471ed10d291efa1d4563d8ce3f410faaa99433a5663b6ec5aad97918aaed",
+    "bytes": 22396,
+    "download_sha256": "9a1b10dacb76fa5da43b5c27b466898ba8819e463107544540ecce30737fa68d",
+    "download_bytes": 22271,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\543.png",
+    "source": "https://media.api-sports.io/football/teams/543.png",
+    "sha256": "482f16745801a153160d0761c1594164623885ac72603f9bb7fdb5f2f9b3bed4",
+    "bytes": 16600,
+    "download_sha256": "d7a3c828732347cd1c9e7ec9dd442dd064ab76edfe69eb509f700dd70a5e1c8f",
+    "download_bytes": 16475,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\544.png",
+    "source": "https://media.api-sports.io/football/teams/544.png",
+    "sha256": "f93d1a147ef0001a093ac02a4b877c89bb04ca21136c8cef6835efed5f8e619a",
+    "bytes": 8866,
+    "download_sha256": "d0c889f003fa65f0340908f54b61fda39f8ea413ea9aeade29e3baabf2c5d69f",
+    "download_bytes": 8741,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\546.png",
+    "source": "https://media.api-sports.io/football/teams/546.png",
+    "sha256": "5ea205b15de3a6e0f2c23e2710cb0c658e7facce8cf9247b0389ad79186e4ff9",
+    "bytes": 20326,
+    "download_sha256": "e20447342f43ca37bd409ecfb4a33e10ffd836473d9f47503f8d4064451552dc",
+    "download_bytes": 20201,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\548.png",
+    "source": "https://media.api-sports.io/football/teams/548.png",
+    "sha256": "20ab0f8f325da6bb9743884020a2b24e5c766b6cd5bf02db6d7b13badc8b0863",
+    "bytes": 15292,
+    "download_sha256": "f23143f4d64b151bc64280ed191d938393692a464d8856faf56dad6d917b81e5",
+    "download_bytes": 15167,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\727.png",
+    "source": "https://media.api-sports.io/football/teams/727.png",
+    "sha256": "6c3c566250815b3f3bdd795aeff6bb912d72f9c4f11d2d23cb6a6f880a327536",
+    "bytes": 14484,
+    "download_sha256": "bbcb0ab0de80017508e91dbb9f5aac07fff7cfdd08107431745ca4c1300a3b4f",
+    "download_bytes": 14359,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\746.png",
+    "source": "https://media.api-sports.io/football/teams/746.png",
+    "sha256": "9585ca53d6d7c1fb8f333a9904d622ddec1843c9cd7a9fe4b7b75cdd462a15aa",
+    "bytes": 108535,
+    "download_sha256": "4ebea02c35734d78ac44b5d4421778169c334d3296c65207d1e3deec76fda5c8",
+    "download_bytes": 108410,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\867.png",
+    "source": "https://media.api-sports.io/football/teams/867.png",
+    "sha256": "96a3419727b5ff4851347fc0ce5543d9fe696ad031a131f33bfee08d0a7961f3",
+    "bytes": 14212,
+    "download_sha256": "5147c1a2a20fef2f020a3fd497e63d43a16899bc3b32cb4ae48123d1a6a44b53",
+    "download_bytes": 14087,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\media\\teams\\895.png",
+    "source": "https://media.api-sports.io/football/teams/895.png",
+    "sha256": "833afb42f772600cdb254024ebc2515742e30f655b57d55bddc1309b9f3ba260",
+    "bytes": 90506,
+    "download_sha256": "2784433a75654d0f3d22d94a88a244ee60d232a64e3b111af5a2e96d990638d4",
+    "download_bytes": 90381,
+    "embedded_provenance": "source origin; PNG metadata only, image payload unchanged"
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\12e19ed47452da08.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vU1Z-JHa74.woff2",
+    "sha256": "5a279f39a8564edf37ef2be39450e4c6e2c81845c85eaff909c808f133fe769c",
+    "bytes": 1408
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\270a5a8df2a98efa.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vU1ZOJHa74.woff2",
+    "sha256": "5dd17f81b73f5d230276b51e671b6c1947f7b9e0310b4dc900e410baa35740e7",
+    "bytes": 6248
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\55acc9dde6bef331.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vU1auJH.woff2",
+    "sha256": "50cf74f017a2d3a07154e829a48d259c52cb4c068e80bed3b75a3dbe024d7168",
+    "bytes": 18520
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\37fdf210f71b145a.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vU1fuJHa74.woff2",
+    "sha256": "7e01c133031aba4ca902d81930096f0224d83f808014c1232016b49e0a7ecff6",
+    "bytes": 11716
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\d1517d257b28c0f1.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vI1Z-JHa74.woff2",
+    "sha256": "136351364139213e44077b6fe0ae53ac417ae8d36dd499a1175a2471ff3c1362",
+    "bytes": 1400
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\f7d0cddf87258722.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vI1ZOJHa74.woff2",
+    "sha256": "1c5d96f1c642f4c6de3f79ea757212e728bf8d5c46599983f8f7115563d77491",
+    "bytes": 6276
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\844f553cbff22e6d.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vI1auJH.woff2",
+    "sha256": "2a1bc932c82cf188c06d8f29797dd31bc0604229571e08f340d816aa9e4014b4",
+    "bytes": 18992
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\ce3d55c5c39f039a.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vI1fuJHa74.woff2",
+    "sha256": "ea935955dc3bccb684f8fb772dbd429250dd0d3dfee9483995a3ee3456471df8",
+    "bytes": 11804
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\1713e5de85e182d9.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLqMB9YgVcM.woff2",
+    "sha256": "20e71a8635466748fba07aa4dfd8ba2e2f00fb9480cf490357735a6101e2604f",
+    "bytes": 6356
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\0b8ffacb18067062.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLqMBNYgVcM.woff2",
+    "sha256": "5263ddce7b6879a70b56958b66512940e58ff364b619fe4f2815a31555a6b2c7",
+    "bytes": 1412
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\1a61d4815dc002ce.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLqMCdYg.woff2",
+    "sha256": "82ddd36544e4776857cce6ab26d0e509d10c1eeddf872c1b16f421489b0096a7",
+    "bytes": 17736
+  },
+  {
+    "path": "apps\\web\\public\\fonts\\1a1eede997192fd5.woff2",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLqMHdYgVcM.woff2",
+    "sha256": "2d66381c26d32bf2a95bfe559d1a5ed5475fcdac3fa128e45a33301010d42056",
+    "bytes": 11804
+  }
+]

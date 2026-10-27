@@ -1,0 +1,301 @@
+{
+  "inspection_date_bangkok": "2026-10-27",
+  "repository": "obra/superpowers",
+  "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+  "release": "v7.0.1",
+  "release_published_utc": "2026-10-21T21:05:11Z",
+  "repository_tree_files": 231,
+  "skills_upstream": 15,
+  "inspected_files": [
+    {
+      "path": "skills/brainstorming/SKILL.md",
+      "git_blob_sha": "7f5eef02f894c4f24cea313660c0465ce9c084ed",
+      "sha256": "61a7ef918652108c76a3fd01e02dd92d39996c6b46d4cb2819cbd03f6c45e46a",
+      "bytes": 13602
+    },
+    {
+      "path": "skills/diagnosing-superpowers/SKILL.md",
+      "git_blob_sha": "dda2692d528574c410b118a6de545d6afc7eb047",
+      "sha256": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886",
+      "bytes": 6941
+    },
+    {
+      "path": "skills/dispatching-parallel-agents/SKILL.md",
+      "git_blob_sha": "3fa091b348bbe0a18eaa0e17e9092c97f7005cbe",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "bytes": 6078
+    },
+    {
+      "path": "skills/executing-plans/SKILL.md",
+      "git_blob_sha": "ac77129d7c695734105004b6da10169de8d13df3",
+      "sha256": "e4649e59880ef2643d1da128e3d607e87e3f969410d72095a5bf65811b6036dc",
+      "bytes": 18103
+    },
+    {
+      "path": "skills/finishing-a-development-branch/SKILL.md",
+      "git_blob_sha": "fa8aecaf8813f1b19d19996f7957d1b0121f2d9c",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "bytes": 7781
+    },
+    {
+      "path": "skills/receiving-code-review/SKILL.md",
+      "git_blob_sha": "950da7b74bf6dbed6b8726d12ddadd65a9f5fda7",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "bytes": 6203
+    },
+    {
+      "path": "skills/requesting-code-review/SKILL.md",
+      "git_blob_sha": "68d338a58ecdd8b77bfbb519b781ef223dbbb842",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+      "bytes": 2974
+    },
+    {
+      "path": "skills/subagent-driven-development/SKILL.md",
+      "git_blob_sha": "ea170ed101d61a52fdee0ade8368ec0723980a5c",
+      "sha256": "ba41f697136cba88a7962d60c8e2f97488ba04a8688b1d0fbeb27f6953808e75",
+      "bytes": 19506
+    },
+    {
+      "path": "skills/systematic-debugging/SKILL.md",
+      "git_blob_sha": "62fc752aaef59a8bbed5d305f4cadc60f8ae07ed",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "bytes": 9530
+    },
+    {
+      "path": "skills/test-driven-development/SKILL.md",
+      "git_blob_sha": "46838cc9e893c06259e3bdad0fc2425b36242f15",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "bytes": 9578
+    },
+    {
+      "path": "skills/using-git-worktrees/SKILL.md",
+      "git_blob_sha": "1381dacb3516b94382dd6ec736ede21ee8ede2b3",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "bytes": 6813
+    },
+    {
+      "path": "skills/using-superpowers/SKILL.md",
+      "git_blob_sha": "069d578445805a28b8dacbf70cdf045e1673def0",
+      "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+      "bytes": 3192
+    },
+    {
+      "path": "skills/verification-before-completion/SKILL.md",
+      "git_blob_sha": "7d45333cc4a49c57a80df6c1fe2fa777a207afbc",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "bytes": 3646
+    },
+    {
+      "path": "skills/writing-plans/SKILL.md",
+      "git_blob_sha": "4cf0275d88d67aa4ef09f4bbca9970ed6ff74a00",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "bytes": 10335
+    },
+    {
+      "path": "skills/writing-skills/SKILL.md",
+      "git_blob_sha": "09d76b79dd4080fe4dcc9bfb3c54d05dbff8a563",
+      "sha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+      "bytes": 16738
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "git_blob_sha": "faeb41fe6bf29d3bae38e469504ae0a3bab35756",
+      "sha256": "fef198cdbcaa5544e4244ff74cb83a2a797d18c9cfb9af26a18418206bb806c3",
+      "bytes": 1730
+    },
+    {
+      "path": "hooks/hooks.json",
+      "git_blob_sha": "67975137aafc8a097bdd1c2b51fea3989b8ad6c0",
+      "sha256": "47fd72cc8bedf31c72702b35b4ed7bab670294d658c4ce518330337525a3798b",
+      "bytes": 334
+    },
+    {
+      "path": "hooks/session-start",
+      "git_blob_sha": "63f82a603f522b17755d35e8a91cb27e40801a8e",
+      "sha256": "5c15e62a90ed13ad8e4b3561148c54c26c6ee28b41ec3a55a241f68b400d886d",
+      "bytes": 3938
+    },
+    {
+      "path": "hooks/run-hook.cmd",
+      "git_blob_sha": "a2f7c48f6738bedc573b983f49feb8df3d104a50",
+      "sha256": "d1fcecfe19df2d083994803f73417710f745bd96c0938f594f87096005b1e403",
+      "bytes": 2996
+    },
+    {
+      "path": "skills/using-superpowers/references/codex-tools.md",
+      "git_blob_sha": "e4488fb224bb0fa0a33e9ac7dc961174e9f0c150",
+      "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+      "bytes": 4762
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "abf0390320aa14406af7a520b9b0739fdda9bf08",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "bytes": 1070
+    },
+    {
+      "path": "package.json",
+      "git_blob_sha": "acc6562f5a83ab15b491c9432734060c5a6c6a82",
+      "sha256": "b4ca961ce1aead5d08e40507b2fca8c04c61dea054866bac92259308d24527e3",
+      "bytes": 433
+    },
+    {
+      "path": "docs/testing.md",
+      "git_blob_sha": "19f8aed23a61da34675303825a54a7a4a62294c2",
+      "sha256": "2959880663be4abecbcf11331e64e435cfadffae2c9e2fb24eb5509224f51f30",
+      "bytes": 3045
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "c5bb59fdaf17ba154e803c549cd71a73ef36c24b",
+      "sha256": "79f29f50c735862d2e304ea547b4c9aa67d9db6909ff6fb7b5ea922d7bcbc3e7",
+      "bytes": 14847
+    },
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "git_blob_sha": "4e3b4350d5585e4240bb48ac3378f828985f2c8c",
+      "sha256": "2b94116c190896480e5054222a744e375976f8ae5bdb66ff0ab6b348dfad4182",
+      "bytes": 363
+    },
+    {
+      "path": "skills/subagent-driven-development/references/fix-loop.md",
+      "git_blob_sha": "0b476e92a068af56113ff0a5c9c7ebef1afe7d2c",
+      "sha256": "eafff1f801af2ced86e8761f3eeef04b701860d986ba5d0a8b20d506a75104bb",
+      "bytes": 4249
+    },
+    {
+      "path": "skills/diagnosing-superpowers/references/redaction-policy.md",
+      "git_blob_sha": "c80b6232abef32fa1868b70585203b6e623380d6",
+      "sha256": "96b16f47074838fe2d7e609577d6f8b0ad460f8378b281a3f96ee23cb5a08bde",
+      "bytes": 2243
+    },
+    {
+      "path": "skills/brainstorming/scripts/server.cjs",
+      "git_blob_sha": "fdc796122583f5d6687d9582eb265c2fa0cb7781",
+      "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+      "bytes": 25699
+    },
+    {
+      "path": "skills/brainstorming/scripts/start-server.sh",
+      "git_blob_sha": "016a8e4870142ce2adbe81a021d8b6b9073e7618",
+      "sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+      "bytes": 6908
+    },
+    {
+      "path": "skills/brainstorming/scripts/stop-server.sh",
+      "git_blob_sha": "7cacfe9440043f7a46eac555cd835fad0769c425",
+      "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "bytes": 3263
+    },
+    {
+      "path": "skills/brainstorming/visual-companion.md",
+      "git_blob_sha": "8dca065bd9adb9d4fa82a66acbb4176ea23259c6",
+      "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+      "bytes": 13413
+    },
+    {
+      "path": "skills/brainstorming/scripts/helper.js",
+      "git_blob_sha": "e11d26489ce248f37af3e4dd01ddec6a4e88287f",
+      "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "bytes": 5615
+    },
+    {
+      "path": "skills/subagent-driven-development/scripts/sdd-workspace",
+      "git_blob_sha": "b4661eb6ef646dae804c6b7932ccdbe942520a55",
+      "sha256": "4fd9770e7a49b6bde488c0e92bac1b3bd01fcbdaf8f06b6c4efbe3a1abd99f86",
+      "bytes": 3684
+    },
+    {
+      "path": "skills/subagent-driven-development/scripts/task-brief",
+      "git_blob_sha": "b49fc546c85e1d6f6c8b523d6c887c55d98ed989",
+      "sha256": "cc563538e09abf719b34ddf4b2fa7a65cf3b301729039dbfa923cb060f729146",
+      "bytes": 1322
+    },
+    {
+      "path": "skills/subagent-driven-development/scripts/review-package",
+      "git_blob_sha": "fa7625f053dc852200ddd497662508ff1ae40bb1",
+      "sha256": "f9275175b2276b1d5fdb1bae0bedaadd2a950659b7c6f311ea37ff85e1861b1f",
+      "bytes": 2029
+    },
+    {
+      "path": "scripts/package-codex-plugin.sh",
+      "git_blob_sha": "5308e28d9c3460b130abd7e3185374294b33d00f",
+      "sha256": "2541617b86519273428d12d18a5f7ec852ac39cfdec74622c01ce71a504bb80d",
+      "bytes": 10338
+    },
+    {
+      "path": ".opencode/plugins/superpowers.js",
+      "git_blob_sha": "9eff8111b14c37ca3feacc8274cb6b4f824df6ab",
+      "sha256": "c979fe5a9fd6fddc9bc9730b34b25989f9d53939eed7d594c4564f6e47495f26",
+      "bytes": 17617
+    },
+    {
+      "path": ".pi/extensions/superpowers.ts",
+      "git_blob_sha": "a978e80ee0bbffe649ace8826bf6e8b69beea421",
+      "sha256": "39c27000c047f8a1399a76e032e4cd239d7bdb0be168a121f46a2ac719deaae0",
+      "bytes": 4283
+    },
+    {
+      "path": ".hermes-plugin/__init__.py",
+      "git_blob_sha": "7d4e1f5bc81fe7c9b9f35e2332cd4e26161e6586",
+      "sha256": "bcd2edb43fda557ca88b44df80781cf760adc21888b49d2cf9e3a6add7733b29",
+      "bytes": 4901
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "git_blob_sha": "64b99c9083b55943ec2343ed81d48b830c4fc28b",
+      "sha256": "fa3b15088f102c31b7cf1abd4d329fd50d76a99222083638aab810d81930b162",
+      "bytes": 497
+    },
+    {
+      "path": "gemini-extension.json",
+      "git_blob_sha": "18e983ba7a018756f72acb4fc6453d6599a994a7",
+      "sha256": "8b7e69416536746b5948f49979fb34448c85fa10aabbdc9c6f4c2f4ded5fa985",
+      "bytes": 187
+    },
+    {
+      "path": ".muse-plugin/plugin.json",
+      "git_blob_sha": "c77b11635df1856f5b3179cc8cde9e565a1e84f6",
+      "sha256": "901b5b2fcd5aa32f904f5659f1f8199cb8d4db9635e465649a775fa658ac6c1c",
+      "bytes": 2286
+    }
+  ],
+  "official_marketplace": {
+    "repository": "openai/plugins",
+    "commit": "0722921d5542fc593105c27bd52630babd8b8c2a",
+    "manifest_version": "6.3.0",
+    "skills_count": 14,
+    "additional_compared_files": [
+      {
+        "path": "plugins/superpowers/skills/executing-plans/SKILL.md",
+        "git_blob_sha": "b51d97d2cc4c2ecc5eabecf27e499aa8c933efac",
+        "sha256": "c4c3d8b628c51114cd165fb8246fe02744cd8be180032328391252e653028d9b"
+      },
+      {
+        "path": "plugins/superpowers/skills/brainstorming/SKILL.md",
+        "git_blob_sha": "b56a3b5ed6ea0d6216501e0e401ecb00a1b4675f",
+        "sha256": "74edf03ea6d24ef53db48677b93558d14a979bdf052ca3f57ecdca0c66791608"
+      }
+    ],
+    "behavior_differences": [
+      "6.3.0 executing-plans directs sessions with subagent tools to SDD; upstream 7.0.1 provides explicitly chosen inline execution",
+      "6.3.0 brainstorming requires approval on every path; 7.0.1 has direct action for fully specified small tasks and an explicit opt-out path",
+      "diagnosing-superpowers exists in upstream 7.0.1, absent from inspected official 6.3.0 skill list"
+    ]
+  },
+  "license": "MIT",
+  "method": "GitHub connector tree/file reads; every cached file Git object hash verified against pinned tree",
+  "application_source_changed": false,
+  "skills_installed": false,
+  "upstream_scripts_executed": false,
+  "live_LLM_evals_executed": false,
+  "provider_API_calls": 0,
+  "production_deployed": false,
+  "local_project_git_repository": false,
+  "Git_for_Windows_bash_present": true,
+  "known_limitations": [
+    "Static inspection; no live runtime or cross-platform compatibility certification",
+    "Marketplace manifest in public source is not proof of version installed or offered to this account",
+    "Project metrics are referenced from prior 2026-10-26 evidence, not rerun in this documentation-only audit"
+  ]
+}

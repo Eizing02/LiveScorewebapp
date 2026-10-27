@@ -1,0 +1,10 @@
+CREATE TABLE program_observations(id TEXT PRIMARY KEY,fixture_id TEXT NOT NULL,competition_id INTEGER NOT NULL,kickoff_utc TEXT NOT NULL,business_date TEXT NOT NULL,observed_at TEXT NOT NULL,status TEXT NOT NULL,source_date TEXT NOT NULL,search_text TEXT NOT NULL,payload TEXT NOT NULL CHECK(json_valid(payload)),checksum TEXT NOT NULL);
+CREATE INDEX program_round ON program_observations(business_date,competition_id,status,kickoff_utc);
+CREATE TABLE program_heads(fixture_id TEXT PRIMARY KEY,observation_id TEXT NOT NULL REFERENCES program_observations(id),observed_at TEXT NOT NULL);
+CREATE TRIGGER program_head_insert AFTER INSERT ON program_observations BEGIN INSERT INTO program_heads VALUES(NEW.fixture_id,NEW.id,NEW.observed_at) ON CONFLICT(fixture_id) DO UPDATE SET observation_id=excluded.observation_id,observed_at=excluded.observed_at WHERE excluded.observed_at>program_heads.observed_at OR (excluded.observed_at=program_heads.observed_at AND excluded.observation_id>program_heads.observation_id); END;
+CREATE TRIGGER program_observations_immutable_update BEFORE UPDATE ON program_observations BEGIN SELECT RAISE(ABORT,'immutable program observation'); END;
+CREATE TRIGGER program_observations_immutable_delete BEFORE DELETE ON program_observations BEGIN SELECT RAISE(ABORT,'immutable program observation'); END;
+CREATE TABLE program_sources(id TEXT PRIMARY KEY,source_date TEXT NOT NULL,observed_at TEXT NOT NULL,state TEXT NOT NULL CHECK(state IN('recorded','partial','denied')),row_count INTEGER NOT NULL CHECK(row_count>=0),source_sha256 TEXT NOT NULL);
+CREATE INDEX program_source_dates ON program_sources(source_date,observed_at);
+CREATE TRIGGER program_sources_immutable_update BEFORE UPDATE ON program_sources BEGIN SELECT RAISE(ABORT,'immutable source observation'); END;
+CREATE TRIGGER program_sources_immutable_delete BEFORE DELETE ON program_sources BEGIN SELECT RAISE(ABORT,'immutable source observation'); END;

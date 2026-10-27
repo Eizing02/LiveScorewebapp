@@ -1,0 +1,7 @@
+import { chromium } from '@playwright/test';
+import {writeFileSync} from 'node:fs';
+const browser=await chromium.launch({headless:true});const context=await browser.newContext({viewport:{width:390,height:900}});const results=[];
+await context.route('**/*',r=>['localhost','127.0.0.1'].includes(new URL(r.request().url()).hostname)?r.continue():r.abort());
+for(const date of ['2026-11-14','invalid']){const page=await context.newPage();const responses=[];page.on('response',r=>{if(r.url().includes('/api/'))responses.push({url:r.url(),status:r.status()});});await page.goto('http://127.0.0.1:5173/?view=provider&live_date='+date,{waitUntil:'networkidle'});results.push({date,responses,content:await page.locator('main').innerText(),dateControls:await page.locator('input[type="date"]').count(),status:await page.locator('[role="status"]').allTextContents()});await page.close();}
+const page=await context.newPage();await page.goto('http://127.0.0.1:5173/?view=provider&live_date=2026-10-25',{waitUntil:'networkidle'});for(let i=0;i<19;i++)await page.keyboard.press('Tab');results.push({kind:'nineteenth-tab',active:await page.evaluate(()=>({text:document.activeElement.textContent,outline:getComputedStyle(document.activeElement).outline,tableScroll:document.querySelector('.table-wrap').scrollLeft,x:document.activeElement.getBoundingClientRect().x}))});
+writeFileSync('reports/impeccable/assessment-b-states.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));await browser.close();

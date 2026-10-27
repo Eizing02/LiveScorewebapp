@@ -1,0 +1,227 @@
+{
+  "checked_at": "2026-10-27T17:11:10.699958+00:00",
+  "scope": "local programme redesign; no new model evaluation or provider data requests",
+  "tests": {
+    "python": {
+      "passed": 78,
+      "stage": "full suite earlier in this implementation; later corrections CSS and TS only"
+    },
+    "typescript_api": {
+      "passed": 56,
+      "full_suite_seconds": 101.14
+    },
+    "browser": {
+      "passed": 16,
+      "full_suite_seconds": 38.8
+    },
+    "total_passed": 150,
+    "eslint": "passed",
+    "ruff": "passed",
+    "typecheck_and_vite_build": "passed",
+    "worker_dry_run": "passed",
+    "local_migrations": "no pending migrations"
+  },
+  "catalogue": {
+    "2026-10-27": {
+      "total": 332,
+      "round_total": 332,
+      "page": 1,
+      "pages": 14,
+      "captured_at": "2026-10-27T08:09:36.318Z",
+      "data_completeness": "two_source_dates_recorded",
+      "source_dates": [
+        {
+          "date": "2026-10-27",
+          "state": "recorded",
+          "captured_at": "2026-10-27T08:09:36.318Z",
+          "rows": 207
+        },
+        {
+          "date": "2026-10-28",
+          "state": "recorded",
+          "captured_at": "2026-10-27T08:09:50.051Z",
+          "rows": 458
+        }
+      ],
+      "competition_count": 112,
+      "first_page_items": 25
+    },
+    "2026-10-28": {
+      "total": 266,
+      "round_total": 266,
+      "page": 1,
+      "pages": 11,
+      "captured_at": "2026-10-27T08:09:50.051Z",
+      "data_completeness": "partial_source_dates",
+      "source_dates": [
+        {
+          "date": "2026-10-28",
+          "state": "recorded",
+          "captured_at": "2026-10-27T08:09:50.051Z",
+          "rows": 458
+        },
+        {
+          "date": "2026-10-29",
+          "state": "not_fetched",
+          "captured_at": null,
+          "rows": null
+        }
+      ],
+      "competition_count": 75,
+      "first_page_items": 25
+    }
+  },
+  "catalogue_import": {
+    "generated_at": "2026-10-27T12:29:14.600Z",
+    "unique_fixtures": 2191,
+    "observations": 3727,
+    "source_observations": 6,
+    "competitions": 447,
+    "quarantined": 0,
+    "provider_requests": 0,
+    "training_labels_added": 0,
+    "model_promoted": false
+  },
+  "model": {
+    "version": "precision-v3-9f46ca6392a2",
+    "registry": {
+      "active_version": null,
+      "candidate": "precision-v3-9f46ca6392a2",
+      "auto_promote": false
+    },
+    "verified_checksum_entries": 23,
+    "checks": [
+      {
+        "path": "ml/precision/__init__.py",
+        "matches": true
+      },
+      {
+        "path": "ml/precision/calibration.py",
+        "matches": true
+      },
+      {
+        "path": "ml/precision/experiment.py",
+        "matches": true
+      },
+      {
+        "path": "ml/precision/features.py",
+        "matches": true
+      },
+      {
+        "path": "ml/precision/goals.py",
+        "matches": true
+      },
+      {
+        "path": "ml/precision/selection.py",
+        "matches": true
+      },
+      {
+        "path": "ml/models.py",
+        "matches": true
+      },
+      {
+        "path": "ml/evaluate.py",
+        "matches": true
+      },
+      {
+        "path": "ml/selective.py",
+        "matches": true
+      },
+      {
+        "path": "ml/goal_markets.py",
+        "matches": true
+      },
+      {
+        "path": "ml/expanded.py",
+        "matches": true
+      },
+      {
+        "path": "ml/precision_predict.py",
+        "matches": true
+      },
+      {
+        "path": "requirements.lock",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/config.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/enhanced-logistic.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/enhanced-xgb-d2.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/enhanced-xgb-d3.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/feature-schema.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/forward-calibration.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/goal-models.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/league-logistics.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/legacy-logistic.json",
+        "matches": true
+      },
+      {
+        "path": "ml/models/precision-v3-9f46ca6392a2/selection.json",
+        "matches": true
+      }
+    ]
+  },
+  "known_secret_scan": {
+    "files_scanned": 183,
+    "matching_paths": [],
+    "secret_values_omitted": true
+  },
+  "local_checks": {
+    "health_http_ok": true,
+    "legacy_fixture_read_ok": true,
+    "legacy_fixture_rows": 18
+  },
+  "boundaries": {
+    "api_football_v3_requests_this_implementation": 0,
+    "external_logo_cdn_requests": "performed for visible images; fixed host, no account key",
+    "production_deployed": false,
+    "remote_d1_written": false,
+    "new_training_labels": 0,
+    "model_promoted": false,
+    "old_project_modified": false
+  },
+  "review": {
+    "disposition": "ship",
+    "scope": "F1-F4 listed fixes only",
+    "resolved": 4,
+    "file": "reports/one-page/finish-verdict.md",
+    "automatic_host_hook_observed": false,
+    "manual_detector_runs": 1
+  },
+  "documentation": {
+    "design_md_token_bearing": true,
+    "sidecar_schema_version": 2,
+    "sidecar_components": 10,
+    "documenter_report": "reports/one-page/documentation.md"
+  },
+  "raster_provenance": {
+    "static_logos": 47,
+    "missing_embedded_origins": 0,
+    "image_payloads_unchanged": true,
+    "manifest_hashes_verified": true
+  }
+}

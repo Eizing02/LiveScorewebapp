@@ -1,0 +1,61 @@
+{
+  "date_bangkok": "2026-10-27",
+  "status": "proposal_not_activated",
+  "project": "D:/Football Prediction AI",
+  "upstream": {
+    "repository": "obra/superpowers",
+    "version": "7.0.1",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  },
+  "observed_marketplace": {
+    "repository": "openai/plugins",
+    "commit": "0722921d5542fc593105c27bd52630babd8b8c2a",
+    "manifest_version": "6.3.0",
+    "installed_or_offered_account_version": "not_checked"
+  },
+  "recommended_approach": "Project-scoped adaptation of debugging, verification, planning and review; single-context execution by default; no global bootstrap or autonomous subagents",
+  "phase_1": {
+    "purpose": "Adopt useful process without changing model/data/runtime behavior",
+    "proposed_files": ["AGENTS.md", "docs/workflow/", "reports/verification/"],
+    "use_existing_authorization": true,
+    "ask_only_for_material_unresolved_decisions": true,
+    "git_required_for_core_debugging_and_verification": false,
+    "git_required_for_worktree_branch_PR_helpers": true
+  },
+  "phase_2": {
+    "purpose": "Evaluate on bounded, explicitly requested project tasks",
+    "example_tasks": ["06:00 and DST regression cases", "Signed archive pagination boundary cases", "Evidence-based new team mapping", "Source age UI contract", "First settled prospective evaluation regression"],
+    "metrics": ["wall_clock", "measured_usage", "clarification_rounds", "duplicate_work", "regressions", "retained_verification_evidence"],
+    "measured_efficiency_improvement": null
+  },
+  "phase_3": {
+    "purpose": "Optional plugin or subagent rollout after checking actual version and scope",
+    "automatic_installation": false,
+    "subagents_require_authorization": true,
+    "runtime_tool_schema_over_external_examples": true,
+    "model_overrides": "Follow actual session permissions and available model list; do not copy external presets automatically"
+  },
+  "domain_gates": [
+    "Do not modify D:/Live score Project",
+    "No credential in source, client bundles or exported diagnostics",
+    "No provider call from tests without explicit scoped authorization",
+    "Mock transport and isolated local D1 for infrastructure tests",
+    "No missing score converted to 0-0",
+    "Unknown identity/date conflicts stay unverified or quarantined",
+    "Keep 66 EPL 2019/20 anomalies quarantined",
+    "No feature/result known after the prediction cutoff",
+    "No prediction at or after kickoff",
+    "Do not tune thresholds or choose leagues on final holdout",
+    "Do not rewrite frozen model/evaluation evidence",
+    "MODEL_AUTO_PROMOTE=false",
+    "No production deployment or paid service activation",
+    "Do not park data leakage or failed statistical acceptance as workflow completion",
+    "Retain required evidence before deleting temporary workflow artifacts"
+  ],
+  "application_source_changed": false,
+  "skills_installed": false,
+  "AGENTS_changed": false,
+  "Codex_config_changed": false,
+  "Git_initialized": false,
+  "live_model_accuracy_change": "not_measured_and_not_claimed"
+}

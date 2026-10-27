@@ -1,0 +1,148 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "document_width": 1440,
+    "document_height": 900,
+    "visible_rows": 7,
+    "body_scroll": 0,
+    "fixture_scroll": 0,
+    "page_errors": []
+  },
+  {
+    "name": "user-1366",
+    "width": 1366,
+    "height": 768,
+    "document_width": 1366,
+    "document_height": 768,
+    "visible_rows": 5,
+    "body_scroll": 0,
+    "fixture_scroll": 0,
+    "page_errors": []
+  },
+  {
+    "name": "tablet",
+    "width": 1024,
+    "height": 900,
+    "document_width": 1024,
+    "document_height": 900,
+    "visible_rows": 7,
+    "body_scroll": 0,
+    "fixture_scroll": 0,
+    "page_errors": []
+  },
+  {
+    "name": "user-768",
+    "width": 768,
+    "height": 900,
+    "document_width": 768,
+    "document_height": 900,
+    "visible_rows": 7,
+    "body_scroll": 0,
+    "fixture_scroll": 0,
+    "page_errors": []
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "document_width": 390,
+    "document_height": 844,
+    "visible_rows": 5,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "mobile-analysis",
+    "width": 390,
+    "height": 844,
+    "document_width": 390,
+    "document_height": 844,
+    "visible_rows": 0,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "mobile-team-unknown",
+    "width": 390,
+    "height": 844,
+    "document_width": 390,
+    "document_height": 844,
+    "visible_rows": 0,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "mobile-filters",
+    "width": 390,
+    "height": 844,
+    "document_width": 390,
+    "document_height": 844,
+    "visible_rows": 5,
+    "body_scroll": 0,
+    "fixture_scroll": 0,
+    "page_errors": []
+  },
+  {
+    "name": "user-320",
+    "width": 320,
+    "height": 900,
+    "document_width": 320,
+    "document_height": 900,
+    "visible_rows": 5,
+    "body_scroll": 0,
+    "fixture_scroll": 0,
+    "page_errors": []
+  },
+  {
+    "name": "all-competitions",
+    "width": 1440,
+    "height": 900,
+    "document_width": 1440,
+    "document_height": 900,
+    "visible_rows": 5,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "legacy-history",
+    "width": 1440,
+    "height": 900,
+    "document_width": 1440,
+    "document_height": 900,
+    "visible_rows": 4,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "daily-empty",
+    "width": 1440,
+    "height": 900,
+    "document_width": 1440,
+    "document_height": 900,
+    "visible_rows": 0,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "results-empty",
+    "width": 1440,
+    "height": 900,
+    "document_width": 1440,
+    "document_height": 900,
+    "visible_rows": 0,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  },
+  {
+    "name": "mobile-text-200",
+    "width": 390,
+    "height": 844,
+    "document_width": 390,
+    "document_height": 1280,
+    "visible_rows": 0,
+    "body_scroll": 0,
+    "fixture_scroll": 0
+  }
+]

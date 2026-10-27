@@ -1,0 +1,17 @@
+{
+  "version": "live-rich-challenger-v1",
+  "status": "frozen_before_new_prospective_training",
+  "primary_stage": "initial_first_per_fixture_occurrence",
+  "minimum_settled_fixtures": 1000,
+  "minimum_distinct_dates": 60,
+  "minimum_observed_rich_rows": 300,
+  "split": "chronological date groups 60% training, 20% validation, 20% untouched test",
+  "models": ["logistic", "xgboost_depth2"],
+  "ablations": ["score58", "score58_xg", "score58_xg_availability", "score58_xg_availability_provider"],
+  "selection": "validation multiclass log loss only; no threshold search on test",
+  "imputation": "training median only, explicit missing indicator; missing is not measured zero",
+  "test_acceptance": {"minimum_test_fixtures": 150, "minimum_relative_log_loss_improvement": 0.005, "maximum_ece": 0.08},
+  "publication": "research_only_until_independent_review_and_prospective_confirmation",
+  "auto_promote": false,
+  "api_feature_fields": ["home_past_xg5", "away_past_xg5", "missing_players", "questionable_players", "lineups_confirmed", "api_home", "api_draw", "api_away"]
+}

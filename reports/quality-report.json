@@ -1,0 +1,2047 @@
+{
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "source_license": "CC0-1.0",
+  "dataset_version": "830c9f5aa1230b5a7ff9ba037e69c82d0fe02d0b0cfd77135854ca873a0ff200",
+  "policy_sha256": "ffcfe1dd520a3f72a985b5c3e394e52ee3fb6f5d6a42438785a46f48247b7932",
+  "aliases_sha256": "3c4623aa5671301c3583c9a9b63c1620fd1ac72c872cfb7d8975705e22c74f4c",
+  "total_source_rows": 97082,
+  "accepted": 15905,
+  "quarantined": 7082,
+  "excluded": 74095,
+  "quarantine_reasons": {
+    "epl_2019_20_misdated_66": 66,
+    "unresolved_team": 1,
+    "duplicate_merged": 12,
+    "status_awarded": 52,
+    "status_cancelled": 585,
+    "season_chronology_hold": 314,
+    "missing_score": 5875,
+    "status_postponed": 21,
+    "status_abandoned": 1,
+    "incomplete_season": 155
+  },
+  "exclusion_reasons": {
+    "full_enrichment_excluded": 881,
+    "outside_mvp_leagues": 73214
+  },
+  "per_league_season": [
+    {
+      "league": "ar.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 325
+    },
+    {
+      "league": "ar.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 276
+    },
+    {
+      "league": "ar.1",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "at.1",
+      "season": "2010-11",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 179
+    },
+    {
+      "league": "at.1",
+      "season": "2011-12",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.1",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 179
+    },
+    {
+      "league": "at.1",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.1",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.1",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.1",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.1",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 195
+    },
+    {
+      "league": "at.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 195
+    },
+    {
+      "league": "at.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 195
+    },
+    {
+      "league": "at.1",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 195
+    },
+    {
+      "league": "at.1",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 195
+    },
+    {
+      "league": "at.1",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 195
+    },
+    {
+      "league": "at.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 194
+    },
+    {
+      "league": "at.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 61,
+      "excluded": 266
+    },
+    {
+      "league": "at.2",
+      "season": "2010-11",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2011-12",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "at.2",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "at.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "at.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "at.2",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 239
+    },
+    {
+      "league": "at.2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 144,
+      "excluded": 96
+    },
+    {
+      "league": "at.cup",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 63
+    },
+    {
+      "league": "at.cup",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 63
+    },
+    {
+      "league": "at.cup",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 62
+    },
+    {
+      "league": "au.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 140
+    },
+    {
+      "league": "au.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 7,
+      "excluded": 169
+    },
+    {
+      "league": "be.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 269
+    },
+    {
+      "league": "be.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 8,
+      "excluded": 232
+    },
+    {
+      "league": "be.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 330
+    },
+    {
+      "league": "be.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 313
+    },
+    {
+      "league": "be.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 136,
+      "excluded": 104
+    },
+    {
+      "league": "br.1",
+      "season": "2019",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "br.1",
+      "season": "2020",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "br.1",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "br.1",
+      "season": "2026",
+      "accepted": 0,
+      "quarantined": 103,
+      "excluded": 277
+    },
+    {
+      "league": "br.2",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 323,
+      "excluded": 57
+    },
+    {
+      "league": "ch.1",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "ch.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 2,
+      "excluded": 178
+    },
+    {
+      "league": "ch.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "ch.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "ch.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "ch.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 180
+    },
+    {
+      "league": "cn.1",
+      "season": "2019",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "cn.1",
+      "season": "2020",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 160
+    },
+    {
+      "league": "cn.1",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 161,
+      "excluded": 79
+    },
+    {
+      "league": "co.1",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 33,
+      "excluded": 167
+    },
+    {
+      "league": "copa.l",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 154
+    },
+    {
+      "league": "cz.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 277
+    },
+    {
+      "league": "cz.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.1",
+      "season": "2010-11",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2011-12",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2012-13",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2013-14",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2014-15",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2015-16",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2016-17",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2017-18",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2018-19",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2019-20",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2020-21",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2021-22",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2022-23",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2023-24",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2024-25",
+      "accepted": 305,
+      "quarantined": 1,
+      "excluded": 0
+    },
+    {
+      "league": "de.1",
+      "season": "2025-26",
+      "accepted": 306,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 306,
+      "excluded": 0
+    },
+    {
+      "league": "de.2",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "de.2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 207,
+      "excluded": 99
+    },
+    {
+      "league": "de.3",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.3",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.3",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.3",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.3",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.3",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.3",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "de.cup",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 63
+    },
+    {
+      "league": "de.cup",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 63
+    },
+    {
+      "league": "de.cup",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 63
+    },
+    {
+      "league": "dz.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 80,
+      "excluded": 160
+    },
+    {
+      "league": "eg.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 43,
+      "excluded": 182
+    },
+    {
+      "league": "en.1",
+      "season": "2010-11",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2011-12",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2012-13",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2013-14",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2014-15",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2015-16",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2016-17",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2017-18",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2018-19",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 380,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2020-21",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2021-22",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2022-23",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2023-24",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2024-25",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "en.1",
+      "season": "2025-26",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "en.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 380,
+      "excluded": 0
+    },
+    {
+      "league": "en.2",
+      "season": "2010-11",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2011-12",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 551
+    },
+    {
+      "league": "en.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.2",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 557
+    },
+    {
+      "league": "en.2",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 557
+    },
+    {
+      "league": "en.2",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 557
+    },
+    {
+      "league": "en.2",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 557
+    },
+    {
+      "league": "en.2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 557
+    },
+    {
+      "league": "en.2",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 457,
+      "excluded": 95
+    },
+    {
+      "league": "en.3",
+      "season": "2010-11",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2011-12",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 106,
+      "excluded": 400
+    },
+    {
+      "league": "en.3",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.3",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 196,
+      "excluded": 356
+    },
+    {
+      "league": "en.4",
+      "season": "2010-11",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2011-12",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 112,
+      "excluded": 440
+    },
+    {
+      "league": "en.4",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 552
+    },
+    {
+      "league": "en.4",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 288,
+      "excluded": 276
+    },
+    {
+      "league": "es.1",
+      "season": "2012-13",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2013-14",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2014-15",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2015-16",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2016-17",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2017-18",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2018-19",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2019-20",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2020-21",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2021-22",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2022-23",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2023-24",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2024-25",
+      "accepted": 370,
+      "quarantined": 10,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2025-26",
+      "accepted": 380,
+      "quarantined": 0,
+      "excluded": 0
+    },
+    {
+      "league": "es.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 380,
+      "excluded": 0
+    },
+    {
+      "league": "es.2",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 21,
+      "excluded": 441
+    },
+    {
+      "league": "es.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 462
+    },
+    {
+      "league": "es.2",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 9,
+      "excluded": 453
+    },
+    {
+      "league": "es.2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 331,
+      "excluded": 131
+    },
+    {
+      "league": "fr.1",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 379
+    },
+    {
+      "league": "fr.1",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 101,
+      "excluded": 279
+    },
+    {
+      "league": "fr.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.1",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "fr.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 305
+    },
+    {
+      "league": "fr.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 305
+    },
+    {
+      "league": "fr.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 261,
+      "excluded": 45
+    },
+    {
+      "league": "fr.2",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.2",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.2",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.2",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.2",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "fr.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 100,
+      "excluded": 280
+    },
+    {
+      "league": "fr.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 379
+    },
+    {
+      "league": "fr.2",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "fr.2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 190,
+      "excluded": 116
+    },
+    {
+      "league": "gr.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 239
+    },
+    {
+      "league": "gr.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "gr.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "gr.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 236
+    },
+    {
+      "league": "gr.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 120,
+      "excluded": 62
+    },
+    {
+      "league": "hu.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 198
+    },
+    {
+      "league": "hu.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 197
+    },
+    {
+      "league": "it.1",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 379
+    },
+    {
+      "league": "it.1",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 379
+    },
+    {
+      "league": "it.1",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 10,
+      "excluded": 370
+    },
+    {
+      "league": "it.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 380
+    },
+    {
+      "league": "it.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 330,
+      "excluded": 50
+    },
+    {
+      "league": "it.2",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 472
+    },
+    {
+      "league": "it.2",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 472
+    },
+    {
+      "league": "it.2",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 472
+    },
+    {
+      "league": "it.2",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 470
+    },
+    {
+      "league": "it.2",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 472
+    },
+    {
+      "league": "it.2",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 351
+    },
+    {
+      "league": "it.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 390
+    },
+    {
+      "league": "it.2",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 387
+    },
+    {
+      "league": "it.2",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 4,
+      "excluded": 386
+    },
+    {
+      "league": "it.2",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 71,
+      "excluded": 309
+    },
+    {
+      "league": "jp.1",
+      "season": "2019",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "jp.1",
+      "season": "2020",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "jp.1",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 244,
+      "excluded": 136
+    },
+    {
+      "league": "ma.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 200
+    },
+    {
+      "league": "mls",
+      "season": "2025",
+      "accepted": 0,
+      "quarantined": 346,
+      "excluded": 164
+    },
+    {
+      "league": "mx.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 334
+    },
+    {
+      "league": "mx.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 63,
+      "excluded": 275
+    },
+    {
+      "league": "mx.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 341
+    },
+    {
+      "league": "mx.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 340
+    },
+    {
+      "league": "nl.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "nl.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 74,
+      "excluded": 232
+    },
+    {
+      "league": "nl.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "nl.1",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "nl.1",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "nl.1",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "nl.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "nl.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 305
+    },
+    {
+      "league": "nl.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 243,
+      "excluded": 63
+    },
+    {
+      "league": "pt.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2021-22",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2022-23",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2023-24",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "pt.1",
+      "season": "2026-27",
+      "accepted": 0,
+      "quarantined": 244,
+      "excluded": 62
+    },
+    {
+      "league": "ru.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 240
+    },
+    {
+      "league": "ru.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 4,
+      "excluded": 236
+    },
+    {
+      "league": "ru.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 2,
+      "excluded": 238
+    },
+    {
+      "league": "ru.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 4,
+      "excluded": 236
+    },
+    {
+      "league": "sco.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 198
+    },
+    {
+      "league": "sco.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 19,
+      "excluded": 179
+    },
+    {
+      "league": "sco.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 198
+    },
+    {
+      "league": "sco.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 228
+    },
+    {
+      "league": "sco.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 135,
+      "excluded": 63
+    },
+    {
+      "league": "tr.1",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "tr.1",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 306
+    },
+    {
+      "league": "tr.1",
+      "season": "2020-21",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 420
+    },
+    {
+      "league": "tr.1",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 5,
+      "excluded": 337
+    },
+    {
+      "league": "tr.1",
+      "season": "2025-26",
+      "accepted": 0,
+      "quarantined": 207,
+      "excluded": 99
+    },
+    {
+      "league": "tr.2",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 311
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2011-12",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2012-13",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2013-14",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2014-15",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2015-16",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2016-17",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2017-18",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2018-19",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 125
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2019-20",
+      "accepted": 0,
+      "quarantined": 0,
+      "excluded": 119
+    },
+    {
+      "league": "uefa.cl",
+      "season": "2024-25",
+      "accepted": 0,
+      "quarantined": 1,
+      "excluded": 188
+    }
+  ],
+  "quality_scope": "Accepted for date-batched experimental training, NOT externally verified results/timezones or production provider identity. Source dates may contain undetected errors.",
+  "corrections_applied": 0
+}

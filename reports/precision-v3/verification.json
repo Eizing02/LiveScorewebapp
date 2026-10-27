@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-25T18:44:13.892601+00:00",
+  "version": "precision-v3-9f46ca6392a2",
+  "python_tests": {
+    "passed": 48,
+    "failed": 0
+  },
+  "typescript_api_domain_tests": {
+    "passed": 36,
+    "failed": 0
+  },
+  "browser_tests": {
+    "passed": 4,
+    "failed": 0,
+    "desktop_mobile": true,
+    "page_errors": 0,
+    "worker_dev_warning": "Network connection lost on an aborted browser navigation; assertions and final requests passed."
+  },
+  "ruff": "passed",
+  "eslint": "passed",
+  "typecheck": "passed",
+  "build": "passed",
+  "worker_dry_run": "passed_no_deployment",
+  "local_d1_precision_seed": {
+    "commands": 66,
+    "status": "passed"
+  },
+  "training_reproducibility": "same version, model checksums, selection and evaluation metrics",
+  "prospective_collection": {
+    "public_openligadb_requests": 2,
+    "saved_before_kickoff": 16,
+    "unresolved_mapping": 2,
+    "qualified": 0,
+    "accuracy": null
+  },
+  "api_football_requests": 0,
+  "active_production_model": null,
+  "model_auto_promote": false,
+  "production_deployed": false,
+  "github_actions_executed": false,
+  "preview_servers_stopped": true,
+  "unchanged_project": "D:/Live score Project"
+}

@@ -1,0 +1,33 @@
+{
+  "version": "v1-a848ffb6bad8",
+  "algorithm_selected": "logistic",
+  "status": "candidate_requires_manual_approval",
+  "training_dataset_version": "830c9f5aa1230b5a7ff9ba037e69c82d0fe02d0b0cfd77135854ca873a0ff200",
+  "training_cutoff_exclusive": "2026-07-01",
+  "last_training_result_date": "2026-05-24",
+  "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "feature_schema_version": "features-v1",
+  "policy_sha256": "ffcfe1dd520a3f72a985b5c3e394e52ee3fb6f5d6a42438785a46f48247b7932",
+  "checksums": {
+    "baseline-state.json": "58bc084f58f547aff65204488632c23441dc193d549148bd5ff5f3d148f0b684",
+    "config.json": "7750f3722711046e32abbffd13ce4c80db3241996eeaf6f7c31a5bad14316af1",
+    "feature-schema.json": "9b570afc6cffbeef5e2ba5a8a70243bd4f326170ac3bd545d89f387bfd710119",
+    "logistic.json": "93c627b3a4562724423f75ecc2e1f5514abc3ec3a14c4a018cbcf6ba2c3b7beb",
+    "metrics.json": "445d53b511168752a5eb0d5b85e9bd53945258bdff1b9c095c9a50d310395f2a",
+    "xgboost.json": "9fb7da6ed6b372f9580fb6b1c76f1fac0df1ad03f413e0b1a6b3e30eda9d1b5c"
+  },
+  "runtime_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "xgboost": "3.4.1"
+  },
+  "logistic_implementation": "NumPy/SciPy softmax L2; sklearn DLL blocked by host Application Control",
+  "evaluation_weights_cutoff": "2024-07-01",
+  "deployment_refit_includes_holdout": true,
+  "note": "Metrics describe fold-specific frozen estimators, not evaluation of the deployment refit on its training set.",
+  "training_code_sha256": {
+    "pipeline.py": "3916d73a6d10c8ce88db44c35c2472c7943030825bf49e45a828973527863f78",
+    "models.py": "ec967d1240f671f0d2ba22fcb7dd9147ea773dc750fd4c66a6f8410e3448c224",
+    "evaluate.py": "86f2d817cfb8ab99364a2a35e65875add21c5be8747bcce014dcda1c09a9a812"
+  }
+}

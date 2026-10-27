@@ -1,0 +1,138 @@
+{
+  "data_protocol": {
+    "version": "recent-five-years-v2",
+    "window_start": "2021-10-25",
+    "asof_exclusive": "2026-10-25",
+    "source_commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+    "closed_season_minimum_coverage": 0.95,
+    "current_season": "2026-27",
+    "leagues": {
+      "en.1": {
+        "id": "eng-premier",
+        "name": "Premier League",
+        "country": "England",
+        "expected": 380
+      },
+      "en.2": {
+        "id": "eng-championship",
+        "name": "Championship",
+        "country": "England",
+        "expected": 552
+      },
+      "es.1": {
+        "id": "esp-laliga",
+        "name": "La Liga",
+        "country": "Spain",
+        "expected": 380
+      },
+      "de.1": {
+        "id": "de-bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "expected": 306
+      },
+      "it.1": {
+        "id": "ita-serie-a",
+        "name": "Serie A",
+        "country": "Italy",
+        "expected": 380
+      },
+      "fr.1": {
+        "id": "fra-ligue-one",
+        "name": "Ligue 1",
+        "country": "France",
+        "expected": 306,
+        "expected_before_2023": 380
+      },
+      "nl.1": {
+        "id": "ned-eredivisie",
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "expected": 306
+      },
+      "pt.1": {
+        "id": "por-primeira",
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "expected": 306
+      },
+      "de.2": {
+        "id": "de-bundesliga-two",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "expected": 306
+      },
+      "es.2": {
+        "id": "esp-segunda",
+        "name": "Segunda División",
+        "country": "Spain",
+        "expected": 462
+      },
+      "it.2": {
+        "id": "ita-serie-b",
+        "name": "Serie B",
+        "country": "Italy",
+        "expected": 380
+      },
+      "fr.2": {
+        "id": "fra-ligue-two",
+        "name": "Ligue 2",
+        "country": "France",
+        "expected": 306,
+        "expected_before_2024": 380
+      }
+    },
+    "validation": [
+      [
+        "2023-07-01",
+        "2024-07-01"
+      ],
+      [
+        "2024-07-01",
+        "2025-07-01"
+      ]
+    ],
+    "retrospective_test": [
+      "2025-07-01",
+      "2026-07-01"
+    ],
+    "test_status": "previously inspected dates; exploratory comparison, not a fresh confirmatory holdout",
+    "daily_selection": {
+      "probability_threshold": 0.7,
+      "min_venue_matches": 8,
+      "min_league_history": 40,
+      "one_selection_per_fixture": true,
+      "status": "research_only_unconfirmed_for_new_leagues_and_markets"
+    },
+    "automatic_promotion": false
+  },
+  "parameters": {
+    "seed": 20261025,
+    "elo_k": 20,
+    "home_advantage": 60,
+    "elo_draw_nu": 0.65,
+    "season_elo_retention": 0.75,
+    "team_prior_matches": 8,
+    "venue_window": 20,
+    "league_window": 380,
+    "league_prior_matches": 30,
+    "prior_home_goals": 1.5,
+    "prior_away_goals": 1.2,
+    "score_grid_max": 20,
+    "min_history_matches": 40
+  },
+  "challengers": {
+    "logistic_C": 1.0,
+    "xgb_n_estimators": 100,
+    "xgb_max_depth": 2,
+    "xgb_learning_rate": 0.05
+  },
+  "training_code_sha256": {
+    "ml/models.py": "ec967d1240f671f0d2ba22fcb7dd9147ea773dc750fd4c66a6f8410e3448c224",
+    "ml/evaluate.py": "f2ce067a6ff410870ed2d2d38ba5deacc323a39ff4c5e4dea0ab23c80afb4879",
+    "ml/expanded.py": "752beb6ec25d80f28ccf82eaec4cf9ad6a6df907d352897baf20a9225d2f4d1f",
+    "ml/recent_evaluate.py": "8a57f606cd9ce11e0c6508a8dc039b2755c65e0015405eb7b82edd09e26755c6",
+    "ml/goal_markets.py": "dc0bcf09dc6d043c2ab3b6278b1e0072b1148a1e0e796475549dfdcf032f60bd",
+    "requirements.lock": "4104fd65d1fc589c3d4132d271d7c2c00f82aae4a46e1c7450e05d00ce1564f3"
+  }
+}
