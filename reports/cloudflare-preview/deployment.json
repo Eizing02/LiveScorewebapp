@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:26:49.189654+00:00",
+  "checked_at": "2026-10-28T07:56:13.187430+00:00",
   "scope": "owner-approved private read-only Cloudflare preview",
   "url": "https://football-ai-preview.piyawatpiwsiri.workers.dev",
   "application_source_commit": "66100320783371c0a4434d98e7fbc1b9b883254b",
@@ -24,8 +24,9 @@
     "live_predictions": 0,
     "active_models": 0,
     "migrations": 11,
+    "research_report_chunks": 157,
     "foreign_key_violations": 0,
-    "size_bytes_after_import": 10874880
+    "size_bytes_after_import": 12169216
   },
   "snapshot": {
     "sha256": "0c609bdf81559d0e405ab4cd30321c4be58a34adeea5056d7f29d6aae0b2df4b",
@@ -48,11 +49,19 @@
         ]
       }
     },
-    "fresh_provider_sync": false
+    "fresh_provider_sync": false,
+    "research_supplement": {
+      "sha256": "4f47a44855422261b565d77c7b3a73348b1d543f53e786c0059d9cd0e46767d5",
+      "bytes": 1269763,
+      "rows": 157,
+      "verified_chunked_reports": 3,
+      "idempotent": true,
+      "model_or_prediction_changes": false
+    }
   },
   "smoke_tests": {
-    "http_api_checks_passed": 34,
-    "browser_checks_passed": 16,
+    "http_api_checks_passed": 40,
+    "browser_checks_passed": 24,
     "failed": 0,
     "browser_page_errors": 0,
     "authenticated_api_errors": 0,
@@ -75,7 +84,17 @@
     "internal_write_status": 403,
     "private_no_store": true,
     "historical_h2h_sample_n": 19,
-    "league_logo": "verified PNG"
+    "league_logo": "verified PNG",
+    "total_checks_passed": 64,
+    "research_endpoints": [
+      "/api/provider-preview",
+      "/api/history/quality",
+      "/api/research/expanded",
+      "/api/research/precision",
+      "/api/model-performance",
+      "/api/filtering"
+    ],
+    "research_reports_verified": 3
   },
   "remote_configuration": {
     "preview_auth_enabled": true,
@@ -108,5 +127,16 @@
     "No prospective predictions or real future accuracy are available yet; current cloud model registry has no active model.",
     "Account CPU/usage analytics not yet verified; required before automation."
   ],
-  "private_evidence": "Ignored .cloudflare/ directory; credentials, SQL snapshot and private diagnostics are not committed."
+  "private_evidence": "Ignored .cloudflare/ directory; credentials, SQL snapshot and private diagnostics are not committed.",
+  "latest_local_verification": {
+    "python_passed": 87,
+    "typescript_api_passed": 65,
+    "browser_passed": 17,
+    "total_passed": 169,
+    "ruff": "passed",
+    "eslint": "passed",
+    "typecheck_build": "passed",
+    "ui_server": "dedicated strict port 5193; API health readiness"
+  },
+  "snapshot_transport_fix": "Include research_report_chunks and reject incomplete, out-of-order or corrupt report dependencies before import; SQL foreign key checks alone cannot verify JSON manifest pointers."
 }

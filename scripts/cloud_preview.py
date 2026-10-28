@@ -14,7 +14,7 @@ from pathlib import Path
 from ml.pipeline import ROOT
 
 NAME = "football-ai-preview"
-TABLES = ["program_sources", "program_observations", "provider_team_mappings", "provider_fixture_observations", "provider_enrichment_observations", "provider_dataset_versions", "provider_goal_components", "live_match_details", "live_daily_reports", "performance", "settings"]
+TABLES = ["program_sources", "program_observations", "provider_team_mappings", "provider_fixture_observations", "provider_enrichment_observations", "provider_dataset_versions", "provider_goal_components", "live_match_details", "live_daily_reports", "research_report_chunks", "performance", "settings"]
 
 
 def cli(*args):
@@ -84,6 +84,27 @@ def prepare_local(config, account, subdomain, directory):
     return {"worker_url": url, "config": path.name, "secret_file": str(secret_path), "database_id_placeholder": config["d1_databases"][0]["database_id"] == "00000000-0000-0000-0000-000000000000"}
 
 
+def verify_report_chunks(connection):
+    """JSON report pointers have dependencies that foreign_key_check cannot see."""
+    verified = 0
+    for (raw,) in connection.execute("SELECT payload FROM performance"):
+        manifest = json.loads(raw)
+        if not isinstance(manifest, dict) or not manifest.get("chunked"):
+            continue
+        key, checksum, parts = manifest.get("key"), manifest.get("checksum"), manifest.get("parts")
+        if manifest["chunked"] is not True or not isinstance(key, str) or not re.fullmatch(r"[a-f0-9]{64}", key) or not isinstance(checksum, str) or not re.fullmatch(r"[a-f0-9]{64}", checksum) or type(parts) is not int or parts < 1:
+            raise ValueError("bootstrap_report_manifest_invalid")
+        chunks = connection.execute("SELECT part,payload FROM research_report_chunks WHERE report_key=? ORDER BY part", (key,)).fetchall()
+        if len(chunks) != parts or any(index != row[0] for index, row in enumerate(chunks)):
+            raise ValueError("bootstrap_report_chunks_incomplete")
+        payload = "".join(row[1] for row in chunks)
+        if hashlib.sha256(payload.encode("utf-8")).hexdigest() != checksum:
+            raise ValueError("bootstrap_report_checksum_mismatch")
+        json.loads(payload)
+        verified += 1
+    return verified
+
+
 def prepare_bootstrap(sql):
     statements, pending = [], ""
     for line in sql.splitlines(keepends=True):
@@ -114,8 +135,9 @@ def prepare_bootstrap(sql):
         connection.executescript(result)  # Import is repeatable; evidence stays immutable.
         if list(connection.execute("PRAGMA foreign_key_check")):
             raise ValueError("bootstrap_foreign_key_failure")
+        reports = verify_report_chunks(connection)
         heads = connection.execute("SELECT COUNT(*) FROM program_heads").fetchone()[0]
-    return result, {"statements": len(statements), "largest_statement_bytes": max(map(lambda s: len(s.encode("utf-8")), statements), default=0), "roundtrip_heads": heads, "idempotent": True, "foreign_key_violations": 0}
+    return result, {"statements": len(statements), "largest_statement_bytes": max(map(lambda s: len(s.encode("utf-8")), statements), default=0), "roundtrip_heads": heads, "chunked_reports_verified": reports, "idempotent": True, "foreign_key_violations": 0}
 
 
 def run(prepare=False):

@@ -1,4 +1,5 @@
 import copy
+import hashlib
 import json
 
 import pytest
@@ -46,3 +47,36 @@ def test_bootstrap_handles_migration_defaults_and_rejects_unapproved_or_oversize
         prepare_bootstrap("INSERT INTO settings VALUES('large','"+"a"*100000+"');\n")
     with pytest.raises(ValueError, match="unexpected"):
         prepare_bootstrap("DELETE FROM settings;\n")
+
+
+def report_sql(*, indexes=(0, 1), corrupt=False, parts=2):
+    payload = json.dumps({"n": 19, "label": "ผลวิจัยฟุตบอล"}, ensure_ascii=False)
+    key = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    cut = len(payload)//2
+    chunks = [payload[:cut], payload[cut:]]
+    if corrupt:
+        chunks[0] += " "
+    def quote(text):
+        return "'"+text.replace("'", "''")+"'"
+    sql = "".join("INSERT INTO research_report_chunks VALUES("+quote(key)+","+str(index)+","+quote(chunks[i])+");\n" for i, index in enumerate(indexes))
+    manifest = json.dumps({"chunked": True, "key": key, "parts": parts, "checksum": key})
+    return sql+"INSERT INTO performance VALUES('recent-backtest',"+quote(manifest)+");\n"
+
+
+def test_bootstrap_preserves_complete_unicode_report_chunks_and_verifies_pointer():
+    sql, report = prepare_bootstrap(report_sql())
+    assert "INSERT OR IGNORE INTO research_report_chunks" in sql
+    assert report["chunked_reports_verified"] == 1
+    assert report["idempotent"]
+
+
+@pytest.mark.parametrize("indexes,corrupt,parts,error", [
+    ((0,), False, 2, "chunks_incomplete"),
+    ((1, 2), False, 2, "chunks_incomplete"),
+    ((0, 1), True, 2, "checksum_mismatch"),
+    ((0, 1), False, 0, "manifest_invalid"),
+    ((0, 1), False, True, "manifest_invalid"),
+])
+def test_bootstrap_rejects_broken_report_dependencies(indexes, corrupt, parts, error):
+    with pytest.raises(ValueError, match=error):
+        prepare_bootstrap(report_sql(indexes=indexes, corrupt=corrupt, parts=parts))

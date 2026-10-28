@@ -11,12 +11,13 @@
 ## ผลตรวจหลัง Deploy
 
 - ใช้ application source commit `66100320783371c0a4434d98e7fbc1b9b883254b`; GitHub CI บน Linux/Windows ผ่านก่อน Deploy
-- ฐานใหม่ผ่าน 11 migrations; มี fixture heads 2,191 คู่, observations 3,727 แถว, รายละเอียดคู่จริง 130 คู่ และ foreign key violations 0
+- ฐานใหม่ผ่าน 11 migrations; มี fixture heads 2,191 คู่, observations 3,727 แถว, รายละเอียดคู่จริง 130 คู่ และ foreign key violations 0 เพิ่ม research report chunks 157 ส่วน พร้อมตรวจรายงานที่อ้างอิงทั้ง 3 ชุดว่าครบ ลำดับถูก และ checksum ตรงกัน
 - รอบ 25 ต.ค. มี 1,203 คู่/327 รายการ; 27 ต.ค. มี 332 คู่/112 รายการ; 28 ต.ค. มี 266 คู่/75 รายการ โดยรอบ 28 ต.ค. ยังขาด source date 29 ต.ค.
-- ตรวจ HTTP/API จริงผ่าน 34 ข้อ และ browser flow จริงผ่าน 16 ข้อ รวมหน้าจอ 1440, 390 และ 320 พิกเซล ไม่พบ page errors หรือ authenticated API errors
+- ตรวจ HTTP/API จริงผ่าน 40 ข้อ และ browser flow จริงผ่าน 24 ข้อ รวมหน้าโปรแกรม รายคู่ ผลวิจัย และหน้าจอ 1440, 390 และ 320 พิกเซล ไม่พบ page errors หรือ authenticated API errors
 - ผู้ไม่เข้าสู่ระบบเปิด HTML, JavaScript และ API ไม่ได้ (401); credentials ผิดได้ 401; internal write routes ถูกปิด (403); response เป็น private/no-store
 - ยืนยัน live API, scheduler, quota broker และ auto-promotion ปิดจริงบน Worker; ไม่มี cron; secrets บน Worker มีเฉพาะ credentials สำหรับ preview สองรายการ
 - ตรวจไฟล์โมเดลและ training source ทั้ง 23 checksum entries ว่าคงเดิม; active model และคำทำนายล่วงหน้าบนคลาวด์ยังเป็น 0 ไม่สร้างผลทำนายแทนข้อมูลที่ขาด
+- หลังแก้การส่งออก report chunks ชุดทดสอบในเครื่องผ่าน 87 Python + 65 TypeScript/API + 17 browser = 169 tests พร้อม lint/typecheck/build ผ่าน ใช้พอร์ตทดสอบ UI เฉพาะ 5193 และตรวจ API health ก่อนใช้ server เพื่อลดการเผลอทดสอบอีกโปรแกรมที่เปิดพอร์ต 5173 อยู่
 
 ยังไม่ได้ยืนยัน CPU/usage จาก account analytics สำหรับการใช้งานสะสม ต้องเก็บหลักฐานส่วนนี้ก่อนพิจารณาเปิดงานอัตโนมัติ ผล smoke test ยืนยันการทำงานของ URL ในเวลาที่ตรวจเท่านั้น ภาพหน้าจอและรายละเอียดภายในเก็บใน `.cloudflare/smoke/` ซึ่งไม่ถูก commit
 
