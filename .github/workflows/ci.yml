@@ -29,6 +29,14 @@ jobs:
       - run: npm test
       - run: npm run worker:check
       - run: npm run worker:preview:check
+      # Use the committed, labelled demo snapshots for application tests.
+      - run: npm run db:migrate:local
+      - run: npm run db:seed:local
+      - run: npm run db:seed:selection:local
+      - run: npm run db:seed:centre:local
+      - run: npm run db:seed:precision:local
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:ui
   checks:
     # Frozen v2 source-record IDs include Windows path separators. Keep the
     # recorded research environment; changing that protocol needs a new version.
@@ -42,15 +50,10 @@ jobs:
       PYTHONUTF8: '1'
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-          cache: npm
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
-      - run: npm ci
       - run: python -m pip install -r requirements.lock
       - run: python -m scripts.fetch_history
       - run: python -m ml.pipeline
@@ -66,14 +69,3 @@ jobs:
       - run: python -m scripts.prepare_precision --mock-clock 2026-10-25T18:00:00Z
       - run: python -m pytest -q
       - run: python -m ruff check ml scripts
-      - run: npm run lint
-      - run: npm run build
-      - run: npm test
-      - run: npm run worker:check
-      - run: npm run db:migrate:local
-      - run: npm run db:seed:local
-      - run: npm run db:seed:selection:local
-      - run: npm run db:seed:centre:local
-      - run: npm run db:seed:precision:local
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:ui

@@ -38,7 +38,7 @@ npm run worker:preview:check
 
 ## CI และหลักฐานวิจัย
 
-CI รอบแรกบน Linux หยุดที่ `v2_protocol_or_dataset_changed_use_new_version` เพราะ importer ที่ freeze ไว้สร้าง source-record ID จาก Windows path separators การแก้ CI ใช้ Windows สำหรับชุดวิจัยเดิม และแยก Linux job ตรวจ frontend/API/Worker โดยไม่เปลี่ยน frozen training code, protocol, metrics หรือ model artifacts การทำ source IDs ให้ข้ามระบบได้ในอนาคตต้องเป็น dataset/model version ใหม่
+CI รอบแรกบน Linux หยุดที่ `v2_protocol_or_dataset_changed_use_new_version` เพราะ importer ที่ freeze ไว้สร้าง source-record ID จาก Windows path separators การแก้ CI ใช้ Windows สำหรับชุดวิจัย/Python เดิม และใช้ Linux ตรวจ frontend/API/Worker/Browser โดยอ่าน demo snapshots ที่บันทึกไว้ ไม่รันชุด API ที่ต้องสร้างฐานข้อมูลขนาดใหญ่ซ้ำบน Windows ซึ่งเคยติด hook timeout การเปลี่ยนนี้ไม่แก้ frozen training code, protocol, metrics หรือ model artifacts การทำ source IDs ให้ข้ามระบบได้ในอนาคตต้องเป็น dataset/model version ใหม่
 
 HTTP Basic authentication ใช้สำหรับเว็บทดลองส่วนตัวผ่าน HTTPS ไม่ใช่ระบบสมาชิกหลายผู้ใช้ ระยะเปิดบริการต่อบุคคลอื่นต้องเลือกและทดสอบระบบสิทธิ์ที่เหมาะกับขอบเขตใหม่
 
