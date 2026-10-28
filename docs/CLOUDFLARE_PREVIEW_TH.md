@@ -1,5 +1,7 @@
 # เว็บทดลองส่วนตัวบน Cloudflare
 
+สถานะปัจจุบัน: เปิดหน้าเว็บโดยไม่ต้องใส่รหัสผ่านและซิงก์โปรแกรมผ่าน GitHub Actions แล้ว ดู [คู่มือปัจจุบัน](PUBLIC_PROGRAM_SYNC_TH.md) และ `reports/cloudflare-preview/public-live.json` เนื้อหาด้านล่างเก็บขั้นตอนเว็บทดลองส่วนตัวก่อนการเปลี่ยนแปลงไว้เป็นหลักฐาน
+
 เปิดเว็บทดลองส่วนตัวแล้วเมื่อ 28 ตุลาคม 2026 ด้วย Worker และ D1 ใหม่ชื่อ `football-ai-preview` แยกจากทรัพยากรเดิม หลังเจ้าของบัญชียืนยัน Workers Free และอนุมัติสร้างฐาน นำเข้า snapshot และ Deploy แล้ว หลักฐานก่อน Deploy อยู่ใน `reports/cloudflare-preview/verification.json`; ผลบนคลาวด์จริงอยู่ใน `reports/cloudflare-preview/deployment.json`
 
 ## เข้าใช้งาน

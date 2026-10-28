@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-10-28T12:00:47.021307+00:00",
+  "url": "https://football-ai-preview.piyawatpiwsiri.workers.dev",
+  "access": "public, no browser password",
+  "application_source": "bb3b2027111a4c58728b2155157b156a395e15db",
+  "pull_request": "https://github.com/Eizing02/LiveScorewebapp/pull/1",
+  "pull_request_merged": true,
+  "database": {
+    "counts": {
+      "program_heads": 2526,
+      "observations": 4547,
+      "fingerprints": 805,
+      "live_predictions": 0,
+      "active_models": 0,
+      "migrations": 12,
+      "provider_requests": 7,
+      "provider_remaining": 93
+    },
+    "foreign_key_violations": 0,
+    "size_bytes": 13639680
+  },
+  "rounds": [
+    {
+      "date": "2026-10-28",
+      "fixtures": 490,
+      "competitions": 119,
+      "captured_at": "2026-10-28T11:55:19.585Z",
+      "last_sync_success_at": "2026-10-28T11:58:54.433Z",
+      "data_completeness": "two_source_dates_recorded",
+      "source_dates": [
+        {
+          "date": "2026-10-28",
+          "state": "recorded",
+          "captured_at": "2026-10-28T11:55:19.585Z",
+          "rows": 459
+        },
+        {
+          "date": "2026-10-29",
+          "state": "recorded",
+          "captured_at": "2026-10-28T11:55:33.853Z",
+          "rows": 346
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "fixtures": 124,
+      "competitions": 66,
+      "captured_at": "2026-10-28T11:55:33.853Z",
+      "last_sync_success_at": "2026-10-28T11:58:54.433Z",
+      "data_completeness": "partial_source_dates",
+      "source_dates": [
+        {
+          "date": "2026-10-29",
+          "state": "recorded",
+          "captured_at": "2026-10-28T11:55:33.853Z",
+          "rows": 346
+        },
+        {
+          "date": "2026-10-30",
+          "state": "not_fetched",
+          "captured_at": null,
+          "rows": null
+        }
+      ]
+    }
+  ],
+  "scheduling": {
+    "service": "GitHub Actions",
+    "target_interval_minutes": 120,
+    "enabled": true,
+    "cloud_execution_verified": true,
+    "run": "https://github.com/Eizing02/LiveScorewebapp/actions/runs/40683620085",
+    "conclusion": "success",
+    "provider_fixture_calls_per_day_target": "24-27; no automatic retries"
+  },
+  "ci": {
+    "run": "https://github.com/Eizing02/LiveScorewebapp/actions/runs/40683617974",
+    "conclusion": "success",
+    "local_python_tests_passed": 90,
+    "local_auth_tests_passed": 7,
+    "public_runtime_checks_passed": 27,
+    "local_miniflare": "Windows Application Control blocked workerd; API/browser checks passed on GitHub Linux"
+  },
+  "provider": {
+    "plan_verified": "Free",
+    "daily_limit_verified": 100,
+    "billable_requests_this_task": 7,
+    "remaining_after_cloud_sync": 93,
+    "date_window_verified_on_2026_10_28": [
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29"
+    ],
+    "2026_10_30_access": "denied by provider; not retried",
+    "key_storage": "GitHub encrypted secrets and ignored local files; never frontend"
+  },
+  "model": {
+    "active_version": null,
+    "auto_promote": false,
+    "frozen_checksum_entries_verified": 23,
+    "new_training_labels": 0,
+    "live_predictions": 0
+  },
+  "boundaries": {
+    "old_project_modified": false,
+    "old_worker_modified": false,
+    "paid_plan_activated": false,
+    "model_promoted": false
+  },
+  "limitations": [
+    "Next business round is partial until the provider opens the following calendar date.",
+    "Scores update on collector schedule, not a minute-by-minute live feed.",
+    "Prospective model activation/evaluation remains a separate step."
+  ]
+}
