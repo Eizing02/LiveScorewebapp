@@ -44,4 +44,9 @@ describe('private read-only cloud preview',()=>{
     expect((await handle(new Request('http://localhost/api/health'),{MOCK_MODE:'true'} as Env)).status).toBe(200);
     expect((await handle(new Request('https://preview.example/internal/sync/dry-run',{method:'POST',body:'{}'}),{...env,PREVIEW_READ_ONLY:'false'})).status).toBe(401);
   });
+  it('serves public assets with CORS even when the asset response has immutable headers',async()=>{
+    const fetch=vi.fn().mockResolvedValue(Response.redirect('https://public.example/assets/app.js'));
+    const response=await worker.fetch(new Request('https://public.example/assets/app.js',{headers:{Origin:'https://public.example'}}),{...env,APP_ENV:'public',PREVIEW_AUTH_ENABLED:'false',ALLOWED_ORIGIN:'https://public.example',ASSETS:{fetch} as unknown as Fetcher});
+    expect(response.status).toBe(302);expect(response.headers.get('access-control-allow-origin')).toBe('https://public.example');
+  });
 });

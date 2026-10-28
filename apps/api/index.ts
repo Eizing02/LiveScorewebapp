@@ -93,6 +93,6 @@ export async function handle(request:Request,env:Env):Promise<Response>{
   }
 }
 export default {
-  async fetch(request:Request,env:Env){const original=await handle(request,env),response=env.PREVIEW_AUTH_ENABLED==='true'?new Response(original.body,original):original;if(env.PREVIEW_AUTH_ENABLED==='true'){response.headers.set('cache-control','private, no-store');response.headers.set('vary','Authorization');}if(request.headers.get('origin')===env.ALLOWED_ORIGIN)response.headers.set('access-control-allow-origin',env.ALLOWED_ORIGIN);return response;},
+  async fetch(request:Request,env:Env){const original=await handle(request,env),response=env.PREVIEW_AUTH_ENABLED==='true'||request.headers.get('origin')===env.ALLOWED_ORIGIN?new Response(original.body,original):original;if(env.PREVIEW_AUTH_ENABLED==='true'){response.headers.set('cache-control','private, no-store');response.headers.set('vary','Authorization');}if(request.headers.get('origin')===env.ALLOWED_ORIGIN)response.headers.set('access-control-allow-origin',env.ALLOWED_ORIGIN);return response;},
   async scheduled(controller:ScheduledController,env:Env,ctx:ExecutionContext){if(env.APP_ENV==='preview'||env.PREVIEW_READ_ONLY==='true'||env.SCHEDULER_ENABLED!=='true')return;ctx.waitUntil(runSync(env,'cron-'+controller.scheduledTime));},
 };
