@@ -13,7 +13,7 @@ NOW = datetime(2026, 10, 28, 12, tzinfo=timezone.utc)
 
 def test_program_sync_respects_free_date_window_and_bangkok_round_without_calls():
     assert run(day='2026-10-28', now=NOW)['source_dates'] == ['2026-10-28', '2026-10-29']
-    assert run(now=datetime(2026, 10, 28, 21, tzinfo=timezone.utc))['source_dates'] == ['2026-10-28', '2026-10-29', '2026-10-30']
+    assert run(now=datetime(2026, 10, 28, 21, tzinfo=timezone.utc))['source_dates'] == ['2026-10-28', '2026-10-29']
     with pytest.raises(ValueError, match='approval'):
         run(execute=True)
 

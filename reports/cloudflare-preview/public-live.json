@@ -72,7 +72,7 @@
     "cloud_execution_verified": true,
     "run": "https://github.com/Eizing02/LiveScorewebapp/actions/runs/40683620085",
     "conclusion": "success",
-    "provider_fixture_calls_per_day_target": "24-27; no automatic retries"
+    "provider_fixture_calls_per_day_target": "24; two date queries per run, no automatic retries"
   },
   "ci": {
     "run": "https://github.com/Eizing02/LiveScorewebapp/actions/runs/40683617974",

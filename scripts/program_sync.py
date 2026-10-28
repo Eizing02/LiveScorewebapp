@@ -14,8 +14,9 @@ from scripts.api_football_probe import ManagedProbe, ProbeError, account_summary
 def run(execute=False, approved_remote=False, day=None, probe=None, broker=None, source=SOURCE, output=OUTPUT, now=None):
     now = now or datetime.now(timezone.utc)
     day = day or (now.astimezone(ZoneInfo('Asia/Bangkok'))-timedelta(hours=6)).date().isoformat()
-    next_calendar_day = now.astimezone(ZoneInfo('Asia/Bangkok')).date()+timedelta(days=1)
-    count = min(3, max(2, (next_calendar_day-datetime.fromisoformat(day).date()).days+1))
+    # Stay within the two observed-accessible dates; do not speculate about
+    # provider date-window rollover during Bangkok's midnight/UTC boundary.
+    count = 2
     days = [(datetime.fromisoformat(day)+timedelta(days=i)).date().isoformat() for i in range(count)]
     report = {'status': 'dry_run', 'business_date': day, 'source_dates': days, 'maximum_billable_requests': count, 'maximum_http_requests': count+1, 'model_promoted': False, 'training_labels_added': 0}
     if not execute:
