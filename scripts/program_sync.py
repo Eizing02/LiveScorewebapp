@@ -11,11 +11,13 @@ from ml.provider_broker import BrokerClient, local_settings
 from scripts.api_football_probe import ManagedProbe, ProbeError, account_summary, load_key
 
 
-def run(execute=False, approved_remote=False, day=None, probe=None, broker=None, source=SOURCE, output=OUTPUT):
-    now = datetime.now(timezone.utc)
+def run(execute=False, approved_remote=False, day=None, probe=None, broker=None, source=SOURCE, output=OUTPUT, now=None):
+    now = now or datetime.now(timezone.utc)
     day = day or (now.astimezone(ZoneInfo('Asia/Bangkok'))-timedelta(hours=6)).date().isoformat()
-    days = [(datetime.fromisoformat(day)+timedelta(days=i)).date().isoformat() for i in range(3)]
-    report = {'status': 'dry_run', 'business_date': day, 'source_dates': days, 'maximum_billable_requests': 3, 'maximum_http_requests': 4, 'model_promoted': False, 'training_labels_added': 0}
+    next_calendar_day = now.astimezone(ZoneInfo('Asia/Bangkok')).date()+timedelta(days=1)
+    count = min(3, max(2, (next_calendar_day-datetime.fromisoformat(day).date()).days+1))
+    days = [(datetime.fromisoformat(day)+timedelta(days=i)).date().isoformat() for i in range(count)]
+    report = {'status': 'dry_run', 'business_date': day, 'source_dates': days, 'maximum_billable_requests': count, 'maximum_http_requests': count+1, 'model_promoted': False, 'training_labels_added': 0}
     if not execute:
         return report
     if not approved_remote:

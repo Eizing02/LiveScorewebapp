@@ -3,7 +3,7 @@ import type {Env} from './types';
 import {validRoundDate} from '../../packages/football/window';
 
 const date=z.string().refine(validRoundDate);
-const schema=z.object({id:z.string().uuid(),started_at:z.string().datetime(),status:z.enum(['running','complete','failed']),business_date:date,source_dates:z.array(date).length(3),fixtures_count:z.number().int().nonnegative().default(0),quarantined_count:z.number().int().nonnegative().default(0),error_code:z.enum(['provider_or_import_failed','account_or_quota_blocked']).nullable().default(null)}).strict();
+const schema=z.object({id:z.string().uuid(),started_at:z.string().datetime(),status:z.enum(['running','complete','failed']),business_date:date,source_dates:z.array(date).min(2).max(3),fixtures_count:z.number().int().nonnegative().default(0),quarantined_count:z.number().int().nonnegative().default(0),error_code:z.enum(['provider_or_import_failed','account_or_quota_blocked']).nullable().default(null)}).strict();
 export async function recordProgramSync(body:string,env:Env){
   if(env.PROGRAM_SYNC_ENABLED!=='true')return Response.json({error:'program_sync_disabled'},{status:409});
   const p=schema.parse(JSON.parse(body)),now=new Date().toISOString();
