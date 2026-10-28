@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-28T02:43:58.440926+00:00",
+  "branch": "codex/cloudflare-preview",
+  "pull_request": "https://github.com/Eizing02/LiveScorewebapp/pull/1",
+  "scope": "private read-only preview preparation; no deployment",
+  "tests": {
+    "python": {
+      "passed": 81,
+      "seconds": 44.25
+    },
+    "typescript_api": {
+      "passed": 65,
+      "seconds": 40.88
+    },
+    "browser": {
+      "passed": 17,
+      "seconds": 35.9
+    },
+    "total_passed": 163,
+    "preview_access_after_final_type_fix": {
+      "passed": 6
+    },
+    "ruff": "passed",
+    "eslint": "passed",
+    "typecheck_vite_build": "passed",
+    "preview_worker_dry_run": "passed"
+  },
+  "bootstrap_validation": {
+    "bytes": 9512938,
+    "sha256": "0c609bdf81559d0e405ab4cd30321c4be58a34adeea5056d7f29d6aae0b2df4b",
+    "tables": [
+      "program_sources",
+      "program_observations",
+      "provider_team_mappings",
+      "provider_fixture_observations",
+      "provider_enrichment_observations",
+      "provider_dataset_versions",
+      "provider_goal_components",
+      "live_match_details",
+      "live_daily_reports",
+      "performance",
+      "settings"
+    ],
+    "statements": 3960,
+    "largest_statement_bytes": 73663,
+    "roundtrip_heads": 2191,
+    "idempotent": true,
+    "foreign_key_violations": 0
+  },
+  "local_config_prepared": true,
+  "preview_credential_storage": "ignored local file; never included in source or this report",
+  "cloudflare_authentication": "OAuth login completed; token details omitted",
+  "workers_plan": "unverified; OAuth billing API returns 403",
+  "preview_targets": {
+    "worker": "football-ai-preview",
+    "database": "football-ai-preview"
+  },
+  "frozen_training_code_and_model_checksum_entries_unchanged": 23,
+  "github_ci": "Check the current PR checks; app/Worker on Linux and recorded research environment on Windows",
+  "activation_requirements": [
+    "owner confirmation of Workers Free",
+    "explicit owner approval to create D1, import private snapshot and deploy password-protected preview"
+  ],
+  "boundaries": {
+    "cloudflare_resources_created": 0,
+    "remote_d1_writes": 0,
+    "api_football_requests": 0,
+    "model_promoted": false,
+    "production_deployed": false,
+    "existing_worker_modified": false,
+    "old_project_modified": false
+  }
+}

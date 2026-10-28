@@ -49,3 +49,5 @@ reports/**/*.zip
 *.p12
 *.pfx
 .dev.vars.*
+.cloudflare/
+wrangler.preview.local.jsonc

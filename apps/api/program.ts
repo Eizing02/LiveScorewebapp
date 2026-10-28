@@ -6,6 +6,7 @@ import {checksum} from './analysis';
 import {liveDaily,liveResponse} from './live';
 import {currentRound,roundWindow} from '../../packages/football/window';
 import {PROGRAM_COMPETITION_ORDER} from '../../packages/football/competition-order';
+import {programSyncState} from './program-sync';
 
 const send=(body:unknown,status=200)=>Response.json(body,{status,headers:{'cache-control':'no-store','x-content-type-options':'nosniff'}});
 const date=z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
@@ -24,7 +25,11 @@ export async function importProgram(body:string,env:Env){
       if(!Number.isFinite(Date.parse(p.kickoff_utc))||new Date(p.kickoff_utc).toISOString()!==p.kickoff_utc||!Number.isFinite(Date.parse(p.observed_at))||new Date(p.observed_at).toISOString()!==p.observed_at)throw new Error('canonical_utc_required');
       if(await checksum(String(v[9]))!==v[10]||p.observation_id!==v[0]||p.id!==v[1]||p.provider_league_id!==v[2]||p.kickoff_utc!==v[3]||p.business_date!==v[4]||p.observed_at!==v[5]||p.status!==v[6]||p.source_date!==v[7]||p.search_text!==v[8]||!/^api-football-\d+$/.test(p.id)||!Number.isSafeInteger(p.provider_league_id)||p.provider_league_id<=0||!Number.isFinite(Date.parse(p.observed_at))||Date.parse(p.observed_at)>Date.now()+60000)throw new Error('invalid_program_record');
       const round=roundWindow(p.business_date,'day');if(p.kickoff_utc<round.start||p.kickoff_utc>=round.end_exclusive)throw new Error('invalid_program_business_date');
-      statements.push(env.DB.prepare('INSERT OR IGNORE INTO program_observations VALUES(?,?,?,?,?,?,?,?,?,?,?)').bind(...v));
+      const semantic=Object.fromEntries(Object.entries(p).filter(([key])=>!['observation_id','observed_at','source_sha256'].includes(key)).sort(([a],[b])=>a.localeCompare(b)));
+      const fingerprint=await checksum(JSON.stringify(semantic));
+      const previous=await env.DB.prepare('SELECT fingerprint,verified_at FROM program_fixture_fingerprints WHERE fixture_id=?').bind(p.id).first<{fingerprint:string;verified_at:string}>();
+      if(!previous||previous.fingerprint!==fingerprint||p.observed_at<previous.verified_at)statements.push(env.DB.prepare('INSERT OR IGNORE INTO program_observations VALUES(?,?,?,?,?,?,?,?,?,?,?)').bind(...v));
+      statements.push(env.DB.prepare('INSERT INTO program_fixture_fingerprints VALUES(?,?,?) ON CONFLICT(fixture_id) DO UPDATE SET fingerprint=excluded.fingerprint,verified_at=excluded.verified_at WHERE excluded.verified_at>=program_fixture_fingerprints.verified_at').bind(p.id,fingerprint,p.observed_at));
     }else{
       if(v.length!==6)throw new Error('invalid_program_source_width');
       hash.parse(v[0]);hash.parse(v[5]);date.parse(v[1]);
@@ -96,5 +101,5 @@ export async function programResponse(url:URL,env:Env,now=Date.now()):Promise<Re
   const sources=await env.DB.prepare('SELECT source_date,observed_at,state,row_count FROM (SELECT *,ROW_NUMBER() OVER(PARTITION BY source_date ORDER BY observed_at DESC,id DESC) choice FROM program_sources WHERE source_date IN (?,?) AND observed_at<=?) WHERE choice=1').bind(dateValue,next,iso).all<{source_date:string;observed_at:string;state:string;row_count:number}>();
   const coverage=[dateValue,next].map(date=>{const value=sources.results.find(s=>s.source_date===date);return {date,state:value?.state??'not_fetched',captured_at:value?.observed_at??null,rows:value?.row_count??null};});
   const captured=coverage.filter(s=>s.state==='recorded').map(s=>s.captured_at!).sort()[0]??items.map(f=>f.observed_at).sort()[0]??'';
-  return send({date:dateValue,period,round:window,items,total,round_total:overview.results.reduce((n,g)=>n+g.n,0),page,page_size:25,pages,competitions:grouped.results,countries:overview.results.map(g=>g.country),source_dates:coverage,captured_at:captured,known_source_dates:coverage.filter(s=>s.state==='recorded').map(s=>s.date),data_completeness:coverage.every(s=>s.state==='recorded')?'two_source_dates_recorded':'partial_source_dates',automatic_refresh:false,model_promoted:false});
+  return send({date:dateValue,period,round:window,items,total,round_total:overview.results.reduce((n,g)=>n+g.n,0),page,page_size:25,pages,competitions:grouped.results,countries:overview.results.map(g=>g.country),source_dates:coverage,captured_at:captured,known_source_dates:coverage.filter(s=>s.state==='recorded').map(s=>s.date),data_completeness:coverage.every(s=>s.state==='recorded')?'two_source_dates_recorded':'partial_source_dates',automatic_refresh:env.PROGRAM_SYNC_ENABLED==='true',sync:await programSyncState(env),model_promoted:false});
 }

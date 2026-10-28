@@ -1,0 +1,38 @@
+{
+  "name": "football-ai-preview",
+  "main": "apps/api/index.ts",
+  "compatibility_date": "2026-07-30",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "football-ai-preview",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "db/migrations"
+    }
+  ],
+  "vars": {
+    "APP_ENV": "public",
+    "PREVIEW_AUTH_ENABLED": "false",
+    "PREVIEW_READ_ONLY": "true",
+    "ZERO_COST_MODE": "true",
+    "LIVE_API_ENABLED": "false",
+    "INTEGRATION_APPROVED": "false",
+    "MODEL_AUTO_PROMOTE": "false",
+    "SCHEDULER_ENABLED": "false",
+    "PROVIDER_WINDOW_VERIFIED": "false",
+    "PROVIDER_RESET_UTC_HOUR": "0",
+    "MOCK_MODE": "false",
+    "PROVIDER_BROKER_ENABLED": "false",
+    "LIVE_RESEARCH_ENABLED": "true",
+    "ALLOWED_ORIGIN": "https://preview-not-configured.invalid",
+    "PROGRAM_SYNC_ENABLED": "false"
+  }
+}
