@@ -14,7 +14,7 @@ export async function previewAccess(request:Request,env:Env):Promise<Response|nu
   const unauthorized=()=>Response.json({error:'preview_login_required'},{status:401,headers:{...headers,'www-authenticate':'Basic realm="Football AI private preview", charset="UTF-8"'}});
   const authorization=request.headers.get('authorization')??'';
   if(authorization.length>1024||!/^Basic [A-Za-z0-9+/]+={0,2}$/i.test(authorization))return unauthorized();
-  let supplied:Uint8Array;
+  let supplied:Uint8Array<ArrayBuffer>;
   try{supplied=Uint8Array.from(atob(authorization.slice(6)),c=>c.charCodeAt(0));}catch{return unauthorized();}
   const encoder=new TextEncoder(),key=await crypto.subtle.importKey('raw',encoder.encode(env.PREVIEW_PASSWORD),{name:'HMAC',hash:'SHA-256'},false,['sign','verify']);
   const expected=encoder.encode(env.PREVIEW_USERNAME+':'+env.PREVIEW_PASSWORD);
