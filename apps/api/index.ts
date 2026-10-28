@@ -1,6 +1,7 @@
 import {exportLive} from './live-export';
 import {importProgram,programResponse} from './program';
 import {mediaResponse} from './media';
+import {previewAccess} from './preview-access';
 import {importLive} from './live-import';
 import {liveResponse,liveInternal} from './live';
 import {providerBroker} from './provider-broker';
@@ -14,6 +15,7 @@ const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{'cac
 const importSchema=z.object({predictions:z.array(z.object({id:z.string().min(1).max(160),fixture_id:z.string().min(1).max(100),model_version:z.string().min(1).max(80),generated_at:z.string().datetime(),information_cutoff_date:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),stage:z.enum(['initial','refresh','final']),probabilities:z.tuple([z.number().min(0).max(1),z.number().min(0).max(1),z.number().min(0).max(1)]).refine(p=>Math.abs(p.reduce((a,b)=>a+b,0)-1)<1e-6),feature_snapshot_hash:z.string().regex(/^[a-f0-9]{64}$/)})).max(20)});
 export async function handle(request:Request,env:Env):Promise<Response>{
   try{
+    const blocked=await previewAccess(request,env);if(blocked)return blocked;
     const url=new URL(request.url),path=url.pathname;
     if(path.startsWith('/internal/')){
       const body=await readLimited(request);await authorize(request,body,env);
@@ -89,6 +91,6 @@ export async function handle(request:Request,env:Env):Promise<Response>{
   }
 }
 export default {
-  async fetch(request:Request,env:Env){const response=await handle(request,env);if(request.headers.get('origin')===env.ALLOWED_ORIGIN)response.headers.set('access-control-allow-origin',env.ALLOWED_ORIGIN);return response;},
-  async scheduled(controller:ScheduledController,env:Env,ctx:ExecutionContext){if(env.SCHEDULER_ENABLED!=='true')return;ctx.waitUntil(runSync(env,'cron-'+controller.scheduledTime));},
+  async fetch(request:Request,env:Env){const original=await handle(request,env),response=env.PREVIEW_AUTH_ENABLED==='true'?new Response(original.body,original):original;if(env.PREVIEW_AUTH_ENABLED==='true'){response.headers.set('cache-control','private, no-store');response.headers.set('vary','Authorization');}if(request.headers.get('origin')===env.ALLOWED_ORIGIN)response.headers.set('access-control-allow-origin',env.ALLOWED_ORIGIN);return response;},
+  async scheduled(controller:ScheduledController,env:Env,ctx:ExecutionContext){if(env.APP_ENV==='preview'||env.PREVIEW_READ_ONLY==='true'||env.SCHEDULER_ENABLED!=='true')return;ctx.waitUntil(runSync(env,'cron-'+controller.scheduledTime));},
 };

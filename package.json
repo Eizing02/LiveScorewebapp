@@ -17,6 +17,7 @@
     "db:seed:centre:local": "node scripts/seed_recent.mjs",
     "db:seed:precision:local": "node scripts/seed_recent.mjs db/seed-precision.sql",
     "worker:check": "node scripts/wrangler.mjs deploy --dry-run --outdir .worker-build",
+    "worker:preview:check": "node scripts/wrangler.mjs deploy --config wrangler.preview.example.jsonc --dry-run --outdir .worker-build/preview",
     "db:seed:provider:local": "node scripts/seed_recent.mjs db/seed-provider-preview.sql",
     "db:seed:live:local": "node scripts/seed_recent.mjs db/seed-live-research.sql",
     "db:seed:quota:local": "node scripts/seed_recent.mjs db/seed-provider-quota.sql"
