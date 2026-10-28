@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-10-28T07:26:49.189654+00:00",
+  "scope": "owner-approved private read-only Cloudflare preview",
+  "url": "https://football-ai-preview.piyawatpiwsiri.workers.dev",
+  "application_source_commit": "66100320783371c0a4434d98e7fbc1b9b883254b",
+  "worker": "football-ai-preview",
+  "database": "football-ai-preview",
+  "owner_approved": true,
+  "workers_plan": {
+    "status": "owner_confirmed_workers_free",
+    "billing_api": "not accessible through OAuth; owner confirmation recorded",
+    "paid_plan_activation": false
+  },
+  "github_ci": {
+    "url": "https://github.com/Eizing02/LiveScorewebapp/actions/runs/40623524182",
+    "linux_web": "success",
+    "windows_research": "success"
+  },
+  "prior_local_tests_passed": 163,
+  "remote_database": {
+    "program_heads": 2191,
+    "program_observations": 3727,
+    "live_match_details": 130,
+    "live_predictions": 0,
+    "active_models": 0,
+    "migrations": 11,
+    "foreign_key_violations": 0,
+    "size_bytes_after_import": 10874880
+  },
+  "snapshot": {
+    "sha256": "0c609bdf81559d0e405ab4cd30321c4be58a34adeea5056d7f29d6aae0b2df4b",
+    "business_day_timezone": "Asia/Bangkok",
+    "business_day": "06:00 inclusive to next 06:00 exclusive",
+    "rounds": {
+      "2026-10-25": {
+        "fixtures": 1203,
+        "competitions": 327
+      },
+      "2026-10-27": {
+        "fixtures": 332,
+        "competitions": 112
+      },
+      "2026-10-28": {
+        "fixtures": 266,
+        "competitions": 75,
+        "missing_source_dates": [
+          "2026-10-29"
+        ]
+      }
+    },
+    "fresh_provider_sync": false
+  },
+  "smoke_tests": {
+    "http_api_checks_passed": 34,
+    "browser_checks_passed": 16,
+    "failed": 0,
+    "browser_page_errors": 0,
+    "authenticated_api_errors": 0,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 700
+      }
+    ],
+    "anonymous_html_assets_api_status": 401,
+    "wrong_password_status": 401,
+    "internal_write_status": 403,
+    "private_no_store": true,
+    "historical_h2h_sample_n": 19,
+    "league_logo": "verified PNG"
+  },
+  "remote_configuration": {
+    "preview_auth_enabled": true,
+    "preview_read_only": true,
+    "live_api_enabled": false,
+    "scheduler_enabled": false,
+    "provider_broker_enabled": false,
+    "model_auto_promote": false,
+    "cron_count": 0,
+    "api_football_key_uploaded": false,
+    "secrets": "only the two preview credentials; values omitted"
+  },
+  "model": {
+    "candidate": "precision-v3-9f46ca6392a2",
+    "active_version": null,
+    "checksum_entries_verified": 23,
+    "promoted": false
+  },
+  "boundaries": {
+    "new_worker_created": true,
+    "new_d1_created": true,
+    "snapshot_imported": true,
+    "provider_data_api_requests_this_deployment": 0,
+    "existing_worker_modified": false,
+    "old_project_modified": false,
+    "production_deployed": false
+  },
+  "remaining": [
+    "Fresh API-Football sync is disabled; verify coverage, allowed seasons, reset/rate limits and request budget before activation.",
+    "No prospective predictions or real future accuracy are available yet; current cloud model registry has no active model.",
+    "Account CPU/usage analytics not yet verified; required before automation."
+  ],
+  "private_evidence": "Ignored .cloudflare/ directory; credentials, SQL snapshot and private diagnostics are not committed."
+}
