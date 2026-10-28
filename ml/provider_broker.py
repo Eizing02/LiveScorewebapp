@@ -53,7 +53,7 @@ class BrokerClient:
         body = json.dumps(payload, separators=(",", ":"))
         stamp, nonce = str(int(time.time()*1000)), str(uuid.uuid4())
         signature = hmac.new(self.secret.encode(), "\n".join(["POST", path, stamp, nonce, body]).encode(), hashlib.sha256).hexdigest()
-        request = urllib.request.Request(self.base+path, data=body.encode(), headers={"content-type": "application/json", "x-timestamp": stamp, "x-nonce": nonce, "x-signature": signature}, method="POST")
+        request = urllib.request.Request(self.base+path, data=body.encode(), headers={"content-type": "application/json", "user-agent": "FootballPredictionAI-Collector/1.0", "x-timestamp": stamp, "x-nonce": nonce, "x-signature": signature}, method="POST")
         try:
             with self.opener.open(request, timeout=10) as response:
                 return json.load(response)

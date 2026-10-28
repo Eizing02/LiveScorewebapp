@@ -22,8 +22,8 @@ def run(execute=False, approved_remote=False, day=None, probe=None, broker=None,
         raise ValueError('explicit_program_sync_approval_required')
     broker = broker or BrokerClient(local_settings())
     run_info = {'id': str(uuid.uuid4()), 'started_at': now.isoformat().replace('+00:00', 'Z'), 'business_date': day, 'source_dates': days}
-    broker.request('program_status', {**run_info, 'status': 'running'})
     try:
+        broker.request('program_status', {**run_info, 'status': 'running'})
         probe = probe or ManagedProbe(load_key())
         account = account_summary(probe.get('/status'))
         if not account['active'] or account['plan'].lower() != 'free' or account['daily_limit'] != 100 or account['daily_remaining'] < 19:
