@@ -43,11 +43,13 @@ class BrokerClient:
         self.opener = urllib.request.build_opener(NoRedirect)
 
     def request(self, action, payload):
-        if action not in {"reserve", "settle", "live_import", "live_export", "program_import"}:
+        if action not in {"reserve", "settle", "live_import", "live_export", "program_import", "program_status"}:
             raise ValueError("invalid_broker_action")
         path = "/internal/live/import" if action == "live_import" else "/internal/live/export" if action == "live_export" else "/internal/provider-quota/"+action
         if action == "program_import":
             path = "/internal/program/import"
+        if action == "program_status":
+            path = "/internal/program/sync-status"
         body = json.dumps(payload, separators=(",", ":"))
         stamp, nonce = str(int(time.time()*1000)), str(uuid.uuid4())
         signature = hmac.new(self.secret.encode(), "\n".join(["POST", path, stamp, nonce, body]).encode(), hashlib.sha256).hexdigest()

@@ -42,6 +42,12 @@ describe('display catalogue is independent of training eligibility',()=>{
     await expect(store.db.prepare('DELETE FROM program_observations').run()).rejects.toThrow('immutable');
     expect((await store.db.prepare('SELECT COUNT(*) n FROM program_observations WHERE fixture_id=?').bind(original.id).first<{n:number}>())?.n).toBe(2);
   });
+  it('avoids storing unchanged fixtures repeatedly but retains their verification time',async()=>{
+    const value={...fixture(9025),observation_id:'d'.repeat(64),observed_at:'2026-10-27T11:00:00.000Z'};
+    expect((await insert(value)).status).toBe(200);
+    expect((await store.db.prepare('SELECT COUNT(*) n FROM program_observations WHERE fixture_id=?').bind(value.id).first<{n:number}>())?.n).toBe(1);
+    expect((await store.db.prepare('SELECT verified_at FROM program_fixture_fingerprints WHERE fixture_id=?').bind(value.id).first<{verified_at:string}>())?.verified_at).toBe(value.observed_at);
+  });
   it('distinguishes denied, not-fetched and complete-empty days and rejects unsigned writes',async()=>{
     expect((await handle(new Request('http://local/internal/program/import',{method:'POST',body:'{}'}),store.env)).status).toBe(401);
     expect((await importRows([{kind:'source',values:['e'.repeat(64),'2026-10-28','2026-10-27T10:00:00.000Z','denied',0,'b'.repeat(64)]}])).status).toBe(200);

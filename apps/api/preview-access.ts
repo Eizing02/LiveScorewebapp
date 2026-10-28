@@ -6,6 +6,11 @@ export async function previewAccess(request:Request,env:Env):Promise<Response|nu
   const deny=(error:string,status:number)=>Response.json({error},{status,headers});
   if(env.APP_ENV==='preview'&&env.PREVIEW_AUTH_ENABLED!=='true')return deny('preview_auth_required',503);
   const path=new URL(request.url).pathname;
+  if(env.APP_ENV==='public'){
+    const services=['/internal/program/import','/internal/program/sync-status','/internal/provider-quota/reserve','/internal/provider-quota/settle'];
+    if(path.startsWith('/internal/'))return env.PROGRAM_SYNC_ENABLED==='true'&&services.includes(path)?null:deny('public_operation_disabled',403);
+    return null;
+  }
   if(path.startsWith('/internal/'))return env.PREVIEW_READ_ONLY==='true'?deny('preview_read_only',403):null;
   if(env.PREVIEW_AUTH_ENABLED!=='true')return null;
   if(!env.PREVIEW_PASSWORD||env.PREVIEW_PASSWORD.length<32||!env.PREVIEW_USERNAME||!/^[a-zA-Z0-9_-]{1,40}$/.test(env.PREVIEW_USERNAME))return deny('preview_credentials_not_configured',503);

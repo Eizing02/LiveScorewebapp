@@ -1,0 +1,28 @@
+name: Programme data sync
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: programme-data-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: vars.PROGRAM_SYNC_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MODEL_AUTO_PROMOTE: 'false'
+      PROVIDER_BROKER_ENABLED: 'true'
+      PROVIDER_BROKER_URL: ${{ secrets.PROGRAM_WORKER_URL }}
+      INTERNAL_SYNC_SECRET: ${{ secrets.PROGRAM_SYNC_SECRET }}
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m scripts.program_sync --execute --approved-remote
+      # Observations and run status persist in D1; no raw provider data is published.

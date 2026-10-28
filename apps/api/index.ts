@@ -2,6 +2,7 @@ import {exportLive} from './live-export';
 import {importProgram,programResponse} from './program';
 import {mediaResponse} from './media';
 import {previewAccess} from './preview-access';
+import {recordProgramSync} from './program-sync';
 import {importLive} from './live-import';
 import {liveResponse,liveInternal} from './live';
 import {providerBroker} from './provider-broker';
@@ -19,6 +20,7 @@ export async function handle(request:Request,env:Env):Promise<Response>{
     const url=new URL(request.url),path=url.pathname;
     if(path.startsWith('/internal/')){
       const body=await readLimited(request);await authorize(request,body,env);
+      if(path==='/internal/program/sync-status'&&request.method==='POST')return await recordProgramSync(body,env);
       if(path==='/internal/live/import'&&request.method==='POST')return await importLive(body,env);
       if(path==='/internal/program/import'&&request.method==='POST')return await importProgram(body,env);
       if(path==='/internal/live/export'&&request.method==='POST')return await exportLive(body,env);
@@ -65,7 +67,7 @@ export async function handle(request:Request,env:Env):Promise<Response>{
     if(path.startsWith('/api/program/'))return await programResponse(url,env);
     if(path.startsWith('/api/media/'))return await mediaResponse(url,env);
     if(path==='/api/provider-preview'||path==='/api/match-centre'||path.startsWith('/api/match-centre/')||path.startsWith('/api/analysis/')||path==='/api/daily-report'||path==='/api/history/quality'||path==='/api/research/expanded'||path==='/api/research/precision')return await analysisResponse(url,env);
-    if(path==='/api/health')return json({status:'ok',mode:env.MOCK_MODE==='true'?'mock':'configured',live_api_enabled:env.LIVE_API_ENABLED==='true',auto_promote:false});
+    if(path==='/api/health')return json({status:'ok',mode:env.MOCK_MODE==='true'?'mock':'configured',live_api_enabled:env.LIVE_API_ENABLED==='true',auto_promote:false,program_sync_enabled:env.PROGRAM_SYNC_ENABLED==='true'});
     if(path==='/api/filtering'||path.startsWith('/api/filtering/'))return filteringResponse(url,env);
     if(path==='/api/leagues')return json({items:(await env.DB.prepare('SELECT id,name,source_code FROM leagues ORDER BY name').all()).results});
     if(path==='/api/fixtures'){

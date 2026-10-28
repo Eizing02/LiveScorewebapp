@@ -9,5 +9,6 @@ export interface ProgramPage {
   date:string;period:'day'|'night';items:ProgramFixture[];total:number;round_total:number;
   page:number;page_size:number;pages:number;competitions:Competition[];countries:string[];
   captured_at:string;data_completeness:string;known_source_dates:string[];
+  sync?:{enabled:boolean;interval_minutes:number;last_success_at:string|null;latest:{status:string;completed_at:string|null;error_code:string|null}|null};
   source_dates:{date:string;state:string;captured_at:string|null;rows:number|null}[];
 }
